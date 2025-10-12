@@ -68,12 +68,12 @@
 
 
     <!-- Grid 2: Trend + Scatter -->
-    <div class="row g-4 mt-4" style="margin-left: 40px;">
+    <div class="row g-4 mt-4" style="margin-left: 40px; ">
             <div class="col-md-6">
         <div id="vis-top10"></div>
       </div>
       <div class="col-md-6"><div id="vis-trend"></div></div>
-      <div class="col-md-6"><div id="vis-scatter"></div></div>
+      <div class="col-md-6" style="margin-right: 60px;"><div id="vis-scatter"></div></div>
     </div>
 
 
@@ -152,7 +152,7 @@
   /* ---------------- TREND ---------------- */
   const specTrend = {
     "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-    "width":600,"height":350,
+    "width":430,"height":350,
     "data":{
       "url":"https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
       "format":{"type":"csv"}
