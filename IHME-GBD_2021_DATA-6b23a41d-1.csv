@@ -1,0 +1,1327 @@
+measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,Deaths,39,Tajikistan,3,Both,22,All ages,294,All causes,1,Number,2021,59059.5460602562,65306.61778952721,52151.5722342367
+1,Deaths,39,Tajikistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,39,Tajikistan,3,Both,22,All ages,294,All causes,3,Rate,2021,581.2980545790482,642.7853311547275,513.3057990671089
+1,Deaths,72,New Zealand,3,Both,22,All ages,294,All causes,1,Number,2021,34492.59226721439,34937.85787294636,34086.52168125238
+1,Deaths,72,New Zealand,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,72,New Zealand,3,Both,22,All ages,294,All causes,3,Rate,2021,667.2309111747406,675.8442091700246,659.3758086943683
+1,Deaths,202,Cameroon,3,Both,22,All ages,294,All causes,1,Number,2021,260685.35985463,303641.79575243325,224844.18503981788
+1,Deaths,202,Cameroon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,202,Cameroon,3,Both,22,All ages,294,All causes,3,Rate,2021,820.2906644452536,955.4603700415272,707.5103337057922
+1,Deaths,170,Congo,3,Both,22,All ages,294,All causes,1,Number,2021,46268.098605519954,53993.29655104154,39697.285366703865
+1,Deaths,170,Congo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,170,Congo,3,Both,22,All ages,294,All causes,3,Rate,2021,858.1511151780015,1001.433148192628,736.279871741088
+1,Deaths,55,Slovenia,3,Both,22,All ages,294,All causes,1,Number,2021,23019.29780454771,23891.113363785043,22092.581130829007
+1,Deaths,55,Slovenia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,55,Slovenia,3,Both,22,All ages,294,All causes,3,Rate,2021,1112.2306378139422,1154.3544238538063,1067.4541773921428
+1,Deaths,7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,1,Number,2021,242419.35622803227,287121.24020893185,203027.59640040752
+1,Deaths,7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,3,Rate,2021,918.5242727187932,1087.8992191405328,769.269328271422
+1,Deaths,22,Fiji,3,Both,22,All ages,294,All causes,1,Number,2021,9448.30416950498,11937.404270955656,7219.279431415872
+1,Deaths,22,Fiji,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,22,Fiji,3,Both,22,All ages,294,All causes,3,Rate,2021,1022.0194754795324,1291.264488601708,780.9067156886836
+1,Deaths,367,Monaco,3,Both,22,All ages,294,All causes,1,Number,2021,590.6157000164873,662.754958227744,524.0418269890935
+1,Deaths,367,Monaco,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,367,Monaco,3,Both,22,All ages,294,All causes,3,Rate,2021,1559.8570512746992,1750.381838528769,1384.030832517649
+1,Deaths,171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,1,Number,2021,697972.9181585995,802913.3057006939,597101.3056966913
+1,Deaths,171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,3,Rate,2021,775.3724263010093,891.9498475570476,663.3149741210194
+1,Deaths,23,Kiribati,3,Both,22,All ages,294,All causes,1,Number,2021,979.9046439274824,1188.3671565264951,816.3527767145235
+1,Deaths,23,Kiribati,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,23,Kiribati,3,Both,22,All ages,294,All causes,3,Rate,2021,808.7626083397506,980.81678368777,673.7753567273613
+1,Deaths,89,Netherlands,3,Both,22,All ages,294,All causes,1,Number,2021,169764.29857501425,171714.73640166267,168026.7479387877
+1,Deaths,89,Netherlands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,89,Netherlands,3,Both,22,All ages,294,All causes,3,Rate,2021,986.390300194663,997.7230301590182,976.2945197033748
+1,Deaths,57,Belarus,3,Both,22,All ages,294,All causes,1,Number,2021,161846.8282563463,185267.79265213248,140034.53026541628
+1,Deaths,57,Belarus,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,57,Belarus,3,Both,22,All ages,294,All causes,3,Rate,2021,1735.686579557005,1986.8589628530256,1501.76594422524
+1,Deaths,105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,1,Number,2021,720.4925854416639,721.564317385935,719.5382500983513
+1,Deaths,105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,3,Rate,2021,805.959187228525,807.158050650836,804.8916462805947
+1,Deaths,88,Malta,3,Both,22,All ages,294,All causes,1,Number,2021,4035.320506757422,4271.599975123949,3812.2755688244497
+1,Deaths,88,Malta,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,88,Malta,3,Both,22,All ages,294,All causes,3,Rate,2021,912.5160854040342,965.9464920282708,862.0784328579841
+1,Deaths,204,Chad,3,Both,22,All ages,294,All causes,1,Number,2021,181931.23589085095,220094.04479333025,152733.78535694556
+1,Deaths,204,Chad,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,204,Chad,3,Both,22,All ages,294,All causes,3,Rate,2021,1025.0017461785365,1240.011255527372,860.5031231978774
+1,Deaths,40,Turkmenistan,3,Both,22,All ages,294,All causes,1,Number,2021,43609.78892006521,51506.76370453623,36656.84036861669
+1,Deaths,40,Turkmenistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,40,Turkmenistan,3,Both,22,All ages,294,All causes,3,Rate,2021,845.41753646787,998.507957980196,710.6279678614305
+1,Deaths,106,Bahamas,3,Both,22,All ages,294,All causes,1,Number,2021,3846.447532457487,4443.023405355042,3339.9255815789347
+1,Deaths,106,Bahamas,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,106,Bahamas,3,Both,22,All ages,294,All causes,3,Rate,2021,991.4400591709298,1145.210314382914,860.8816286417693
+1,Deaths,369,Nauru,3,Both,22,All ages,294,All causes,1,Number,2021,93.5690740583062,115.76118208597464,76.00959731786936
+1,Deaths,369,Nauru,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,369,Nauru,3,Both,22,All ages,294,All causes,3,Rate,2021,848.7426125102213,1050.041897921289,689.4648135902065
+1,Deaths,24,Marshall Islands,3,Both,22,All ages,294,All causes,1,Number,2021,442.6408096792374,554.1332453031424,357.0535908990705
+1,Deaths,24,Marshall Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,24,Marshall Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,786.5939551416539,984.7213622583524,634.5013611970256
+1,Deaths,122,Ecuador,3,Both,22,All ages,294,All causes,1,Number,2021,124044.46062155132,142697.56241399804,107310.24386861672
+1,Deaths,122,Ecuador,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,122,Ecuador,3,Both,22,All ages,294,All causes,3,Rate,2021,686.6415099609609,789.8947621903934,594.0101437421552
+1,Deaths,205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+1,Deaths,139,Algeria,3,Both,22,All ages,294,All causes,1,Number,2021,273173.3414295296,306131.03313501965,242235.2208080071
+1,Deaths,139,Algeria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,139,Algeria,3,Both,22,All ages,294,All causes,3,Rate,2021,618.0678903418151,692.6362610193872,548.068896868955
+1,Deaths,155,Türkiye,3,Both,22,All ages,294,All causes,1,Number,2021,654482.2716820807,743817.1004161848,569367.9382210689
+1,Deaths,155,Türkiye,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,155,Türkiye,3,Both,22,All ages,294,All causes,3,Rate,2021,782.7607533875671,889.6052026099062,680.9640162310488
+1,Deaths,186,Seychelles,3,Both,22,All ages,294,All causes,1,Number,2021,861.2282717643809,931.1895790840924,802.6089497628774
+1,Deaths,186,Seychelles,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,186,Seychelles,3,Both,22,All ages,294,All causes,3,Rate,2021,816.860526164169,883.2176491035178,761.2610854776283
+1,Deaths,58,Estonia,3,Both,22,All ages,294,All causes,1,Number,2021,18586.646347008496,19275.42608035784,17986.32200524058
+1,Deaths,58,Estonia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,58,Estonia,3,Both,22,All ages,294,All causes,3,Rate,2021,1417.9253820992249,1470.470539969988,1372.1282487276253
+1,Deaths,121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,1,Number,2021,120940.2319630616,140044.35014779522,107066.55228267236
+1,Deaths,121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,3,Rate,2021,1025.1667202520448,1187.1054387814804,907.5645421768772
+1,Deaths,90,Norway,3,Both,22,All ages,294,All causes,1,Number,2021,41915.413334919285,42567.34122648328,41320.92472164885
+1,Deaths,90,Norway,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,90,Norway,3,Both,22,All ages,294,All causes,3,Rate,2021,773.6225609966788,785.655035089847,762.650229653866
+1,Deaths,8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,1,Number,2021,184094.58341633825,186096.81163507685,182518.68518108272
+1,Deaths,8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,3,Rate,2021,778.8509650467352,787.3218138434196,772.1837951682581
+1,Deaths,189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,1,Number,2021,439574.9456301297,498408.3905052168,388429.21035852085
+1,Deaths,189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,3,Rate,2021,752.0805792704648,852.7403000803105,664.5739672747669
+1,Deaths,156,United Arab Emirates,3,Both,22,All ages,294,All causes,1,Number,2021,20062.97624032589,23516.704016059677,16109.94660450442
+1,Deaths,156,United Arab Emirates,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,156,United Arab Emirates,3,Both,22,All ages,294,All causes,3,Rate,2021,208.3133848032215,244.1733546568427,167.26917611745964
+1,Deaths,374,Niue,3,Both,22,All ages,294,All causes,1,Number,2021,21.490631111112233,24.11602845160908,18.701270062777542
+1,Deaths,374,Niue,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,374,Niue,3,Both,22,All ages,294,All causes,3,Rate,2021,1285.5766178800718,1442.628749859672,1118.7161229963126
+1,Deaths,25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,1,Number,2021,814.0030718713809,1021.230229555722,657.9703986524306
+1,Deaths,25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,3,Rate,2021,793.5472591793394,995.5668199039426,641.4356708401646
+1,Deaths,154,Tunisia,3,Both,22,All ages,294,All causes,1,Number,2021,103439.20719243116,124510.5666249287,84754.85036841917
+1,Deaths,154,Tunisia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,154,Tunisia,3,Both,22,All ages,294,All causes,3,Rate,2021,873.4517760915579,1051.3805984455396,715.6790601551222
+1,Deaths,157,Yemen,3,Both,22,All ages,294,All causes,1,Number,2021,216518.8982941218,263104.91526726715,180066.97330098442
+1,Deaths,157,Yemen,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,157,Yemen,3,Both,22,All ages,294,All causes,3,Rate,2021,643.5688178182592,782.0385223405003,535.2211287257069
+1,Deaths,26,Papua New Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,80732.23292805563,99349.87815607774,65176.76383790972
+1,Deaths,26,Papua New Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,26,Papua New Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,771.7027266735147,949.664949017943,623.0112130590121
+1,Deaths,91,Portugal,3,Both,22,All ages,294,All causes,1,Number,2021,123129.49182860208,124562.46131515298,121663.49323931755
+1,Deaths,91,Portugal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,91,Portugal,3,Both,22,All ages,294,All causes,3,Rate,2021,1160.7395173961277,1174.2480951183356,1146.9195749131518
+1,Deaths,41,Uzbekistan,3,Both,22,All ages,294,All causes,1,Number,2021,199788.270208396,226981.66035830433,175028.46663598937
+1,Deaths,41,Uzbekistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,41,Uzbekistan,3,Both,22,All ages,294,All causes,3,Rate,2021,583.615327252442,663.051819068944,511.2877534186864
+1,Deaths,107,Barbados,3,Both,22,All ages,294,All causes,1,Number,2021,3294.765964179703,3880.917585914911,2776.48361350278
+1,Deaths,107,Barbados,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,107,Barbados,3,Both,22,All ages,294,All causes,3,Rate,2021,1101.8370392884606,1297.858114681488,928.512834475782
+1,Deaths,172,Equatorial Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,10485.940402233564,13419.145722313997,8219.916943968252
+1,Deaths,172,Equatorial Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,172,Equatorial Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,693.3715376906433,887.3265865590623,543.5331722765295
+1,Deaths,74,Andorra,3,Both,22,All ages,294,All causes,1,Number,2021,633.0074765805632,775.4172850055869,495.7814643480887
+1,Deaths,74,Andorra,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,74,Andorra,3,Both,22,All ages,294,All causes,3,Rate,2021,739.5523125784912,905.9318689835916,579.2290645172421
+1,Deaths,43,Albania,3,Both,22,All ages,294,All causes,1,Number,2021,30092.888639510144,33512.52933474721,26525.319606913617
+1,Deaths,43,Albania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,43,Albania,3,Both,22,All ages,294,All causes,3,Rate,2021,1127.9777240225117,1256.1567956495487,994.2538251343864
+1,Deaths,190,Uganda,3,Both,22,All ages,294,All causes,1,Number,2021,329170.66329506156,379435.8136493948,281389.99027561164
+1,Deaths,190,Uganda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,190,Uganda,3,Both,22,All ages,294,All causes,3,Rate,2021,759.9451934344909,875.9906484779648,649.635567307062
+1,Deaths,123,Peru,3,Both,22,All ages,294,All causes,1,Number,2021,320620.7881731843,356837.90704411163,288316.43709134357
+1,Deaths,123,Peru,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,123,Peru,3,Both,22,All ages,294,All causes,3,Rate,2021,883.9643788379257,983.8164288826222,794.8999865989645
+1,Deaths,376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,1,Number,2021,394.3637332904476,441.8163413233366,318.914030715002
+1,Deaths,376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,813.2525340407785,911.1087780914164,657.66099092362
+1,Deaths,187,Somalia,3,Both,22,All ages,294,All causes,1,Number,2021,237720.12161876255,286271.892211735,197314.86628892025
+1,Deaths,187,Somalia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,187,Somalia,3,Both,22,All ages,294,All causes,3,Rate,2021,1100.2239764611452,1324.932855719153,913.2190633464688
+1,Deaths,76,Belgium,3,Both,22,All ages,294,All causes,1,Number,2021,111169.9051961402,112440.93374270762,109871.21324124408
+1,Deaths,76,Belgium,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,76,Belgium,3,Both,22,All ages,294,All causes,3,Rate,2021,969.2847881348306,980.3668218318056,957.96155857794
+1,Deaths,206,Gambia,3,Both,22,All ages,294,All causes,1,Number,2021,17641.653692539177,20228.698305564172,15007.448868420934
+1,Deaths,206,Gambia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,206,Gambia,3,Both,22,All ages,294,All causes,3,Rate,2021,736.8636152262056,844.9203246213845,626.8370993578573
+1,Deaths,140,Bahrain,3,Both,22,All ages,294,All causes,1,Number,2021,6292.695390221146,6962.900189361742,5632.3249870608215
+1,Deaths,140,Bahrain,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,140,Bahrain,3,Both,22,All ages,294,All causes,3,Rate,2021,411.39574218174903,455.2115291630612,368.2228956865597
+1,Deaths,109,Cuba,3,Both,22,All ages,294,All causes,1,Number,2021,164946.18949924118,178455.3494119611,151205.3210100258
+1,Deaths,109,Cuba,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,109,Cuba,3,Both,22,All ages,294,All causes,3,Rate,2021,1463.6475564340988,1583.52088576506,1341.7181644997963
+1,Deaths,380,Palau,3,Both,22,All ages,294,All causes,1,Number,2021,195.1126567586494,234.98683958713903,160.7398079439193
+1,Deaths,380,Palau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,380,Palau,3,Both,22,All ages,294,All causes,3,Rate,2021,1078.1583834483856,1298.496137102513,888.2200384519
+1,Deaths,108,Belize,3,Both,22,All ages,294,All causes,1,Number,2021,2343.751468184049,2585.8159748079347,2105.747347327351
+1,Deaths,108,Belize,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,108,Belize,3,Both,22,All ages,294,All causes,3,Rate,2021,546.2338940301204,602.649362928831,490.7647372122692
+1,Deaths,142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,1,Number,2021,569286.5060461597,581087.3321108258,557299.0270603228
+1,Deaths,142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,3,Rate,2021,666.9564102347526,680.7818505118433,652.9122938412584
+1,Deaths,60,Lithuania,3,Both,22,All ages,294,All causes,1,Number,2021,47244.604494085754,48185.39257958449,46275.461065359734
+1,Deaths,60,Lithuania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,60,Lithuania,3,Both,22,All ages,294,All causes,3,Rate,2021,1731.6496322404655,1766.1322014082114,1696.1277587924244
+1,Deaths,44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,1,Number,2021,46401.74289137397,52715.97159771423,40101.58275081085
+1,Deaths,44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,3,Rate,2021,1404.894272753986,1596.0686380609704,1214.1458579879657
+1,Deaths,141,Egypt,3,Both,22,All ages,294,All causes,1,Number,2021,711522.5773973861,826023.7087506498,616554.4599059573
+1,Deaths,141,Egypt,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,141,Egypt,3,Both,22,All ages,294,All causes,3,Rate,2021,673.6152488459422,782.0161774177336,583.7066863792156
+1,Deaths,207,Ghana,3,Both,22,All ages,294,All causes,1,Number,2021,249788.85937391463,288522.84587217274,214272.9610813739
+1,Deaths,207,Ghana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,207,Ghana,3,Both,22,All ages,294,All causes,3,Rate,2021,729.3970123622206,842.5023530068012,625.6886637558412
+1,Deaths,75,Austria,3,Both,22,All ages,294,All causes,1,Number,2021,88943.55030503763,90095.4889999081,87816.4959711555
+1,Deaths,75,Austria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,75,Austria,3,Both,22,All ages,294,All causes,3,Rate,2021,990.2078114945388,1003.032335477578,977.6603248970129
+1,Deaths,385,Puerto Rico,3,Both,22,All ages,294,All causes,1,Number,2021,34112.412024552,38957.4568877682,29299.515717476213
+1,Deaths,385,Puerto Rico,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,385,Puerto Rico,3,Both,22,All ages,294,All causes,3,Rate,2021,1035.483747824378,1182.555294970603,889.3880714953627
+1,Deaths,11,Indonesia,3,Both,22,All ages,294,All causes,1,Number,2021,2198968.9545826735,2654588.191781824,1797914.9619599322
+1,Deaths,11,Indonesia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,11,Indonesia,3,Both,22,All ages,294,All causes,3,Rate,2021,788.4034211881985,951.7580536482734,644.6122415965051
+1,Deaths,10,Cambodia,3,Both,22,All ages,294,All causes,1,Number,2021,129163.07501021546,156951.36914754033,102660.33310124963
+1,Deaths,10,Cambodia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,10,Cambodia,3,Both,22,All ages,294,All causes,3,Rate,2021,757.8179330581056,920.8557643012276,602.3226176033097
+1,Deaths,173,Gabon,3,Both,22,All ages,294,All causes,1,Number,2021,15528.94016237653,18603.34745547183,12898.338004186906
+1,Deaths,173,Gabon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,173,Gabon,3,Both,22,All ages,294,All causes,3,Rate,2021,855.0781052886231,1024.365792379764,710.2278910645566
+1,Deaths,27,Samoa,3,Both,22,All ages,294,All causes,1,Number,2021,1350.0033256373497,1582.5500898114756,1160.2196672516284
+1,Deaths,27,Samoa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,27,Samoa,3,Both,22,All ages,294,All causes,3,Rate,2021,631.9061229184556,740.7560208082481,543.0726708177485
+1,Deaths,208,Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,126756.8692389363,151982.7009833512,108197.35160264574
+1,Deaths,208,Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,208,Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,943.8512360294692,1131.6866773336938,805.6541997165632
+1,Deaths,92,Spain,3,Both,22,All ages,294,All causes,1,Number,2021,445506.4678097881,448734.5824997882,442112.1308409644
+1,Deaths,191,Zambia,3,Both,22,All ages,294,All causes,1,Number,2021,174764.70373276173,205238.0285252131,145411.44471109245
+1,Deaths,191,Zambia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,191,Zambia,3,Both,22,All ages,294,All causes,3,Rate,2021,895.527945003962,1051.6791205328138,745.1162018464863
+1,Deaths,92,Spain,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,92,Spain,3,Both,22,All ages,294,All causes,3,Rate,2021,978.0747281414332,985.1618023501492,970.6227258746098
+1,Deaths,12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,1,Number,2021,51028.11559624297,62015.657301806146,40846.07435900516
+1,Deaths,12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,691.6673120220987,840.599392864549,553.6534933425593
+1,Deaths,143,Iraq,3,Both,22,All ages,294,All causes,1,Number,2021,232700.9953843807,269516.28085297754,194226.5426552962
+1,Deaths,143,Iraq,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,143,Iraq,3,Both,22,All ages,294,All causes,3,Rate,2021,564.4748512993157,653.7795951664441,471.14537951429577
+1,Deaths,175,Burundi,3,Both,22,All ages,294,All causes,1,Number,2021,97346.306250172,112032.05626232937,84690.54243332727
+1,Deaths,175,Burundi,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,175,Burundi,3,Both,22,All ages,294,All causes,3,Rate,2021,736.339925295503,847.4248188411299,640.610107263126
+1,Deaths,62,Russian Federation,3,Both,22,All ages,294,All causes,1,Number,2021,2414291.076385701,2419657.890131962,2408660.1082098433
+1,Deaths,62,Russian Federation,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,62,Russian Federation,3,Both,22,All ages,294,All causes,3,Rate,2021,1666.7083849600783,1670.4133704769035,1662.8210401548286
+1,Deaths,393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,1,Number,2021,541.9676713557836,610.2311082094183,473.28642404784034
+1,Deaths,393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,3,Rate,2021,924.1452576104072,1040.5458009835197,807.0322777390735
+1,Deaths,176,Comoros,3,Both,22,All ages,294,All causes,1,Number,2021,5858.852973465219,6802.867694559524,5073.97796247007
+1,Deaths,176,Comoros,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,176,Comoros,3,Both,22,All ages,294,All causes,3,Rate,2021,787.0844285371072,913.904352274444,681.6434996897672
+1,Deaths,77,Cyprus,3,Both,22,All ages,294,All causes,1,Number,2021,9226.534665801895,10076.365762131454,8419.595241806679
+1,Deaths,77,Cyprus,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,77,Cyprus,3,Both,22,All ages,294,All causes,3,Rate,2021,679.5329297921434,742.1228658444892,620.101959139133
+1,Deaths,28,Solomon Islands,3,Both,22,All ages,294,All causes,1,Number,2021,4553.548210006497,5655.38967771731,3739.6556980907494
+1,Deaths,28,Solomon Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,28,Solomon Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,666.1477415366471,827.3383496944863,547.0817662440551
+1,Deaths,94,Switzerland,3,Both,22,All ages,294,All causes,1,Number,2021,69738.7503819557,70776.22688373533,68755.52335543584
+1,Deaths,94,Switzerland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,94,Switzerland,3,Both,22,All ages,294,All causes,3,Rate,2021,781.5782003288755,793.2054378790658,770.5589491135435
+1,Deaths,110,Dominica,3,Both,22,All ages,294,All causes,1,Number,2021,770.538042315415,956.769897599408,642.3945088352062
+1,Deaths,110,Dominica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,110,Dominica,3,Both,22,All ages,294,All causes,3,Rate,2021,1148.7391731765083,1426.3787129651082,957.699291153766
+1,Deaths,61,Republic of Moldova,3,Both,22,All ages,294,All causes,1,Number,2021,50172.5651517148,53631.67554838544,46996.137013738255
+1,Deaths,61,Republic of Moldova,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,61,Republic of Moldova,3,Both,22,All ages,294,All causes,3,Rate,2021,1396.224966460925,1492.486664123218,1307.8298792852738
+1,Deaths,209,Guinea-Bissau,3,Both,22,All ages,294,All causes,1,Number,2021,18326.941571776315,21138.05311344312,15614.233153990825
+1,Deaths,209,Guinea-Bissau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,209,Guinea-Bissau,3,Both,22,All ages,294,All causes,3,Rate,2021,887.9714101198321,1024.1745332586197,756.5360852702945
+1,Deaths,522,Sudan,3,Both,22,All ages,294,All causes,1,Number,2021,245527.73164081815,299950.08796206285,202131.0966668051
+1,Deaths,522,Sudan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,522,Sudan,3,Both,22,All ages,294,All causes,3,Rate,2021,565.4839416245904,690.8260704316781,465.5355568358284
+1,Deaths,160,Afghanistan,3,Both,22,All ages,294,All causes,1,Number,2021,271853.66669433203,305879.25556237815,242915.50495801072
+1,Deaths,160,Afghanistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,160,Afghanistan,3,Both,22,All ages,294,All causes,3,Rate,2021,870.7064319338546,979.6852786714855,778.0218496049066
+1,Deaths,125,Colombia,3,Both,22,All ages,294,All causes,1,Number,2021,355330.1198290047,396825.4078251256,314764.1961899774
+1,Deaths,125,Colombia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,125,Colombia,3,Both,22,All ages,294,All causes,3,Rate,2021,724.2703561132279,808.8503152465389,641.5847228935085
+1,Deaths,111,Dominican Republic,3,Both,22,All ages,294,All causes,1,Number,2021,73004.3925122142,82750.49178014115,64138.587124154124
+1,Deaths,111,Dominican Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,111,Dominican Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,662.8989219961308,751.3960449232907,582.3950970599911
+1,Deaths,210,Liberia,3,Both,22,All ages,294,All causes,1,Number,2021,39475.904973651894,49086.66714074995,32534.591188009766
+1,Deaths,210,Liberia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,210,Liberia,3,Both,22,All ages,294,All causes,3,Rate,2021,723.0706190558035,899.1086289354994,595.9282505807854
+1,Deaths,127,El Salvador,3,Both,22,All ages,294,All causes,1,Number,2021,52025.01340881978,59572.0765467767,44987.925610940554
+1,Deaths,127,El Salvador,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,127,El Salvador,3,Both,22,All ages,294,All causes,3,Rate,2021,806.5607481819004,923.5653290994072,697.4624812640697
+1,Deaths,30,Vanuatu,3,Both,22,All ages,294,All causes,1,Number,2021,2257.8259905203167,2684.589251619135,1920.768187905648
+1,Deaths,30,Vanuatu,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,30,Vanuatu,3,Both,22,All ages,294,All causes,3,Rate,2021,721.3919043655732,857.7458851107375,613.6994731816105
+1,Deaths,193,Botswana,3,Both,22,All ages,294,All causes,1,Number,2021,28064.2756502251,31200.789559403616,24498.30063966466
+1,Deaths,193,Botswana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,193,Botswana,3,Both,22,All ages,294,All causes,3,Rate,2021,1172.6398775884318,1303.6962188371338,1023.638900261107
+1,Deaths,13,Malaysia,3,Both,22,All ages,294,All causes,1,Number,2021,224494.63199532076,239436.51754915484,214121.7253189283
+1,Deaths,13,Malaysia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,13,Malaysia,3,Both,22,All ages,294,All causes,3,Rate,2021,705.686659769925,752.6556639435723,673.0799920758791
+1,Deaths,78,Denmark,3,Both,22,All ages,294,All causes,1,Number,2021,56768.62217505564,57704.77452450744,55872.77117111013
+1,Deaths,78,Denmark,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,78,Denmark,3,Both,22,All ages,294,All causes,3,Rate,2021,970.1080501494838,986.1057773370316,954.7990248928533
+1,Deaths,95,United Kingdom,3,Both,22,All ages,294,All causes,1,Number,2021,686205.009546058,689944.7272235976,682663.839374307
+1,Deaths,95,United Kingdom,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,95,United Kingdom,3,Both,22,All ages,294,All causes,3,Rate,2021,1011.3799436183906,1016.8918174771368,1006.1607038302416
+1,Deaths,194,Lesotho,3,Both,22,All ages,294,All causes,1,Number,2021,37804.26350699839,42816.16261066764,32953.804223629195
+1,Deaths,194,Lesotho,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,194,Lesotho,3,Both,22,All ages,294,All causes,3,Rate,2021,2016.889079072654,2284.2780884031295,1758.113019189808
+1,Deaths,45,Bulgaria,3,Both,22,All ages,294,All causes,1,Number,2021,168691.14684582173,173721.5364107714,164183.23724173527
+1,Deaths,45,Bulgaria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,45,Bulgaria,3,Both,22,All ages,294,All causes,3,Rate,2021,2485.528372330009,2559.6471166822707,2419.1079499761536
+1,Deaths,59,Latvia,3,Both,22,All ages,294,All causes,1,Number,2021,34208.177528402426,34999.45721991651,33409.25998287453
+1,Deaths,59,Latvia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,59,Latvia,3,Both,22,All ages,294,All causes,3,Rate,2021,1828.993608629281,1871.30061247992,1786.2782349915285
+1,Deaths,29,Tonga,3,Both,22,All ages,294,All causes,1,Number,2021,666.630936251514,797.5584791060103,552.8805273191766
+1,Deaths,29,Tonga,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,29,Tonga,3,Both,22,All ages,294,All causes,3,Rate,2021,627.1251087251983,750.2936343406527,520.1157671390564
+1,Deaths,48,Hungary,3,Both,22,All ages,294,All causes,1,Number,2021,154423.09309923762,156127.3810449477,152632.17064961503
+1,Deaths,48,Hungary,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,48,Hungary,3,Both,22,All ages,294,All causes,3,Rate,2021,1609.0246860263326,1626.7826607029722,1590.3640156928502
+1,Deaths,161,Bangladesh,3,Both,22,All ages,294,All causes,1,Number,2021,1095058.1447160128,1280516.779853094,928800.0809666656
+1,Deaths,161,Bangladesh,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,161,Bangladesh,3,Both,22,All ages,294,All causes,3,Rate,2021,665.1384691457413,777.7860698783286,564.1532981400006
+1,Deaths,126,Costa Rica,3,Both,22,All ages,294,All causes,1,Number,2021,30742.485834383893,31542.121328339097,29934.84141597953
+1,Deaths,126,Costa Rica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,126,Costa Rica,3,Both,22,All ages,294,All causes,3,Rate,2021,647.4970704424729,664.3389628823713,630.4864943396396
+1,Deaths,396,San Marino,3,Both,22,All ages,294,All causes,1,Number,2021,256.0570909427498,322.570239950062,199.81087411309497
+1,Deaths,396,San Marino,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,396,San Marino,3,Both,22,All ages,294,All causes,3,Rate,2021,782.0907504378022,985.245907866114,610.2945085620886
+1,Deaths,145,Kuwait,3,Both,22,All ages,294,All causes,1,Number,2021,12064.718386597166,13927.556676660217,10358.087880383517
+1,Deaths,145,Kuwait,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,145,Kuwait,3,Both,22,All ages,294,All causes,3,Rate,2021,259.4517425812367,299.51207594474334,222.75065726860092
+1,Deaths,113,Guyana,3,Both,22,All ages,294,All causes,1,Number,2021,8638.053271550218,11520.295594128713,6383.667468092406
+1,Deaths,113,Guyana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,113,Guyana,3,Both,22,All ages,294,All causes,3,Rate,2021,1129.5412813121286,1506.4331091062284,834.7501114780238
+1,Deaths,128,Guatemala,3,Both,22,All ages,294,All causes,1,Number,2021,112870.64918248529,124123.97343821358,102453.20361174672
+1,Deaths,128,Guatemala,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,128,Guatemala,3,Both,22,All ages,294,All causes,3,Rate,2021,715.8494878043609,787.2204461793362,649.7798485309465
+1,Deaths,195,Namibia,3,Both,22,All ages,294,All causes,1,Number,2021,26757.750986917836,31473.024539809045,22828.26813151181
+1,Deaths,195,Namibia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,195,Namibia,3,Both,22,All ages,294,All causes,3,Rate,2021,1100.611874042703,1294.5626311227304,938.982614108952
+1,Deaths,178,Eritrea,3,Both,22,All ages,294,All causes,1,Number,2021,50837.026153760045,62011.513573763055,41731.54317845628
+1,Deaths,178,Eritrea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,178,Eritrea,3,Both,22,All ages,294,All causes,3,Rate,2021,770.5021801358482,939.8662749782866,632.4965764555376
+1,Deaths,114,Haiti,3,Both,22,All ages,294,All causes,1,Number,2021,131403.72824823938,165651.6836076771,103267.66396777915
+1,Deaths,114,Haiti,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,114,Haiti,3,Both,22,All ages,294,All causes,3,Rate,2021,1021.4819642020984,1287.7123762066617,802.7630390295474
+1,Deaths,144,Jordan,3,Both,22,All ages,294,All causes,1,Number,2021,45559.427727672184,51934.87280849785,39369.78522664657
+1,Deaths,144,Jordan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,144,Jordan,3,Both,22,All ages,294,All causes,3,Rate,2021,369.6632632576135,421.3927943523656,319.44131009779835
+1,Deaths,80,France,3,Both,22,All ages,294,All causes,1,Number,2021,642715.3872985167,646681.9563932249,638798.1704089893
+1,Deaths,80,France,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,80,France,3,Both,22,All ages,294,All causes,3,Rate,2021,968.0924545887332,974.0671141146736,962.1921320063238
+1,Deaths,112,Grenada,3,Both,22,All ages,294,All causes,1,Number,2021,1115.0279298212945,1409.831963449922,916.2515582851258
+1,Deaths,112,Grenada,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,112,Grenada,3,Both,22,All ages,294,All causes,3,Rate,2021,1086.4912055225136,1373.7503685655445,892.8020845923004
+1,Deaths,98,Chile,3,Both,22,All ages,294,All causes,1,Number,2021,133961.53435305617,135308.91087898175,132731.12952677935
+1,Deaths,98,Chile,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,98,Chile,3,Both,22,All ages,294,All causes,3,Rate,2021,712.6429565511296,719.8106737294991,706.09750051864
+1,Deaths,93,Sweden,3,Both,22,All ages,294,All causes,1,Number,2021,91984.81307529694,98445.19997041931,86054.45456662885
+1,Deaths,93,Sweden,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,93,Sweden,3,Both,22,All ages,294,All causes,3,Rate,2021,886.7276793711288,949.005393352699,829.5594049308094
+1,Deaths,177,Djibouti,3,Both,22,All ages,294,All causes,1,Number,2021,9283.759731978333,11455.559854104336,7574.744343402582
+1,Deaths,177,Djibouti,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,177,Djibouti,3,Both,22,All ages,294,All causes,3,Rate,2021,737.5752031922289,910.120159397019,601.7975216409216
+1,Deaths,15,Myanmar,3,Both,22,All ages,294,All causes,1,Number,2021,510841.3078292019,613008.1833732727,421358.18986978225
+1,Deaths,15,Myanmar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,15,Myanmar,3,Both,22,All ages,294,All causes,3,Rate,2021,905.4312257408072,1086.5150142603238,746.828528708727
+1,Deaths,416,Tuvalu,3,Both,22,All ages,294,All causes,1,Number,2021,108.7656533615436,126.65605035990352,94.82827667602552
+1,Deaths,416,Tuvalu,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,416,Tuvalu,3,Both,22,All ages,294,All causes,3,Rate,2021,879.4766502356022,1024.1380018407942,766.7793328232184
+1,Deaths,147,Libya,3,Both,22,All ages,294,All causes,1,Number,2021,46310.27164675338,55553.072685273735,39002.78455193074
+1,Deaths,147,Libya,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,147,Libya,3,Both,22,All ages,294,All causes,3,Rate,2021,674.0385469955437,808.5660278467578,567.6792489729794
+1,Deaths,47,Czechia,3,Both,22,All ages,294,All causes,1,Number,2021,138616.59919526064,141389.2716451177,136012.09933953188
+1,Deaths,47,Czechia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,47,Czechia,3,Both,22,All ages,294,All causes,3,Rate,2021,1303.7208783485328,1329.7984980757972,1279.2249604044916
+1,Deaths,422,United States Virgin Islands,3,Both,22,All ages,294,All causes,1,Number,2021,948.438571433083,1250.6822665090451,744.0532080351447
+1,Deaths,422,United States Virgin Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,422,United States Virgin Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,1104.0949895889512,1455.94249918991,866.1661848462164
+1,Deaths,33,Armenia,3,Both,22,All ages,294,All causes,1,Number,2021,31332.516918805806,33823.19158267631,29047.09265749549
+1,Deaths,33,Armenia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,33,Armenia,3,Both,22,All ages,294,All causes,3,Rate,2021,1046.0631364968465,1129.2164611286717,969.7622738113675
+1,Deaths,179,Ethiopia,3,Both,22,All ages,294,All causes,1,Number,2021,736613.4876175488,805680.7183292056,680303.6725245616
+1,Deaths,179,Ethiopia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,179,Ethiopia,3,Both,22,All ages,294,All causes,3,Rate,2021,676.1768072952489,739.5773020409825,624.4870247579919
+1,Deaths,305,Bermuda,3,Both,22,All ages,294,All causes,1,Number,2021,738.8775627583277,862.4875656739458,651.2901772495975
+1,Deaths,305,Bermuda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,305,Bermuda,3,Both,22,All ages,294,All causes,3,Rate,2021,1162.8386903179944,1357.3749723022624,1024.9944712120196
+1,Deaths,67,Japan,3,Both,22,All ages,294,All causes,1,Number,2021,1437449.861465856,1443812.5005288254,1430250.8963314558
+1,Deaths,67,Japan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,67,Japan,3,Both,22,All ages,294,All causes,3,Rate,2021,1125.6683268936115,1130.6509154767969,1120.0308105840395
+1,Deaths,196,South Africa,3,Both,22,All ages,294,All causes,1,Number,2021,733603.3231934503,754694.8557859423,711862.4680379491
+1,Deaths,196,South Africa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,196,South Africa,3,Both,22,All ages,294,All causes,3,Rate,2021,1290.3195545919623,1327.417010505788,1252.0800187913612
+1,Deaths,162,Bhutan,3,Both,22,All ages,294,All causes,1,Number,2021,4434.001739332197,5150.079660492904,3708.032343436837
+1,Deaths,162,Bhutan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,162,Bhutan,3,Both,22,All ages,294,All causes,3,Rate,2021,585.8106993862056,680.4173622769945,489.8971962926109
+1,Deaths,14,Maldives,3,Both,22,All ages,294,All causes,1,Number,2021,1585.8835029168283,1855.9697790827793,1353.4304042427104
+1,Deaths,14,Maldives,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,14,Maldives,3,Both,22,All ages,294,All causes,3,Rate,2021,306.62410358954565,358.84418291372447,261.6802455593247
+1,Deaths,164,Nepal,3,Both,22,All ages,294,All causes,1,Number,2021,252420.64320801676,290938.94383546326,223738.32694809735
+1,Deaths,164,Nepal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,164,Nepal,3,Both,22,All ages,294,All causes,3,Rate,2021,810.8646628434049,934.5991104489298,718.7268867562829
+1,Deaths,298,American Samoa,3,Both,22,All ages,294,All causes,1,Number,2021,403.7880973282978,468.0354826119331,353.143812401607
+1,Deaths,298,American Samoa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,298,American Samoa,3,Both,22,All ages,294,All causes,3,Rate,2021,811.4934315615656,940.611480106434,709.7135503910519
+1,Deaths,99,Uruguay,3,Both,22,All ages,294,All causes,1,Number,2021,40530.13701485708,41422.97392261306,39649.685182643334
+1,Deaths,99,Uruguay,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,99,Uruguay,3,Both,22,All ages,294,All causes,3,Rate,2021,1190.0962932267914,1216.3128809967016,1164.2433714491474
+1,Deaths,146,Lebanon,3,Both,22,All ages,294,All causes,1,Number,2021,49626.57056358122,54548.39962486123,45676.25844894132
+1,Deaths,146,Lebanon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,146,Lebanon,3,Both,22,All ages,294,All causes,3,Rate,2021,895.7177170374092,984.5525778861928,824.4179171776311
+1,Deaths,49,North Macedonia,3,Both,22,All ages,294,All causes,1,Number,2021,32725.04789053737,36215.916803468295,29226.46758550461
+1,Deaths,49,North Macedonia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,49,North Macedonia,3,Both,22,All ages,294,All causes,3,Rate,2021,1503.607864987297,1664.0017617565172,1342.8596552204908
+1,Deaths,413,Tokelau,3,Both,22,All ages,294,All causes,1,Number,2021,14.2488759127044,16.515889519615744,12.136279556411838
+1,Deaths,413,Tokelau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,413,Tokelau,3,Both,22,All ages,294,All causes,3,Rate,2021,1039.331120827593,1204.6899749180943,885.235657277085
+1,Deaths,212,Mauritania,3,Both,22,All ages,294,All causes,1,Number,2021,25000.835191305905,30088.241636836836,21071.80549043431
+1,Deaths,212,Mauritania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,212,Mauritania,3,Both,22,All ages,294,All causes,3,Rate,2021,568.6874850406268,684.4093941188698,479.3148700003253
+1,Deaths,66,Brunei Darussalam,3,Both,22,All ages,294,All causes,1,Number,2021,1835.5491331941375,2023.036384161918,1644.653228940004
+1,Deaths,66,Brunei Darussalam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,66,Brunei Darussalam,3,Both,22,All ages,294,All causes,3,Rate,2021,406.87290417432246,448.43184744498075,364.5583893763971
+1,Deaths,148,Morocco,3,Both,22,All ages,294,All causes,1,Number,2021,285883.5156898679,316999.5477152046,240238.03679441527
+1,Deaths,148,Morocco,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,148,Morocco,3,Both,22,All ages,294,All causes,3,Rate,2021,768.9875410209328,852.6854096992015,646.2074482624017
+1,Deaths,129,Honduras,3,Both,22,All ages,294,All causes,1,Number,2021,72970.40138712655,83758.93049209504,65096.60062129315
+1,Deaths,129,Honduras,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,129,Honduras,3,Both,22,All ages,294,All causes,3,Rate,2021,721.7534799971412,828.4633003837845,643.873367026474
+1,Deaths,35,Georgia,3,Both,22,All ages,294,All causes,1,Number,2021,59660.85366920606,60584.08119032355,58719.64636784728
+1,Deaths,35,Georgia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,35,Georgia,3,Both,22,All ages,294,All causes,3,Rate,2021,1653.898493680722,1679.4919022994927,1627.806655528527
+1,Deaths,63,Ukraine,3,Both,22,All ages,294,All causes,1,Number,2021,745363.971011618,889390.1509177163,606223.9272975647
+1,Deaths,63,Ukraine,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,63,Ukraine,3,Both,22,All ages,294,All causes,3,Rate,2021,1730.2735679394762,2064.613168288812,1407.2765500481771
+1,Deaths,16,Philippines,3,Both,22,All ages,294,All causes,1,Number,2021,880414.7228592794,966453.1812373962,794106.5138907535
+1,Deaths,16,Philippines,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,16,Philippines,3,Both,22,All ages,294,All causes,3,Rate,2021,777.4113306138722,853.3837907227527,701.2006791617762
+1,Deaths,213,Niger,3,Both,22,All ages,294,All causes,1,Number,2021,206371.1247264357,252379.35075116332,170486.56445166763
+1,Deaths,213,Niger,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,213,Niger,3,Both,22,All ages,294,All causes,3,Rate,2021,824.225518183345,1007.977746050472,680.9061932222613
+1,Deaths,79,Finland,3,Both,22,All ages,294,All causes,1,Number,2021,57154.55719066622,58173.4242287077,56130.81249602349
+1,Deaths,79,Finland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,79,Finland,3,Both,22,All ages,294,All causes,3,Rate,2021,1032.4300545233234,1050.834692811887,1013.9373070879446
+1,Deaths,115,Jamaica,3,Both,22,All ages,294,All causes,1,Number,2021,24205.40270006416,29251.09706761205,19483.233234650204
+1,Deaths,115,Jamaica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,115,Jamaica,3,Both,22,All ages,294,All causes,3,Rate,2021,864.511518730696,1044.7217368704746,695.8562004600393
+1,Deaths,180,Kenya,3,Both,22,All ages,294,All causes,1,Number,2021,357018.179447681,388316.3473669967,326693.0257071179
+1,Deaths,180,Kenya,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,180,Kenya,3,Both,22,All ages,294,All causes,3,Rate,2021,713.1464095616556,775.6647275701329,652.571694450665
+1,Deaths,18,Thailand,3,Both,22,All ages,294,All causes,1,Number,2021,625844.1969736522,761333.7965120245,497266.122023145
+1,Deaths,18,Thailand,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,18,Thailand,3,Both,22,All ages,294,All causes,3,Rate,2021,938.5328884838626,1141.7167572952633,745.7137289190196
+1,Deaths,165,Pakistan,3,Both,22,All ages,294,All causes,1,Number,2021,1718214.8476713717,1928764.531521922,1521627.7652816973
+1,Deaths,165,Pakistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,165,Pakistan,3,Both,22,All ages,294,All causes,3,Rate,2021,729.4368616572214,818.8219003321062,645.9793914723873
+1,Deaths,116,Saint Lucia,3,Both,22,All ages,294,All causes,1,Number,2021,1943.3180886449704,2482.535190596569,1557.0697103836958
+1,Deaths,116,Saint Lucia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,116,Saint Lucia,3,Both,22,All ages,294,All causes,3,Rate,2021,1094.7506329816488,1398.513700451294,877.161109650188
+1,Deaths,211,Mali,3,Both,22,All ages,294,All causes,1,Number,2021,233810.4946621899,265047.4428142665,206459.76352120188
+1,Deaths,211,Mali,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,211,Mali,3,Both,22,All ages,294,All causes,3,Rate,2021,970.0010439696746,1099.5926277936514,856.5320664611015
+1,Deaths,320,Cook Islands,3,Both,22,All ages,294,All causes,1,Number,2021,164.24875435086582,188.95909003937908,141.84033022306892
+1,Deaths,320,Cook Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,320,Cook Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,925.4746574279628,1064.7073082120585,799.2123382698387
+1,Deaths,69,Singapore,3,Both,22,All ages,294,All causes,1,Number,2021,23747.294264251323,24204.5660173698,23303.79415893928
+1,Deaths,69,Singapore,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,69,Singapore,3,Both,22,All ages,294,All causes,3,Rate,2021,414.63435642333246,422.6184482931283,406.8907213509127
+1,Deaths,130,Mexico,3,Both,22,All ages,294,All causes,1,Number,2021,1114630.0473618505,1122611.1488943829,1108001.3394025192
+1,Deaths,130,Mexico,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,130,Mexico,3,Both,22,All ages,294,All causes,3,Rate,2021,862.2095824710495,868.3832741244461,857.0820197111315
+1,Deaths,81,Germany,3,Both,22,All ages,294,All causes,1,Number,2021,1008231.4438906194,1013349.3949332726,1002595.2127590264
+1,Deaths,81,Germany,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,81,Germany,3,Both,22,All ages,294,All causes,3,Rate,2021,1180.9881983636317,1186.9830915181742,1174.3862197306537
+1,Deaths,17,Sri Lanka,3,Both,22,All ages,294,All causes,1,Number,2021,158453.5759335996,207824.4101886356,109395.40600139408
+1,Deaths,17,Sri Lanka,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,17,Sri Lanka,3,Both,22,All ages,294,All causes,3,Rate,2021,711.5095978645097,933.2011704280512,491.2219927740484
+1,Deaths,34,Azerbaijan,3,Both,22,All ages,294,All causes,1,Number,2021,89380.0370942688,96668.56978018933,81731.49432506495
+1,Deaths,34,Azerbaijan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,34,Azerbaijan,3,Both,22,All ages,294,All causes,3,Rate,2021,851.2247980043625,920.638281876354,778.3827016548564
+1,Deaths,198,Zimbabwe,3,Both,22,All ages,294,All causes,1,Number,2021,192595.6692717762,221553.9345032613,167180.00303029065
+1,Deaths,198,Zimbabwe,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,198,Zimbabwe,3,Both,22,All ages,294,All causes,3,Rate,2021,1234.9538570619552,1420.6388284668965,1071.9845900301457
+1,Deaths,46,Croatia,3,Both,22,All ages,294,All causes,1,Number,2021,62382.35352906544,64029.247800316465,60718.70930046773
+1,Deaths,46,Croatia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,46,Croatia,3,Both,22,All ages,294,All causes,3,Rate,2021,1482.2451444841188,1521.3764195794593,1442.7158795480188
+1,Deaths,53,Serbia,3,Both,22,All ages,294,All causes,1,Number,2021,149164.8654000864,151247.69274411342,147252.34671325533
+1,Deaths,53,Serbia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,53,Serbia,3,Both,22,All ages,294,All causes,3,Rate,2021,1672.3439147553947,1695.695282551873,1650.9019419476606
+1,Deaths,181,Madagascar,3,Both,22,All ages,294,All causes,1,Number,2021,206414.95109854476,237806.48360916463,177281.64870226028
+1,Deaths,181,Madagascar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,181,Madagascar,3,Both,22,All ages,294,All causes,3,Rate,2021,722.8066060212112,832.7308481899557,620.7900451317116
+1,Deaths,97,Argentina,3,Both,22,All ages,294,All causes,1,Number,2021,378513.56106222945,385515.15884288703,372036.2967119587
+1,Deaths,97,Argentina,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,97,Argentina,3,Both,22,All ages,294,All causes,3,Rate,2021,832.1317133795551,847.5241646863523,817.89196707647
+1,Deaths,149,Palestine,3,Both,22,All ages,294,All causes,1,Number,2021,19476.86471251581,21466.983761678428,17588.27590833928
+1,Deaths,149,Palestine,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,149,Palestine,3,Both,22,All ages,294,All causes,3,Rate,2021,379.25285623594795,418.00438759301915,342.47831840291985
+1,Deaths,200,Benin,3,Both,22,All ages,294,All causes,1,Number,2021,104757.72397643456,120371.33998743082,92695.23366524075
+1,Deaths,200,Benin,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,200,Benin,3,Both,22,All ages,294,All causes,3,Rate,2021,776.0305919885243,891.6940792825066,686.6733480381176
+1,Deaths,82,Greece,3,Both,22,All ages,294,All causes,1,Number,2021,143705.63355918,145949.97004957462,141483.8907020904
+1,Deaths,82,Greece,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,82,Greece,3,Both,22,All ages,294,All causes,3,Rate,2021,1412.3528277112289,1434.4103832157496,1390.5173246140878
+1,Deaths,132,Panama,3,Both,22,All ages,294,All causes,1,Number,2021,23948.961701016444,27782.01693414665,19937.687110459075
+1,Deaths,132,Panama,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,132,Panama,3,Both,22,All ages,294,All causes,3,Rate,2021,557.9905762583493,647.2975251384589,464.531266904633
+1,Deaths,151,Qatar,3,Both,22,All ages,294,All causes,1,Number,2021,5050.104404022657,6041.674576861935,4235.445992310058
+1,Deaths,151,Qatar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,151,Qatar,3,Both,22,All ages,294,All causes,3,Rate,2021,169.63385323891669,202.94086151413657,142.26934066721128
+1,Deaths,214,Nigeria,3,Both,22,All ages,294,All causes,1,Number,2021,1820421.3426805704,2002375.906412278,1650945.6285296548
+1,Deaths,214,Nigeria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,214,Nigeria,3,Both,22,All ages,294,All causes,3,Rate,2021,787.4963742301987,866.2081295001982,714.1828465952183
+1,Deaths,117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,1,Number,2021,1152.3875807883885,1286.1798390495594,1042.9837460677538
+1,Deaths,117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,3,Rate,2021,1010.1993563193258,1127.48355430025,914.2943975570656
+1,Deaths,183,Mauritius,3,Both,22,All ages,294,All causes,1,Number,2021,13223.753294721351,14262.82865054229,11891.004602556302
+1,Deaths,183,Mauritius,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,183,Mauritius,3,Both,22,All ages,294,All causes,3,Rate,2021,1039.6330277473066,1121.3236819930223,934.8541856756758
+1,Deaths,131,Nicaragua,3,Both,22,All ages,294,All causes,1,Number,2021,38377.275899749206,42243.88229144877,35225.09342004942
+1,Deaths,131,Nicaragua,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,131,Nicaragua,3,Both,22,All ages,294,All causes,3,Rate,2021,575.4597885397487,633.4387994092615,528.1934252901725
+1,Deaths,182,Malawi,3,Both,22,All ages,294,All causes,1,Number,2021,172968.18360778928,195264.03340814257,153169.7599898544
+1,Deaths,182,Malawi,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,182,Malawi,3,Both,22,All ages,294,All causes,3,Rate,2021,889.3953204785813,1004.0396675770754,787.5926365897797
+1,Deaths,150,Oman,3,Both,22,All ages,294,All causes,1,Number,2021,16981.196772030828,18987.492887889017,15262.064767308442
+1,Deaths,150,Oman,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,150,Oman,3,Both,22,All ages,294,All causes,3,Rate,2021,361.0132197815346,403.6662453806561,324.4651844112283
+1,Deaths,197,Eswatini,3,Both,22,All ages,294,All causes,1,Number,2021,17638.49456475822,20877.396585741215,14716.779728519943
+1,Deaths,197,Eswatini,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,197,Eswatini,3,Both,22,All ages,294,All causes,3,Rate,2021,1526.8299692043563,1807.197018376116,1273.9193958524434
+1,Deaths,20,Viet Nam,3,Both,22,All ages,294,All causes,1,Number,2021,701470.8326382338,803790.9412213834,583763.424759985
+1,Deaths,20,Viet Nam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,20,Viet Nam,3,Both,22,All ages,294,All causes,3,Rate,2021,699.5969324436749,801.6437043997552,582.2039666266802
+1,Deaths,37,Kyrgyzstan,3,Both,22,All ages,294,All causes,1,Number,2021,38880.18591791776,43888.0162872748,33756.63703524427
+1,Deaths,37,Kyrgyzstan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,37,Kyrgyzstan,3,Both,22,All ages,294,All causes,3,Rate,2021,566.511840382351,639.4794749727928,491.858105111124
+1,Deaths,84,Ireland,3,Both,22,All ages,294,All causes,1,Number,2021,32252.295265505403,32925.79849134551,31666.043554470743
+1,Deaths,84,Ireland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,84,Ireland,3,Both,22,All ages,294,All causes,3,Rate,2021,652.698894634293,666.3287714359179,640.8347516137795
+1,Deaths,118,Suriname,3,Both,22,All ages,294,All causes,1,Number,2021,5393.597082776467,7241.212671813349,4342.981150544907
+1,Deaths,118,Suriname,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,118,Suriname,3,Both,22,All ages,294,All causes,3,Rate,2021,931.139217818103,1250.1076739339862,749.7631004790331
+1,Deaths,163,India,3,Both,22,All ages,294,All causes,1,Number,2021,11744496.419517092,12485808.27918052,11085398.700321307
+1,Deaths,163,India,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,163,India,3,Both,22,All ages,294,All causes,3,Rate,2021,830.2960865245309,882.7043221769259,783.7001119218147
+1,Deaths,83,Iceland,3,Both,22,All ages,294,All causes,1,Number,2021,2286.3271740337655,2430.5791106795655,2160.6214216384815
+1,Deaths,83,Iceland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,83,Iceland,3,Both,22,All ages,294,All causes,3,Rate,2021,652.5168156417378,693.6862578017615,616.6404466809033
+1,Deaths,201,Burkina Faso,3,Both,22,All ages,294,All causes,1,Number,2021,218407.4700698076,249989.66349183652,191169.44199348215
+1,Deaths,201,Burkina Faso,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,201,Burkina Faso,3,Both,22,All ages,294,All causes,3,Rate,2021,959.5633844082482,1098.3183289959577,839.8943346400696
+1,Deaths,215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,1,Number,2021,1117.0877846491255,1287.7083820719697,985.4452722778782
+1,Deaths,215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,3,Rate,2021,515.6947554536681,594.4604070635535,454.92302904371496
+1,Deaths,133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,1,Number,2021,276584.12956292985,325801.7940839521,232800.33812701725
+1,Deaths,133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,3,Rate,2021,1038.6638269593095,1223.4922473975582,874.2413763889261
+1,Deaths,349,Greenland,3,Both,22,All ages,294,All causes,1,Number,2021,441.5955852231255,494.79371960915256,405.3531850941638
+1,Deaths,349,Greenland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,349,Greenland,3,Both,22,All ages,294,All causes,3,Rate,2021,787.1226436207622,881.9457296633129,722.5223288638672
+1,Deaths,184,Mozambique,3,Both,22,All ages,294,All causes,1,Number,2021,306359.77390325983,349265.7106515783,265927.89921009116
+1,Deaths,184,Mozambique,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,184,Mozambique,3,Both,22,All ages,294,All causes,3,Rate,2021,985.946589800807,1124.029215598056,855.8261485134623
+1,Deaths,101,Canada,3,Both,22,All ages,294,All causes,1,Number,2021,310756.521667464,314290.1480319364,307174.762563635
+1,Deaths,101,Canada,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,101,Canada,3,Both,22,All ages,294,All causes,3,Rate,2021,829.3650886928037,838.7958363644927,819.805881565359
+1,Deaths,38,Mongolia,3,Both,22,All ages,294,All causes,1,Number,2021,21497.53876862131,23028.479594910074,19948.018192848755
+1,Deaths,38,Mongolia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,38,Mongolia,3,Both,22,All ages,294,All causes,3,Rate,2021,644.3540585855684,690.241541124426,597.9096780168383
+1,Deaths,351,Guam,3,Both,22,All ages,294,All causes,1,Number,2021,1167.739283008468,1285.2131709522814,1049.967030295254
+1,Deaths,351,Guam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,351,Guam,3,Both,22,All ages,294,All causes,3,Rate,2021,733.5211806459901,807.312981806965,659.541960185948
+1,Deaths,52,Romania,3,Both,22,All ages,294,All causes,1,Number,2021,334246.35018114286,337375.1316919308,331443.1527711174
+1,Deaths,52,Romania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,52,Romania,3,Both,22,All ages,294,All causes,3,Rate,2021,1764.8988930249986,1781.419591072752,1750.0973551676557
+1,Deaths,6,China,3,Both,22,All ages,294,All causes,1,Number,2021,11696257.67367088,13439384.570804706,9988541.964665163
+1,Deaths,6,China,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,6,China,3,Both,22,All ages,294,All causes,3,Rate,2021,822.0903844582994,944.6088772109138,702.0608243262363
+1,Deaths,135,Brazil,3,Both,22,All ages,294,All causes,1,Number,2021,1796921.2990751823,1812663.4729256527,1781904.238296444
+1,Deaths,135,Brazil,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,135,Brazil,3,Both,22,All ages,294,All causes,3,Rate,2021,815.4626941948287,822.6066662247638,808.6477864702556
+1,Deaths,19,Timor-Leste,3,Both,22,All ages,294,All causes,1,Number,2021,9530.295612763008,11316.246521663455,7885.942803045235
+1,Deaths,19,Timor-Leste,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,19,Timor-Leste,3,Both,22,All ages,294,All causes,3,Rate,2021,681.8393192508779,809.614112543688,564.1950775670479
+1,Deaths,152,Saudi Arabia,3,Both,22,All ages,294,All causes,1,Number,2021,155784.7950378304,187285.8232327317,130175.8770843355
+1,Deaths,152,Saudi Arabia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,152,Saudi Arabia,3,Both,22,All ages,294,All causes,3,Rate,2021,413.1763695010374,496.72419239324176,345.2557502627762
+1,Deaths,102,United States of America,3,Both,22,All ages,294,All causes,1,Number,2021,3471247.940516131,3504978.031127561,3437912.173717209
+1,Deaths,102,United States of America,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,102,United States of America,3,Both,22,All ages,294,All causes,3,Rate,2021,1043.5342150472757,1053.674229310975,1033.5127432781512
+1,Deaths,169,Central African Republic,3,Both,22,All ages,294,All causes,1,Number,2021,73693.03868446045,89206.1176949337,60926.1425956392
+1,Deaths,169,Central African Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,169,Central African Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,1343.749551679187,1626.6214936918432,1110.9526525155493
+1,Deaths,71,Australia,3,Both,22,All ages,294,All causes,1,Number,2021,175207.42697916515,175884.56325912045,174479.7854038007
+1,Deaths,71,Australia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,71,Australia,3,Both,22,All ages,294,All causes,3,Rate,2021,679.3106040673148,681.9359828158255,676.4894072343512
+1,Deaths,85,Israel,3,Both,22,All ages,294,All causes,1,Number,2021,50100.83956839513,51180.37040656597,49049.84186209717
+1,Deaths,85,Israel,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,85,Israel,3,Both,22,All ages,294,All causes,3,Rate,2021,522.2136040627524,533.4658244757155,511.258791632548
+1,Deaths,119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,1,Number,2021,16692.477996772894,21689.96038088659,12826.302353873789
+1,Deaths,119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,3,Rate,2021,1198.1948268110136,1556.9167338209777,920.678711123456
+1,Deaths,218,Togo,3,Both,22,All ages,294,All causes,1,Number,2021,62759.306988681856,77324.82725547646,51579.52247612469
+1,Deaths,218,Togo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,218,Togo,3,Both,22,All ages,294,All causes,3,Rate,2021,749.7292216502352,923.7304446803744,616.1743507793946
+1,Deaths,435,South Sudan,3,Both,22,All ages,294,All causes,1,Number,2021,115107.9070414521,143441.67015321646,93376.96336196784
+1,Deaths,435,South Sudan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,435,South Sudan,3,Both,22,All ages,294,All causes,3,Rate,2021,1190.0505627766618,1482.981010418221,965.383792090566
+1,Deaths,217,Sierra Leone,3,Both,22,All ages,294,All causes,1,Number,2021,79455.96742326886,95829.65314855562,65165.63120324698
+1,Deaths,217,Sierra Leone,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,217,Sierra Leone,3,Both,22,All ages,294,All causes,3,Rate,2021,896.0597500556122,1080.7129764184815,734.9013686679674
+1,Deaths,50,Montenegro,3,Both,22,All ages,294,All causes,1,Number,2021,9866.77749576626,10389.971974672484,9380.701118878133
+1,Deaths,50,Montenegro,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,50,Montenegro,3,Both,22,All ages,294,All causes,3,Rate,2021,1596.4101386546597,1681.061178061643,1517.7646785175796
+1,Deaths,185,Rwanda,3,Both,22,All ages,294,All causes,1,Number,2021,92132.37815383697,106782.70197202082,79187.29672393616
+1,Deaths,185,Rwanda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,185,Rwanda,3,Both,22,All ages,294,All causes,3,Rate,2021,694.2890109563244,804.6905770261037,596.7377704173257
+1,Deaths,216,Senegal,3,Both,22,All ages,294,All causes,1,Number,2021,111020.69403119366,129204.8121930502,96962.03159715408
+1,Deaths,216,Senegal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,216,Senegal,3,Both,22,All ages,294,All causes,3,Rate,2021,700.0241437856527,814.6813422280824,611.3793805814624
+1,Deaths,68,Republic of Korea,3,Both,22,All ages,294,All causes,1,Number,2021,331033.8539359796,335936.57088025095,325967.98215720535
+1,Deaths,68,Republic of Korea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,68,Republic of Korea,3,Both,22,All ages,294,All causes,3,Rate,2021,641.9057078067473,651.412536044615,632.0825070339312
+1,Deaths,86,Italy,3,Both,22,All ages,294,All causes,1,Number,2021,699000.0819924932,702785.3089899,695295.1099550552
+1,Deaths,86,Italy,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,86,Italy,3,Both,22,All ages,294,All causes,3,Rate,2021,1168.6726435731248,1175.0012426041485,1162.4782244637368
+1,Deaths,136,Paraguay,3,Both,22,All ages,294,All causes,1,Number,2021,50729.19727965319,59134.5452534436,43875.138859552215
+1,Deaths,136,Paraguay,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,136,Paraguay,3,Both,22,All ages,294,All causes,3,Rate,2021,707.63458949461,824.8829451152137,612.025569904908
+1,Deaths,153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,1,Number,2021,104373.246426652,127860.0918814774,84595.85990934029
+1,Deaths,153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,743.9059232770991,911.3051759698548,602.945327713867
+1,Deaths,36,Kazakhstan,3,Both,22,All ages,294,All causes,1,Number,2021,181468.50260944755,193318.51654655012,169124.44758542965
+1,Deaths,36,Kazakhstan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,36,Kazakhstan,3,Both,22,All ages,294,All causes,3,Rate,2021,957.3385014671456,1019.853342454872,892.2173428705233
+1,Deaths,54,Slovakia,3,Both,22,All ages,294,All causes,1,Number,2021,72579.80975747766,73685.72107147075,71376.87641983239
+1,Deaths,54,Slovakia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,54,Slovakia,3,Both,22,All ages,294,All causes,3,Rate,2021,1336.7788975157562,1357.1476324574685,1314.6232056469628
+1,Deaths,51,Poland,3,Both,22,All ages,294,All causes,1,Number,2021,517357.1502424202,520631.9817953287,514035.9030555937
+1,Deaths,51,Poland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,51,Poland,3,Both,22,All ages,294,All causes,3,Rate,2021,1352.9760633975652,1361.5402993430205,1344.2904427536887
+1,Deaths,168,Angola,3,Both,22,All ages,294,All causes,1,Number,2021,249205.9087322686,292522.41235958866,209406.6688277123
+1,Deaths,168,Angola,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,168,Angola,3,Both,22,All ages,294,All causes,3,Rate,2021,761.9472382957117,894.3874780932412,640.2610347630169
+1,Deaths,203,Cabo Verde,3,Both,22,All ages,294,All causes,1,Number,2021,3654.181856947912,4165.076796736197,3113.2292414994586
+1,Deaths,203,Cabo Verde,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,203,Cabo Verde,3,Both,22,All ages,294,All causes,3,Rate,2021,653.3935288522268,744.7451530047878,556.6673799667623
+1,Deaths,87,Luxembourg,3,Both,22,All ages,294,All causes,1,Number,2021,4552.766361454847,4789.85011389151,4322.191600262381
+1,Deaths,87,Luxembourg,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,87,Luxembourg,3,Both,22,All ages,294,All causes,3,Rate,2021,706.6590360305022,743.4580638422098,670.8703033037987
+2,DALYs (Disability-Adjusted Life Years),7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,1,Number,2021,8882289.964663671,10559550.450352067,7377023.893348757
+2,DALYs (Disability-Adjusted Life Years),7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),7,Democratic People's Republic of Korea,3,Both,22,All ages,294,All causes,3,Rate,2021,33654.89891902745,40010.020439636275,27951.46234153633
+2,DALYs (Disability-Adjusted Life Years),13,Malaysia,3,Both,22,All ages,294,All causes,1,Number,2021,9217866.23416619,10186746.71122398,8286686.921159631
+2,DALYs (Disability-Adjusted Life Years),13,Malaysia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),13,Malaysia,3,Both,22,All ages,294,All causes,3,Rate,2021,28975.860915597703,32021.48397345979,26048.74941541654
+2,DALYs (Disability-Adjusted Life Years),66,Brunei Darussalam,3,Both,22,All ages,294,All causes,1,Number,2021,100076.20444084196,113875.75614314889,87273.83374721059
+2,DALYs (Disability-Adjusted Life Years),66,Brunei Darussalam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),66,Brunei Darussalam,3,Both,22,All ages,294,All causes,3,Rate,2021,22183.168624166712,25242.01547053305,19345.35968174431
+2,DALYs (Disability-Adjusted Life Years),78,Denmark,3,Both,22,All ages,294,All causes,1,Number,2021,1762454.533349704,1990403.7283143748,1566070.903035452
+2,DALYs (Disability-Adjusted Life Years),78,Denmark,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),78,Denmark,3,Both,22,All ages,294,All causes,3,Rate,2021,30118.246054178133,34013.62594165213,26762.28402117413
+2,DALYs (Disability-Adjusted Life Years),43,Albania,3,Both,22,All ages,294,All causes,1,Number,2021,928857.1618930794,1054585.252047339,814445.2636904882
+2,DALYs (Disability-Adjusted Life Years),43,Albania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),43,Albania,3,Both,22,All ages,294,All causes,3,Rate,2021,34816.53755361187,39529.22853774355,30528.01364081559
+2,DALYs (Disability-Adjusted Life Years),25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,1,Number,2021,37800.33183099226,45303.59790962796,31821.165517036643
+2,DALYs (Disability-Adjusted Life Years),25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),25,Micronesia (Federated States of),3,Both,22,All ages,294,All causes,3,Rate,2021,36850.413416244606,44165.123197260626,31021.50293104361
+2,DALYs (Disability-Adjusted Life Years),37,Kyrgyzstan,3,Both,22,All ages,294,All causes,1,Number,2021,1908956.0036018377,2146750.382018409,1702307.56747091
+2,DALYs (Disability-Adjusted Life Years),37,Kyrgyzstan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),37,Kyrgyzstan,3,Both,22,All ages,294,All causes,3,Rate,2021,27814.840728707353,31279.673207485903,24803.82668387186
+2,DALYs (Disability-Adjusted Life Years),90,Norway,3,Both,22,All ages,294,All causes,1,Number,2021,1412613.253151254,1622631.5930560147,1236241.1440378358
+2,DALYs (Disability-Adjusted Life Years),90,Norway,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),90,Norway,3,Both,22,All ages,294,All causes,3,Rate,2021,26072.25828524268,29948.515562611243,22817.001283469624
+2,DALYs (Disability-Adjusted Life Years),61,Republic of Moldova,3,Both,22,All ages,294,All causes,1,Number,2021,1634716.28342403,1801593.3947890676,1487860.0939094063
+2,DALYs (Disability-Adjusted Life Years),61,Republic of Moldova,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),61,Republic of Moldova,3,Both,22,All ages,294,All causes,3,Rate,2021,45491.62836492589,50135.56053212114,41404.84751846911
+2,DALYs (Disability-Adjusted Life Years),19,Timor-Leste,3,Both,22,All ages,294,All causes,1,Number,2021,479931.5376743646,550133.0835974938,417819.9006289376
+2,DALYs (Disability-Adjusted Life Years),19,Timor-Leste,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),19,Timor-Leste,3,Both,22,All ages,294,All causes,3,Rate,2021,34336.415808202175,39358.943568881834,29892.675756330555
+2,DALYs (Disability-Adjusted Life Years),67,Japan,3,Both,22,All ages,294,All causes,1,Number,2021,39064336.24997407,44439236.98581207,34494719.09755473
+2,DALYs (Disability-Adjusted Life Years),67,Japan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),67,Japan,3,Both,22,All ages,294,All causes,3,Rate,2021,30591.31814369883,34800.40792187033,27012.84669060568
+2,DALYs (Disability-Adjusted Life Years),126,Costa Rica,3,Both,22,All ages,294,All causes,1,Number,2021,1344607.6319755926,1514048.3823254611,1202842.4514029017
+2,DALYs (Disability-Adjusted Life Years),126,Costa Rica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),126,Costa Rica,3,Both,22,All ages,294,All causes,3,Rate,2021,28320.074937630154,31888.829593846254,25334.222082201675
+2,DALYs (Disability-Adjusted Life Years),49,North Macedonia,3,Both,22,All ages,294,All causes,1,Number,2021,995956.220414723,1120081.2731043643,892271.8595752593
+2,DALYs (Disability-Adjusted Life Years),49,North Macedonia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),49,North Macedonia,3,Both,22,All ages,294,All causes,3,Rate,2021,45760.898844448115,51464.03505040228,40996.94491668386
+2,DALYs (Disability-Adjusted Life Years),79,Finland,3,Both,22,All ages,294,All causes,1,Number,2021,1763495.2343183567,2002481.1430337697,1569155.0230043023
+2,DALYs (Disability-Adjusted Life Years),79,Finland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),79,Finland,3,Both,22,All ages,294,All causes,3,Rate,2021,31855.47348123373,36172.47368022492,28344.94545293137
+2,DALYs (Disability-Adjusted Life Years),55,Slovenia,3,Both,22,All ages,294,All causes,1,Number,2021,691405.1114627583,781476.1744051329,615958.1576395908
+2,DALYs (Disability-Adjusted Life Years),55,Slovenia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),55,Slovenia,3,Both,22,All ages,294,All causes,3,Rate,2021,33406.837803632705,37758.82962525925,29761.4436528484
+2,DALYs (Disability-Adjusted Life Years),102,United States of America,3,Both,22,All ages,294,All causes,1,Number,2021,126668115.96398257,141464850.9416645,113783505.16658977
+2,DALYs (Disability-Adjusted Life Years),102,United States of America,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),102,United States of America,3,Both,22,All ages,294,All causes,3,Rate,2021,38079.24850920837,42527.47562660128,34205.84838191942
+2,DALYs (Disability-Adjusted Life Years),91,Portugal,3,Both,22,All ages,294,All causes,1,Number,2021,3615143.1499156025,4089310.346162258,3221134.164180455
+2,DALYs (Disability-Adjusted Life Years),91,Portugal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),91,Portugal,3,Both,22,All ages,294,All causes,3,Rate,2021,34079.88982032168,38549.85549923932,30365.57415833081
+2,DALYs (Disability-Adjusted Life Years),150,Oman,3,Both,22,All ages,294,All causes,1,Number,2021,1047279.041712402,1194090.2118016984,915404.1376094492
+2,DALYs (Disability-Adjusted Life Years),150,Oman,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),150,Oman,3,Both,22,All ages,294,All causes,3,Rate,2021,22264.719261780167,25385.86401531883,19461.11334532307
+2,DALYs (Disability-Adjusted Life Years),114,Haiti,3,Both,22,All ages,294,All causes,1,Number,2021,7227095.234260466,8435826.299447175,6166075.037738636
+2,DALYs (Disability-Adjusted Life Years),114,Haiti,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),114,Haiti,3,Both,22,All ages,294,All causes,3,Rate,2021,56180.65433746109,65576.86401217073,47932.69205473391
+2,DALYs (Disability-Adjusted Life Years),217,Sierra Leone,3,Both,22,All ages,294,All causes,1,Number,2021,5210188.861611997,6220824.033685148,4326641.088754516
+2,DALYs (Disability-Adjusted Life Years),217,Sierra Leone,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),217,Sierra Leone,3,Both,22,All ages,294,All causes,3,Rate,2021,58757.58209837571,70154.95763923498,48793.42682868585
+2,DALYs (Disability-Adjusted Life Years),298,American Samoa,3,Both,22,All ages,294,All causes,1,Number,2021,17029.54745887979,19780.39728680253,14816.189580458724
+2,DALYs (Disability-Adjusted Life Years),298,American Samoa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),298,American Samoa,3,Both,22,All ages,294,All causes,3,Rate,2021,34224.302293168235,39752.68854660603,29776.114266037235
+2,DALYs (Disability-Adjusted Life Years),162,Bhutan,3,Both,22,All ages,294,All causes,1,Number,2021,214606.40182114777,252615.5541603419,178741.43405490258
+2,DALYs (Disability-Adjusted Life Years),162,Bhutan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),162,Bhutan,3,Both,22,All ages,294,All causes,3,Rate,2021,28353.332662999343,33375.01948765399,23614.93085674024
+2,DALYs (Disability-Adjusted Life Years),115,Jamaica,3,Both,22,All ages,294,All causes,1,Number,2021,892272.992760178,1056331.9224643288,758054.8816726758
+2,DALYs (Disability-Adjusted Life Years),115,Jamaica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),115,Jamaica,3,Both,22,All ages,294,All causes,3,Rate,2021,31868.10356563252,37727.5737110927,27074.417441289916
+2,DALYs (Disability-Adjusted Life Years),127,El Salvador,3,Both,22,All ages,294,All causes,1,Number,2021,2127787.4700864437,2432387.3578322777,1859691.4129826864
+2,DALYs (Disability-Adjusted Life Years),127,El Salvador,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),127,El Salvador,3,Both,22,All ages,294,All causes,3,Rate,2021,32987.78301812135,37710.09440756445,28831.402418984984
+2,DALYs (Disability-Adjusted Life Years),15,Myanmar,3,Both,22,All ages,294,All causes,1,Number,2021,22354616.454116687,26130587.15058602,19102691.03284371
+2,DALYs (Disability-Adjusted Life Years),15,Myanmar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),15,Myanmar,3,Both,22,All ages,294,All causes,3,Rate,2021,39622.02638433436,46314.67579163067,33858.21133047159
+2,DALYs (Disability-Adjusted Life Years),385,Puerto Rico,3,Both,22,All ages,294,All causes,1,Number,2021,1129538.4180169385,1316729.9726896868,977239.3290421402
+2,DALYs (Disability-Adjusted Life Years),385,Puerto Rico,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),385,Puerto Rico,3,Both,22,All ages,294,All causes,3,Rate,2021,34287.187712143575,39969.39548021637,29664.14225501326
+2,DALYs (Disability-Adjusted Life Years),205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d'Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+2,DALYs (Disability-Adjusted Life Years),175,Burundi,3,Both,22,All ages,294,All causes,1,Number,2021,6284371.286087716,7235375.983381061,5523314.332834076
+2,DALYs (Disability-Adjusted Life Years),175,Burundi,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),175,Burundi,3,Both,22,All ages,294,All causes,3,Rate,2021,47535.78909748155,54729.310400293405,41779.05685266241
+2,DALYs (Disability-Adjusted Life Years),39,Tajikistan,3,Both,22,All ages,294,All causes,1,Number,2021,3272277.409613616,3658317.238335301,2899077.46540418
+2,DALYs (Disability-Adjusted Life Years),39,Tajikistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),39,Tajikistan,3,Both,22,All ages,294,All causes,3,Rate,2021,32207.638208235723,36007.26445658163,28534.38949554463
+2,DALYs (Disability-Adjusted Life Years),139,Algeria,3,Both,22,All ages,294,All causes,1,Number,2021,12386450.868943775,14083291.592902228,10923842.713727254
+2,DALYs (Disability-Adjusted Life Years),139,Algeria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),139,Algeria,3,Both,22,All ages,294,All causes,3,Rate,2021,28024.9438591926,31864.12802341174,24715.72220469009
+2,DALYs (Disability-Adjusted Life Years),187,Somalia,3,Both,22,All ages,294,All causes,1,Number,2021,15748070.30187517,18871932.52373408,13305622.71940856
+2,DALYs (Disability-Adjusted Life Years),187,Somalia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),187,Somalia,3,Both,22,All ages,294,All causes,3,Rate,2021,72885.72970236633,87343.69014865224,61581.51458931449
+2,DALYs (Disability-Adjusted Life Years),33,Armenia,3,Both,22,All ages,294,All causes,1,Number,2021,1033613.5269804738,1144166.407084176,931453.2597560214
+2,DALYs (Disability-Adjusted Life Years),33,Armenia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),33,Armenia,3,Both,22,All ages,294,All causes,3,Rate,2021,34508.08024011022,38198.98361725414,31097.371491907976
+2,DALYs (Disability-Adjusted Life Years),212,Mauritania,3,Both,22,All ages,294,All causes,1,Number,2021,1392163.8453901135,1603041.4612414243,1210479.585635266
+2,DALYs (Disability-Adjusted Life Years),212,Mauritania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),212,Mauritania,3,Both,22,All ages,294,All causes,3,Rate,2021,31667.188313561157,36463.9665048573,27534.463788126806
+2,DALYs (Disability-Adjusted Life Years),211,Mali,3,Both,22,All ages,294,All causes,1,Number,2021,16030765.86515912,18247826.371018864,14144034.533480246
+2,DALYs (Disability-Adjusted Life Years),211,Mali,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),211,Mali,3,Both,22,All ages,294,All causes,3,Rate,2021,66506.25177156506,75704.08956894452,58678.83853221073
+2,DALYs (Disability-Adjusted Life Years),186,Seychelles,3,Both,22,All ages,294,All causes,1,Number,2021,34174.456433126325,38329.93158938659,30765.14288689257
+2,DALYs (Disability-Adjusted Life Years),186,Seychelles,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),186,Seychelles,3,Both,22,All ages,294,All causes,3,Rate,2021,32413.8969638648,36355.295236416605,29180.22042474041
+2,DALYs (Disability-Adjusted Life Years),87,Luxembourg,3,Both,22,All ages,294,All causes,1,Number,2021,164250.65044599,190363.07446647837,143864.5199717945
+2,DALYs (Disability-Adjusted Life Years),87,Luxembourg,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),87,Luxembourg,3,Both,22,All ages,294,All causes,3,Rate,2021,25494.21540587379,29547.26335996241,22329.97587202618
+2,DALYs (Disability-Adjusted Life Years),27,Samoa,3,Both,22,All ages,294,All causes,1,Number,2021,62234.767103836275,72012.77585643916,54088.47142648065
+2,DALYs (Disability-Adjusted Life Years),27,Samoa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),27,Samoa,3,Both,22,All ages,294,All causes,3,Rate,2021,29130.691491261223,33707.55695772438,25317.594130782567
+2,DALYs (Disability-Adjusted Life Years),51,Poland,3,Both,22,All ages,294,All causes,1,Number,2021,15523166.124208638,17105459.801640093,14163615.4215536
+2,DALYs (Disability-Adjusted Life Years),51,Poland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),51,Poland,3,Both,22,All ages,294,All causes,3,Rate,2021,40595.69329303178,44733.65769504485,37040.23927677686
+2,DALYs (Disability-Adjusted Life Years),34,Azerbaijan,3,Both,22,All ages,294,All causes,1,Number,2021,3661853.7797899614,4086339.481281548,3302934.2883071983
+2,DALYs (Disability-Adjusted Life Years),34,Azerbaijan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),34,Azerbaijan,3,Both,22,All ages,294,All causes,3,Rate,2021,34874.23864834235,38916.89478560514,31456.012592841755
+2,DALYs (Disability-Adjusted Life Years),200,Benin,3,Both,22,All ages,294,All causes,1,Number,2021,6973108.653471485,8019008.155761788,6111074.53155653
+2,DALYs (Disability-Adjusted Life Years),200,Benin,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),200,Benin,3,Both,22,All ages,294,All causes,3,Rate,2021,51655.815255885725,59403.69273082425,45269.98684580634
+2,DALYs (Disability-Adjusted Life Years),22,Fiji,3,Both,22,All ages,294,All causes,1,Number,2021,386799.2914613987,473004.5414100852,313235.21506889514
+2,DALYs (Disability-Adjusted Life Years),22,Fiji,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),22,Fiji,3,Both,22,All ages,294,All causes,3,Rate,2021,41839.932530023994,51164.7216938296,33882.5343112555
+2,DALYs (Disability-Adjusted Life Years),140,Bahrain,3,Both,22,All ages,294,All causes,1,Number,2021,365862.47361785715,420803.10779603064,319916.81940156955
+2,DALYs (Disability-Adjusted Life Years),140,Bahrain,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),140,Bahrain,3,Both,22,All ages,294,All causes,3,Rate,2021,23918.88603163089,27510.72411881844,20915.11017022356
+2,DALYs (Disability-Adjusted Life Years),10,Cambodia,3,Both,22,All ages,294,All causes,1,Number,2021,6029031.213403656,7093412.210374389,5036114.6967693865
+2,DALYs (Disability-Adjusted Life Years),10,Cambodia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),10,Cambodia,3,Both,22,All ages,294,All causes,3,Rate,2021,35373.17435438115,41618.04741153692,29547.59345770826
+2,DALYs (Disability-Adjusted Life Years),151,Qatar,3,Both,22,All ages,294,All causes,1,Number,2021,496732.5417825968,590949.9180413345,416542.91028847266
+2,DALYs (Disability-Adjusted Life Years),151,Qatar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),151,Qatar,3,Both,22,All ages,294,All causes,3,Rate,2021,16685.32932202826,19850.10677971797,13991.746161782745
+2,DALYs (Disability-Adjusted Life Years),111,Dominican Republic,3,Both,22,All ages,294,All causes,1,Number,2021,3457977.9063609843,3919968.010323395,3000426.152322715
+2,DALYs (Disability-Adjusted Life Years),111,Dominican Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),111,Dominican Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,31399.341156487488,35594.33177761104,27244.651910101915
+2,DALYs (Disability-Adjusted Life Years),75,Austria,3,Both,22,All ages,294,All causes,1,Number,2021,2732003.0135543854,3102208.99894456,2417374.596866755
+2,DALYs (Disability-Adjusted Life Years),75,Austria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),75,Austria,3,Both,22,All ages,294,All causes,3,Rate,2021,30415.367002670147,34536.86718270761,26912.61143631622
+2,DALYs (Disability-Adjusted Life Years),164,Nepal,3,Both,22,All ages,294,All causes,1,Number,2021,11371209.450908313,12999352.173811335,10030111.971825715
+2,DALYs (Disability-Adjusted Life Years),164,Nepal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),164,Nepal,3,Both,22,All ages,294,All causes,3,Rate,2021,36528.35917201111,41758.53125021051,32220.27825835819
+2,DALYs (Disability-Adjusted Life Years),135,Brazil,3,Both,22,All ages,294,All causes,1,Number,2021,78657664.56146474,87930375.97912717,71431406.63135526
+2,DALYs (Disability-Adjusted Life Years),135,Brazil,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),135,Brazil,3,Both,22,All ages,294,All causes,3,Rate,2021,35695.71527444037,39903.77393512281,32416.35976584536
+2,DALYs (Disability-Adjusted Life Years),163,India,3,Both,22,All ages,294,All causes,1,Number,2021,530253022.86791146,588918665.3895178,476446634.36748457
+2,DALYs (Disability-Adjusted Life Years),163,India,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),163,India,3,Both,22,All ages,294,All causes,3,Rate,2021,37487.09131737568,41634.55338464582,33683.16203798308
+2,DALYs (Disability-Adjusted Life Years),58,Estonia,3,Both,22,All ages,294,All causes,1,Number,2021,526900.760833267,581097.1388606399,477845.4255286561
+2,DALYs (Disability-Adjusted Life Years),58,Estonia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),58,Estonia,3,Both,22,All ages,294,All causes,3,Rate,2021,40195.845376545214,44330.34164812388,36453.54546093993
+2,DALYs (Disability-Adjusted Life Years),105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,1,Number,2021,27979.12545616279,31344.419996397577,25183.693659265213
+2,DALYs (Disability-Adjusted Life Years),105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),105,Antigua and Barbuda,3,Both,22,All ages,294,All causes,3,Rate,2021,31298.07810331689,35062.57215535434,28171.04531421574
+2,DALYs (Disability-Adjusted Life Years),45,Bulgaria,3,Both,22,All ages,294,All causes,1,Number,2021,4305074.358283568,4622612.411247611,4036363.529661771
+2,DALYs (Disability-Adjusted Life Years),45,Bulgaria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),45,Bulgaria,3,Both,22,All ages,294,All causes,3,Rate,2021,63431.80814511867,68110.47596316322,59472.57020655513
+2,DALYs (Disability-Adjusted Life Years),147,Libya,3,Both,22,All ages,294,All causes,1,Number,2021,2260797.6299067587,2615523.015549248,1932707.3945451304
+2,DALYs (Disability-Adjusted Life Years),147,Libya,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),147,Libya,3,Both,22,All ages,294,All causes,3,Rate,2021,32905.5454724406,38068.516343021955,28130.24492543805
+2,DALYs (Disability-Adjusted Life Years),99,Uruguay,3,Both,22,All ages,294,All causes,1,Number,2021,1245760.3456244662,1381434.833290486,1133658.1995684905
+2,DALYs (Disability-Adjusted Life Years),99,Uruguay,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),99,Uruguay,3,Both,22,All ages,294,All causes,3,Rate,2021,36579.56470843263,40563.40776323369,33287.882066573286
+2,DALYs (Disability-Adjusted Life Years),123,Peru,3,Both,22,All ages,294,All causes,1,Number,2021,11923379.52985984,13485306.402702216,10672451.623593297
+2,DALYs (Disability-Adjusted Life Years),123,Peru,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),123,Peru,3,Both,22,All ages,294,All causes,3,Rate,2021,32873.23582421076,37179.530889509464,29424.377389502348
+2,DALYs (Disability-Adjusted Life Years),57,Belarus,3,Both,22,All ages,294,All causes,1,Number,2021,4772121.828405987,5396540.895203188,4195261.905774808
+2,DALYs (Disability-Adjusted Life Years),57,Belarus,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),57,Belarus,3,Both,22,All ages,294,All causes,3,Rate,2021,51177.44909066831,57873.87809045574,44991.056457694576
+2,DALYs (Disability-Adjusted Life Years),176,Comoros,3,Both,22,All ages,294,All causes,1,Number,2021,294977.5986546984,339330.7140786734,258247.62167098428
+2,DALYs (Disability-Adjusted Life Years),176,Comoros,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),176,Comoros,3,Both,22,All ages,294,All causes,3,Rate,2021,39627.59873304401,45586.04258978964,34693.255257394514
+2,DALYs (Disability-Adjusted Life Years),201,Burkina Faso,3,Both,22,All ages,294,All causes,1,Number,2021,14428441.674977507,16614760.686122255,12595355.038134864
+2,DALYs (Disability-Adjusted Life Years),201,Burkina Faso,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),201,Burkina Faso,3,Both,22,All ages,294,All causes,3,Rate,2021,63390.70875622186,72996.20287718585,55337.125164964425
+2,DALYs (Disability-Adjusted Life Years),152,Saudi Arabia,3,Both,22,All ages,294,All causes,1,Number,2021,9878782.504496926,11547643.133337002,8355125.422506848
+2,DALYs (Disability-Adjusted Life Years),152,Saudi Arabia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),152,Saudi Arabia,3,Both,22,All ages,294,All causes,3,Rate,2021,26200.756558476813,30626.950884180504,22159.674748481622
+2,DALYs (Disability-Adjusted Life Years),171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,1,Number,2021,42627607.928194955,48643440.97707865,36924371.99533497
+2,DALYs (Disability-Adjusted Life Years),171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),171,Democratic Republic of the Congo,3,Both,22,All ages,294,All causes,3,Rate,2021,47354.66223229914,54037.60213724661,41018.98391587495
+2,DALYs (Disability-Adjusted Life Years),69,Singapore,3,Both,22,All ages,294,All causes,1,Number,2021,1093273.9320697763,1287341.9333174585,934559.919628016
+2,DALYs (Disability-Adjusted Life Years),69,Singapore,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),69,Singapore,3,Both,22,All ages,294,All causes,3,Rate,2021,19088.86663776934,22477.347864484454,16317.67587928278
+2,DALYs (Disability-Adjusted Life Years),63,Ukraine,3,Both,22,All ages,294,All causes,1,Number,2021,22527979.413453575,26177034.733974576,18880113.679061383
+2,DALYs (Disability-Adjusted Life Years),63,Ukraine,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),63,Ukraine,3,Both,22,All ages,294,All causes,3,Rate,2021,52296.017562104345,60766.86430893212,43827.9322976067
+2,DALYs (Disability-Adjusted Life Years),93,Sweden,3,Both,22,All ages,294,All causes,1,Number,2021,2847778.6927334373,3269762.757156128,2485981.191456422
+2,DALYs (Disability-Adjusted Life Years),93,Sweden,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),93,Sweden,3,Both,22,All ages,294,All causes,3,Rate,2021,27452.403360356748,31520.302589230854,23964.698727560157
+2,DALYs (Disability-Adjusted Life Years),153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,1,Number,2021,4520165.464963937,5344627.401173713,3825598.737779972
+2,DALYs (Disability-Adjusted Life Years),153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),153,Syrian Arab Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,32216.856126462408,38093.09490278492,27266.42754296094
+2,DALYs (Disability-Adjusted Life Years),46,Croatia,3,Both,22,All ages,294,All causes,1,Number,2021,1705469.0526444074,1880809.4083240717,1548982.0983195514
+2,DALYs (Disability-Adjusted Life Years),46,Croatia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),46,Croatia,3,Both,22,All ages,294,All causes,3,Rate,2021,40523.04985851943,44689.250332459706,36804.81841803599
+2,DALYs (Disability-Adjusted Life Years),214,Nigeria,3,Both,22,All ages,294,All causes,1,Number,2021,128208016.90548971,144081295.57031566,114177798.10515116
+2,DALYs (Disability-Adjusted Life Years),214,Nigeria,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),214,Nigeria,3,Both,22,All ages,294,All causes,3,Rate,2021,55461.5275558397,62328.151838155296,49392.192849703075
+2,DALYs (Disability-Adjusted Life Years),81,Germany,3,Both,22,All ages,294,All causes,1,Number,2021,29516441.77470059,33327611.28155169,26307702.034875832
+2,DALYs (Disability-Adjusted Life Years),81,Germany,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),81,Germany,3,Both,22,All ages,294,All causes,3,Rate,2021,34573.9756529457,39038.17505560076,30815.43014505092
+2,DALYs (Disability-Adjusted Life Years),367,Monaco,3,Both,22,All ages,294,All causes,1,Number,2021,15561.6083261612,17892.16315869957,13746.877753729725
+2,DALYs (Disability-Adjusted Life Years),367,Monaco,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),367,Monaco,3,Both,22,All ages,294,All causes,3,Rate,2021,41099.28753343337,47254.44458194358,36306.45815302235
+2,DALYs (Disability-Adjusted Life Years),117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,1,Number,2021,43050.83324371297,48776.44379318313,38330.7367190744
+2,DALYs (Disability-Adjusted Life Years),117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),117,Saint Vincent and the Grenadines,3,Both,22,All ages,294,All causes,3,Rate,2021,37738.973203838665,42758.12490942444,33601.2694048331
+2,DALYs (Disability-Adjusted Life Years),213,Niger,3,Both,22,All ages,294,All causes,1,Number,2021,14933768.170476558,17880911.41118329,12572067.740815649
+2,DALYs (Disability-Adjusted Life Years),213,Niger,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),213,Niger,3,Both,22,All ages,294,All causes,3,Rate,2021,59643.9682395365,71414.56195971939,50211.57423087155
+2,DALYs (Disability-Adjusted Life Years),129,Honduras,3,Both,22,All ages,294,All causes,1,Number,2021,3251283.15003674,3780826.097148613,2835690.1414128905
+2,DALYs (Disability-Adjusted Life Years),129,Honduras,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),129,Honduras,3,Both,22,All ages,294,All causes,3,Rate,2021,32158.58599359545,37396.31879512239,28047.937093017223
+2,DALYs (Disability-Adjusted Life Years),24,Marshall Islands,3,Both,22,All ages,294,All causes,1,Number,2021,22236.2297541641,26627.207220632412,18597.11269242871
+2,DALYs (Disability-Adjusted Life Years),24,Marshall Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),24,Marshall Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,39514.84708886501,47317.82471035922,33047.96147818609
+2,DALYs (Disability-Adjusted Life Years),189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,1,Number,2021,25659212.910256613,29251250.07536893,22417189.325716034
+2,DALYs (Disability-Adjusted Life Years),189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),189,United Republic of Tanzania,3,Both,22,All ages,294,All causes,3,Rate,2021,43901.036446712365,50046.749296715985,38354.17123132911
+2,DALYs (Disability-Adjusted Life Years),177,Djibouti,3,Both,22,All ages,294,All causes,1,Number,2021,505513.15039576933,595716.1426325373,427261.94817124057
+2,DALYs (Disability-Adjusted Life Years),177,Djibouti,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),177,Djibouti,3,Both,22,All ages,294,All causes,3,Rate,2021,40161.957588711746,47328.395782756124,33945.063997423786
+2,DALYs (Disability-Adjusted Life Years),435,South Sudan,3,Both,22,All ages,294,All causes,1,Number,2021,7749170.461825342,9488791.505032104,6424476.250838362
+2,DALYs (Disability-Adjusted Life Years),435,South Sudan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),435,South Sudan,3,Both,22,All ages,294,All causes,3,Rate,2021,80115.30142604846,98100.48641200102,66419.86440690157
+2,DALYs (Disability-Adjusted Life Years),11,Indonesia,3,Both,22,All ages,294,All causes,1,Number,2021,95159094.18612428,108807126.0395614,81481628.91488576
+2,DALYs (Disability-Adjusted Life Years),11,Indonesia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),11,Indonesia,3,Both,22,All ages,294,All causes,3,Rate,2021,34117.69650370014,39010.96931835767,29213.870830966283
+2,DALYs (Disability-Adjusted Life Years),47,Czechia,3,Both,22,All ages,294,All causes,1,Number,2021,4099669.385006712,4559757.948101452,3713743.062339246
+2,DALYs (Disability-Adjusted Life Years),47,Czechia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),47,Czechia,3,Both,22,All ages,294,All causes,3,Rate,2021,38558.32997338666,42885.56833501356,34928.6044766797
+2,DALYs (Disability-Adjusted Life Years),83,Iceland,3,Both,22,All ages,294,All causes,1,Number,2021,83892.776857511,97649.03918362947,73328.70981490923
+2,DALYs (Disability-Adjusted Life Years),83,Iceland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),83,Iceland,3,Both,22,All ages,294,All causes,3,Rate,2021,23942.96329594232,27868.99478877308,20927.98299690552
+2,DALYs (Disability-Adjusted Life Years),190,Uganda,3,Both,22,All ages,294,All causes,1,Number,2021,21155024.621285636,24585695.183984704,18260581.72299948
+2,DALYs (Disability-Adjusted Life Years),190,Uganda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),190,Uganda,3,Both,22,All ages,294,All causes,3,Rate,2021,48839.89088518362,56760.16415098008,42157.58831847079
+2,DALYs (Disability-Adjusted Life Years),149,Palestine,3,Both,22,All ages,294,All causes,1,Number,2021,1137100.2797066614,1305123.014352589,983657.302159828
+2,DALYs (Disability-Adjusted Life Years),149,Palestine,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),149,Palestine,3,Both,22,All ages,294,All causes,3,Rate,2021,22141.578496888473,25413.31154877413,19153.74198608758
+2,DALYs (Disability-Adjusted Life Years),60,Lithuania,3,Both,22,All ages,294,All causes,1,Number,2021,1317183.1000090376,1434330.790510036,1216402.9136947095
+2,DALYs (Disability-Adjusted Life Years),60,Lithuania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),60,Lithuania,3,Both,22,All ages,294,All causes,3,Rate,2021,48278.52101099803,52572.3183101005,44584.639467547226
+2,DALYs (Disability-Adjusted Life Years),36,Kazakhstan,3,Both,22,All ages,294,All causes,1,Number,2021,7012758.799572779,7677626.195715867,6421334.790761926
+2,DALYs (Disability-Adjusted Life Years),36,Kazakhstan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),36,Kazakhstan,3,Both,22,All ages,294,All causes,3,Rate,2021,36995.863765858936,40503.37690199724,33875.80179265127
+2,DALYs (Disability-Adjusted Life Years),369,Nauru,3,Both,22,All ages,294,All causes,1,Number,2021,4665.140679695703,5629.628176730847,3879.168185619712
+2,DALYs (Disability-Adjusted Life Years),369,Nauru,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),369,Nauru,3,Both,22,All ages,294,All causes,3,Rate,2021,42316.37138725272,51065.00597838859,35187.00354112501
+2,DALYs (Disability-Adjusted Life Years),183,Mauritius,3,Both,22,All ages,294,All causes,1,Number,2021,494457.1573957719,548481.4753289085,442330.9933949532
+2,DALYs (Disability-Adjusted Life Years),183,Mauritius,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),183,Mauritius,3,Both,22,All ages,294,All causes,3,Rate,2021,38873.53160466875,43120.84807927584,34775.44534298264
+2,DALYs (Disability-Adjusted Life Years),202,Cameroon,3,Both,22,All ages,294,All causes,1,Number,2021,15800323.400358688,17924490.009533584,13911546.347846031
+2,DALYs (Disability-Adjusted Life Years),202,Cameroon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),202,Cameroon,3,Both,22,All ages,294,All causes,3,Rate,2021,49718.39533972181,56402.44556871869,43775.03824341781
+2,DALYs (Disability-Adjusted Life Years),59,Latvia,3,Both,22,All ages,294,All causes,1,Number,2021,940014.6243704428,1022899.4454516748,870507.7280631753
+2,DALYs (Disability-Adjusted Life Years),59,Latvia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),59,Latvia,3,Both,22,All ages,294,All causes,3,Rate,2021,50259.34920280711,54690.91554053691,46543.05449531795
+2,DALYs (Disability-Adjusted Life Years),141,Egypt,3,Both,22,All ages,294,All causes,1,Number,2021,32188461.478199393,36805632.729776576,28241866.523707867
+2,DALYs (Disability-Adjusted Life Years),141,Egypt,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),141,Egypt,3,Both,22,All ages,294,All causes,3,Rate,2021,30473.577617053656,34844.76281959777,26737.242851559386
+2,DALYs (Disability-Adjusted Life Years),48,Hungary,3,Both,22,All ages,294,All causes,1,Number,2021,4430938.933980869,4827396.98372136,4079583.404414937
+2,DALYs (Disability-Adjusted Life Years),48,Hungary,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),48,Hungary,3,Both,22,All ages,294,All causes,3,Rate,2021,46168.54891300983,50299.477624535895,42507.569785489475
+2,DALYs (Disability-Adjusted Life Years),173,Gabon,3,Both,22,All ages,294,All causes,1,Number,2021,770430.3429413858,923262.2143339848,656526.3407284453
+2,DALYs (Disability-Adjusted Life Years),173,Gabon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),173,Gabon,3,Both,22,All ages,294,All causes,3,Rate,2021,42422.6065018442,50838.067290000035,36150.65121200382
+2,DALYs (Disability-Adjusted Life Years),23,Kiribati,3,Both,22,All ages,294,All causes,1,Number,2021,50985.79172490951,59663.27678769226,43702.94720985448
+2,DALYs (Disability-Adjusted Life Years),23,Kiribati,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),23,Kiribati,3,Both,22,All ages,294,All causes,3,Rate,2021,42081.03529179393,49242.98262687035,36070.15212818211
+2,DALYs (Disability-Adjusted Life Years),196,South Africa,3,Both,22,All ages,294,All causes,1,Number,2021,33230038.487938203,35599532.89816342,31051233.707683764
+2,DALYs (Disability-Adjusted Life Years),196,South Africa,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),196,South Africa,3,Both,22,All ages,294,All causes,3,Rate,2021,58447.620267286446,62615.274468606985,54615.366071159464
+2,DALYs (Disability-Adjusted Life Years),44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,1,Number,2021,1385214.8723282462,1574836.5988546556,1201594.441953956
+2,DALYs (Disability-Adjusted Life Years),44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),44,Bosnia and Herzegovina,3,Both,22,All ages,294,All causes,3,Rate,2021,41939.8134510455,47680.94430059805,36380.38238404089
+2,DALYs (Disability-Adjusted Life Years),108,Belize,3,Both,22,All ages,294,All causes,1,Number,2021,119745.30221363032,135061.48808527645,106398.8297381449
+2,DALYs (Disability-Adjusted Life Years),108,Belize,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),108,Belize,3,Both,22,All ages,294,All causes,3,Rate,2021,27907.798078370502,31477.382978445505,24797.273890625136
+2,DALYs (Disability-Adjusted Life Years),35,Georgia,3,Both,22,All ages,294,All causes,1,Number,2021,1698553.6610351512,1834363.2851744,1571748.2566321816
+2,DALYs (Disability-Adjusted Life Years),35,Georgia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),35,Georgia,3,Both,22,All ages,294,All causes,3,Rate,2021,47086.74396444139,50851.613539332895,43571.48639713482
+2,DALYs (Disability-Adjusted Life Years),71,Australia,3,Both,22,All ages,294,All causes,1,Number,2021,6718078.710488306,7735310.975266067,5836216.125172239
+2,DALYs (Disability-Adjusted Life Years),71,Australia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),71,Australia,3,Both,22,All ages,294,All causes,3,Rate,2021,26047.195519492827,29991.187370620908,22628.056183540717
+2,DALYs (Disability-Adjusted Life Years),72,New Zealand,3,Both,22,All ages,294,All causes,1,Number,2021,1348335.6906577123,1554756.1635884815,1172312.1432325123
+2,DALYs (Disability-Adjusted Life Years),72,New Zealand,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),72,New Zealand,3,Both,22,All ages,294,All causes,3,Rate,2021,26082.44821025232,30075.48298049291,22677.417036403374
+2,DALYs (Disability-Adjusted Life Years),12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,1,Number,2021,2608763.3883554814,3108949.134437449,2157560.189134156
+2,DALYs (Disability-Adjusted Life Years),12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),12,Lao People's Democratic Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,35360.826858719964,42140.660416394116,29244.933682289175
+2,DALYs (Disability-Adjusted Life Years),374,Niue,3,Both,22,All ages,294,All causes,1,Number,2021,802.0247449299503,909.7134325827612,714.3867413606761
+2,DALYs (Disability-Adjusted Life Years),374,Niue,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),374,Niue,3,Both,22,All ages,294,All causes,3,Rate,2021,47977.38389869983,54419.35659558631,42734.84971513678
+2,DALYs (Disability-Adjusted Life Years),8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,1,Number,2021,6636109.817451687,7512671.129823429,5898309.186915671
+2,DALYs (Disability-Adjusted Life Years),8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),8,Taiwan (Province of China),3,Both,22,All ages,294,All causes,3,Rate,2021,28075.462295321708,31783.93981483342,24954.041108227357
+2,DALYs (Disability-Adjusted Life Years),155,Türkiye,3,Both,22,All ages,294,All causes,1,Number,2021,24975202.960738663,28499341.775530085,21645055.942907445
+2,DALYs (Disability-Adjusted Life Years),155,Türkiye,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),155,Türkiye,3,Both,22,All ages,294,All causes,3,Rate,2021,29870.34107938617,34085.210867407666,25887.48546762229
+2,DALYs (Disability-Adjusted Life Years),20,Viet Nam,3,Both,22,All ages,294,All causes,1,Number,2021,28097836.453359872,32503503.36576853,24054809.80607587
+2,DALYs (Disability-Adjusted Life Years),20,Viet Nam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),20,Viet Nam,3,Both,22,All ages,294,All causes,3,Rate,2021,28022.776253068172,32416.67392333559,23990.550095367536
+2,DALYs (Disability-Adjusted Life Years),210,Liberia,3,Both,22,All ages,294,All causes,1,Number,2021,2610917.943319817,3141344.220774823,2181136.126370933
+2,DALYs (Disability-Adjusted Life Years),210,Liberia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),210,Liberia,3,Both,22,All ages,294,All causes,3,Rate,2021,47823.55350283229,57539.24354360136,39951.34374228151
+2,DALYs (Disability-Adjusted Life Years),132,Panama,3,Both,22,All ages,294,All causes,1,Number,2021,1110813.4467932102,1285372.1448723872,955263.2686940768
+2,DALYs (Disability-Adjusted Life Years),132,Panama,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),132,Panama,3,Both,22,All ages,294,All causes,3,Rate,2021,25881.014927898064,29948.085131111635,22256.827182383386
+2,DALYs (Disability-Adjusted Life Years),380,Palau,3,Both,22,All ages,294,All causes,1,Number,2021,8097.595683009593,9479.697547240632,6854.291406255712
+2,DALYs (Disability-Adjusted Life Years),380,Palau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),380,Palau,3,Both,22,All ages,294,All causes,3,Rate,2021,44745.89612201166,52383.14906323728,37875.61435029876
+2,DALYs (Disability-Adjusted Life Years),161,Bangladesh,3,Both,22,All ages,294,All causes,1,Number,2021,51270627.32946669,58796905.86717996,44052212.52997477
+2,DALYs (Disability-Adjusted Life Years),161,Bangladesh,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),161,Bangladesh,3,Both,22,All ages,294,All causes,3,Rate,2021,31141.7861586767,35713.24878748283,26757.32000721205
+2,DALYs (Disability-Adjusted Life Years),422,United States Virgin Islands,3,Both,22,All ages,294,All causes,1,Number,2021,33817.928348488174,40485.84701213366,28285.57744943538
+2,DALYs (Disability-Adjusted Life Years),422,United States Virgin Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),422,United States Virgin Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,39368.079675867906,47130.32786912064,32927.76704806893
+2,DALYs (Disability-Adjusted Life Years),107,Barbados,3,Both,22,All ages,294,All causes,1,Number,2021,109212.07881957784,128983.35430147848,93386.87966098184
+2,DALYs (Disability-Adjusted Life Years),107,Barbados,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),107,Barbados,3,Both,22,All ages,294,All causes,3,Rate,2021,36522.74998872676,43134.668369812054,31230.48013507759
+2,DALYs (Disability-Adjusted Life Years),144,Jordan,3,Both,22,All ages,294,All causes,1,Number,2021,2695573.791115872,3122926.19380269,2321609.128366286
+2,DALYs (Disability-Adjusted Life Years),144,Jordan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),144,Jordan,3,Both,22,All ages,294,All causes,3,Rate,2021,21871.534689413093,25339.016429580737,18837.234118269625
+2,DALYs (Disability-Adjusted Life Years),95,United Kingdom,3,Both,22,All ages,294,All causes,1,Number,2021,21610928.54967836,24461698.715069883,19240774.874273498
+2,DALYs (Disability-Adjusted Life Years),95,United Kingdom,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),95,United Kingdom,3,Both,22,All ages,294,All causes,3,Rate,2021,31851.79267719659,36053.469623638535,28358.48403437036
+2,DALYs (Disability-Adjusted Life Years),85,Israel,3,Both,22,All ages,294,All causes,1,Number,2021,1967718.0253100072,2282060.239366384,1712142.3890863429
+2,DALYs (Disability-Adjusted Life Years),85,Israel,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),85,Israel,3,Both,22,All ages,294,All causes,3,Rate,2021,20510.018008253093,23786.485666791024,17846.08911498988
+2,DALYs (Disability-Adjusted Life Years),179,Ethiopia,3,Both,22,All ages,294,All causes,1,Number,2021,44575157.75212445,50155964.09190066,40057196.010982424
+2,DALYs (Disability-Adjusted Life Years),179,Ethiopia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),179,Ethiopia,3,Both,22,All ages,294,All causes,3,Rate,2021,40917.914700419824,46040.83448996652,36770.636654387556
+2,DALYs (Disability-Adjusted Life Years),165,Pakistan,3,Both,22,All ages,294,All causes,1,Number,2021,99873503.43149091,111488712.12177496,88869968.98336026
+2,DALYs (Disability-Adjusted Life Years),165,Pakistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),165,Pakistan,3,Both,22,All ages,294,All causes,3,Rate,2021,42399.47932268839,47330.50490776993,37728.12891161531
+2,DALYs (Disability-Adjusted Life Years),204,Chad,3,Both,22,All ages,294,All causes,1,Number,2021,13210450.742224328,15756477.164896578,11280087.8140174
+2,DALYs (Disability-Adjusted Life Years),204,Chad,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),204,Chad,3,Both,22,All ages,294,All causes,3,Rate,2021,74427.76394213708,88772.0930853821,63552.08686292724
+2,DALYs (Disability-Adjusted Life Years),185,Rwanda,3,Both,22,All ages,294,All causes,1,Number,2021,5130437.353901902,5893791.855027633,4497109.377243872
+2,DALYs (Disability-Adjusted Life Years),185,Rwanda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),185,Rwanda,3,Both,22,All ages,294,All causes,3,Rate,2021,38661.82928944173,44414.29820661974,33889.211200818514
+2,DALYs (Disability-Adjusted Life Years),92,Spain,3,Both,22,All ages,294,All causes,1,Number,2021,13594898.890546938,15549644.4764071,11981785.23488922
+2,DALYs (Disability-Adjusted Life Years),92,Spain,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),92,Spain,3,Both,22,All ages,294,All causes,3,Rate,2021,29846.54095338323,34138.03253795018,26305.07564542663
+2,DALYs (Disability-Adjusted Life Years),119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,1,Number,2021,605611.8276617585,734295.3409334848,499419.7560940212
+2,DALYs (Disability-Adjusted Life Years),119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),119,Trinidad and Tobago,3,Both,22,All ages,294,All causes,3,Rate,2021,43471.134669170744,52708.10475401116,35848.61206794836
+2,DALYs (Disability-Adjusted Life Years),80,France,3,Both,22,All ages,294,All causes,1,Number,2021,20018085.048147418,22891835.206915237,17628138.179621585
+2,DALYs (Disability-Adjusted Life Years),80,France,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),80,France,3,Both,22,All ages,294,All causes,3,Rate,2021,30152.315431380903,34480.91235010406,26552.449027041668
+2,DALYs (Disability-Adjusted Life Years),143,Iraq,3,Both,22,All ages,294,All causes,1,Number,2021,12098203.15683885,13932311.7957571,10491962.370946378
+2,DALYs (Disability-Adjusted Life Years),143,Iraq,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),143,Iraq,3,Both,22,All ages,294,All causes,3,Rate,2021,29347.23771449711,33796.32999066046,25450.89628600486
+2,DALYs (Disability-Adjusted Life Years),68,Republic of Korea,3,Both,22,All ages,294,All causes,1,Number,2021,12942388.00120498,15011852.678239722,11223740.40831088
+2,DALYs (Disability-Adjusted Life Years),68,Republic of Korea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),68,Republic of Korea,3,Both,22,All ages,294,All causes,3,Rate,2021,25096.50487961792,29109.391092005,21763.885914911058
+2,DALYs (Disability-Adjusted Life Years),26,Papua New Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,4688923.128245689,5426720.215889465,4054379.5268387487
+2,DALYs (Disability-Adjusted Life Years),26,Papua New Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),26,Papua New Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,44820.44695152042,51872.89680477619,38754.975830024894
+2,DALYs (Disability-Adjusted Life Years),169,Central African Republic,3,Both,22,All ages,294,All causes,1,Number,2021,4544977.615387245,5446969.414043134,3859317.3208996793
+2,DALYs (Disability-Adjusted Life Years),169,Central African Republic,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),169,Central African Republic,3,Both,22,All ages,294,All causes,3,Rate,2021,82875.01427670653,99322.3083047344,70372.39897179347
+2,DALYs (Disability-Adjusted Life Years),128,Guatemala,3,Both,22,All ages,294,All causes,1,Number,2021,5419671.410812745,6118998.796569895,4830893.930712987
+2,DALYs (Disability-Adjusted Life Years),128,Guatemala,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),128,Guatemala,3,Both,22,All ages,294,All causes,3,Rate,2021,34372.7003574306,38807.98228880726,30638.549268437433
+2,DALYs (Disability-Adjusted Life Years),216,Senegal,3,Both,22,All ages,294,All causes,1,Number,2021,6038734.01201701,6856172.825891092,5336865.84911566
+2,DALYs (Disability-Adjusted Life Years),216,Senegal,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),216,Senegal,3,Both,22,All ages,294,All causes,3,Rate,2021,38076.32120479961,43230.55763587963,33650.79798074756
+2,DALYs (Disability-Adjusted Life Years),109,Cuba,3,Both,22,All ages,294,All causes,1,Number,2021,4797301.465779753,5344471.56817434,4321290.005203929
+2,DALYs (Disability-Adjusted Life Years),109,Cuba,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),109,Cuba,3,Both,22,All ages,294,All causes,3,Rate,2021,42568.78312365349,47424.0888797608,38344.90251615612
+2,DALYs (Disability-Adjusted Life Years),131,Nicaragua,3,Both,22,All ages,294,All causes,1,Number,2021,1837944.2992168856,2063382.3706784577,1646585.647882989
+2,DALYs (Disability-Adjusted Life Years),131,Nicaragua,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),131,Nicaragua,3,Both,22,All ages,294,All causes,3,Rate,2021,27559.617325056053,30940.01736363547,24690.23156355715
+2,DALYs (Disability-Adjusted Life Years),305,Bermuda,3,Both,22,All ages,294,All causes,1,Number,2021,22387.94970401431,25930.28442505101,19498.348910929635
+2,DALYs (Disability-Adjusted Life Years),305,Bermuda,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),305,Bermuda,3,Both,22,All ages,294,All causes,3,Rate,2021,35233.94866063386,40808.84235790745,30686.32159610562
+2,DALYs (Disability-Adjusted Life Years),97,Argentina,3,Both,22,All ages,294,All causes,1,Number,2021,13784602.695028622,15411549.198007504,12426865.013436869
+2,DALYs (Disability-Adjusted Life Years),97,Argentina,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),97,Argentina,3,Both,22,All ages,294,All causes,3,Rate,2021,30304.343724648697,33881.0551568663,27319.4663000927
+2,DALYs (Disability-Adjusted Life Years),110,Dominica,3,Both,22,All ages,294,All causes,1,Number,2021,27335.017202473227,32187.281532308178,23338.40442813079
+2,DALYs (Disability-Adjusted Life Years),110,Dominica,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),110,Dominica,3,Both,22,All ages,294,All causes,3,Rate,2021,40751.79074296884,47985.67902386286,34793.53118694627
+2,DALYs (Disability-Adjusted Life Years),14,Maldives,3,Both,22,All ages,294,All causes,1,Number,2021,94747.33427859668,111740.41409346976,80019.08814079736
+2,DALYs (Disability-Adjusted Life Years),14,Maldives,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),14,Maldives,3,Both,22,All ages,294,All causes,3,Rate,2021,18319.01043629017,21604.553072856885,15471.364148815175
+2,DALYs (Disability-Adjusted Life Years),198,Zimbabwe,3,Both,22,All ages,294,All causes,1,Number,2021,9673933.23223048,11036839.097301915,8513398.47126702
+2,DALYs (Disability-Adjusted Life Years),198,Zimbabwe,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),198,Zimbabwe,3,Both,22,All ages,294,All causes,3,Rate,2021,62030.788144277285,70769.95585893255,54589.25591914783
+2,DALYs (Disability-Adjusted Life Years),145,Kuwait,3,Both,22,All ages,294,All causes,1,Number,2021,890703.0462014256,1063970.9202322597,744419.964233876
+2,DALYs (Disability-Adjusted Life Years),145,Kuwait,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),145,Kuwait,3,Both,22,All ages,294,All causes,3,Rate,2021,19154.567065245476,22880.69231824657,16008.74970669052
+2,DALYs (Disability-Adjusted Life Years),156,United Arab Emirates,3,Both,22,All ages,294,All causes,1,Number,2021,1850290.1548059604,2179069.087681992,1533442.9198080464
+2,DALYs (Disability-Adjusted Life Years),156,United Arab Emirates,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),156,United Arab Emirates,3,Both,22,All ages,294,All causes,3,Rate,2021,19211.51679584732,22625.220303193168,15921.699811700537
+2,DALYs (Disability-Adjusted Life Years),168,Angola,3,Both,22,All ages,294,All causes,1,Number,2021,15610027.051827792,18124125.428161636,13380178.34949977
+2,DALYs (Disability-Adjusted Life Years),168,Angola,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),168,Angola,3,Both,22,All ages,294,All causes,3,Rate,2021,47727.66850660729,55414.52603095805,40909.90455711185
+2,DALYs (Disability-Adjusted Life Years),84,Ireland,3,Both,22,All ages,294,All causes,1,Number,2021,1235616.614282129,1430953.302201428,1078422.4824433848
+2,DALYs (Disability-Adjusted Life Years),84,Ireland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),84,Ireland,3,Both,22,All ages,294,All causes,3,Rate,2021,25005.525705833075,28958.609951059178,21824.343242708357
+2,DALYs (Disability-Adjusted Life Years),94,Switzerland,3,Both,22,All ages,294,All causes,1,Number,2021,2386373.623747409,2763505.128218425,2072043.1553811831
+2,DALYs (Disability-Adjusted Life Years),94,Switzerland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),94,Switzerland,3,Both,22,All ages,294,All causes,3,Rate,2021,26744.63755007839,30971.236979196427,23221.86376321438
+2,DALYs (Disability-Adjusted Life Years),116,Saint Lucia,3,Both,22,All ages,294,All causes,1,Number,2021,69084.07422180782,82939.72782345713,58265.45028792403
+2,DALYs (Disability-Adjusted Life Years),116,Saint Lucia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),116,Saint Lucia,3,Both,22,All ages,294,All causes,3,Rate,2021,38917.887105147194,46723.34398809971,32823.3133609857
+2,DALYs (Disability-Adjusted Life Years),146,Lebanon,3,Both,22,All ages,294,All causes,1,Number,2021,1752006.3112603987,1986485.5895198304,1545346.317662603
+2,DALYs (Disability-Adjusted Life Years),146,Lebanon,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),146,Lebanon,3,Both,22,All ages,294,All causes,3,Rate,2021,31622.23533755404,35854.38842469978,27892.19686086293
+2,DALYs (Disability-Adjusted Life Years),180,Kenya,3,Both,22,All ages,294,All causes,1,Number,2021,19102977.15558343,20946933.999417268,17395980.363603823
+2,DALYs (Disability-Adjusted Life Years),180,Kenya,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),180,Kenya,3,Both,22,All ages,294,All causes,3,Rate,2021,38158.33577863798,41841.65298282381,34748.597273957974
+2,DALYs (Disability-Adjusted Life Years),193,Botswana,3,Both,22,All ages,294,All causes,1,Number,2021,1324289.2918376962,1467263.430780759,1183336.7672984786
+2,DALYs (Disability-Adjusted Life Years),193,Botswana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),193,Botswana,3,Both,22,All ages,294,All causes,3,Rate,2021,55334.20681961455,61308.24936673299,49444.63556605815
+2,DALYs (Disability-Adjusted Life Years),74,Andorra,3,Both,22,All ages,294,All causes,1,Number,2021,23536.315271122,28227.389430547293,19237.024199065447
+2,DALYs (Disability-Adjusted Life Years),74,Andorra,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),74,Andorra,3,Both,22,All ages,294,All causes,3,Rate,2021,27497.836964520313,32978.4906241278,22474.909475633332
+2,DALYs (Disability-Adjusted Life Years),50,Montenegro,3,Both,22,All ages,294,All causes,1,Number,2021,272662.04545325314,300678.50705209613,249952.61512993235
+2,DALYs (Disability-Adjusted Life Years),50,Montenegro,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),50,Montenegro,3,Both,22,All ages,294,All causes,3,Rate,2021,44115.766669985824,48648.73230793733,40441.46015737041
+2,DALYs (Disability-Adjusted Life Years),82,Greece,3,Both,22,All ages,294,All causes,1,Number,2021,3807387.943978118,4240649.908047555,3422867.6327703716
+2,DALYs (Disability-Adjusted Life Years),82,Greece,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),82,Greece,3,Both,22,All ages,294,All causes,3,Rate,2021,37419.37595408635,41677.51632713717,33640.27324672442
+2,DALYs (Disability-Adjusted Life Years),154,Tunisia,3,Both,22,All ages,294,All causes,1,Number,2021,3972773.308502189,4687425.019749215,3429553.029602951
+2,DALYs (Disability-Adjusted Life Years),154,Tunisia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),154,Tunisia,3,Both,22,All ages,294,All causes,3,Rate,2021,33546.52453846622,39581.12035003637,28959.51415534511
+2,DALYs (Disability-Adjusted Life Years),121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,1,Number,2021,4868159.65559452,5546780.357146106,4311369.28780684
+2,DALYs (Disability-Adjusted Life Years),121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),121,Bolivia (Plurinational State of),3,Both,22,All ages,294,All causes,3,Rate,2021,41265.63333625358,47018.05622822612,36545.92223641741
+2,DALYs (Disability-Adjusted Life Years),130,Mexico,3,Both,22,All ages,294,All causes,1,Number,2021,46731037.70310942,51245575.58095993,43074286.95995918
+2,DALYs (Disability-Adjusted Life Years),130,Mexico,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),130,Mexico,3,Both,22,All ages,294,All causes,3,Rate,2021,36148.2705421421,39640.44072715018,33319.63198272532
+2,DALYs (Disability-Adjusted Life Years),86,Italy,3,Both,22,All ages,294,All causes,1,Number,2021,19621012.719229616,22255260.58659538,17404130.295424882
+2,DALYs (Disability-Adjusted Life Years),86,Italy,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),86,Italy,3,Both,22,All ages,294,All causes,3,Rate,2021,32804.77555710812,37209.02885877557,29098.3241424909
+2,DALYs (Disability-Adjusted Life Years),106,Bahamas,3,Both,22,All ages,294,All causes,1,Number,2021,153918.979039883,176451.60579315183,134697.32364337615
+2,DALYs (Disability-Adjusted Life Years),106,Bahamas,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),106,Bahamas,3,Both,22,All ages,294,All causes,3,Rate,2021,39673.34544385005,45481.23665074361,34718.87277709293
+2,DALYs (Disability-Adjusted Life Years),38,Mongolia,3,Both,22,All ages,294,All causes,1,Number,2021,1065281.0918184123,1191256.7043914683,965622.9688948736
+2,DALYs (Disability-Adjusted Life Years),38,Mongolia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),38,Mongolia,3,Both,22,All ages,294,All causes,3,Rate,2021,31930.08290091257,35705.998744950266,28942.991370670385
+2,DALYs (Disability-Adjusted Life Years),29,Tonga,3,Both,22,All ages,294,All causes,1,Number,2021,28547.775966255307,34136.50869183773,24050.960736644494
+2,DALYs (Disability-Adjusted Life Years),29,Tonga,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),29,Tonga,3,Both,22,All ages,294,All causes,3,Rate,2021,26855.98002302406,32113.513731067545,22625.65468642305
+2,DALYs (Disability-Adjusted Life Years),181,Madagascar,3,Both,22,All ages,294,All causes,1,Number,2021,12695638.599001989,14333345.994510012,11207410.441399029
+2,DALYs (Disability-Adjusted Life Years),181,Madagascar,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),181,Madagascar,3,Both,22,All ages,294,All causes,3,Rate,2021,44456.52506361118,50191.31180218351,39245.17221413348
+2,DALYs (Disability-Adjusted Life Years),178,Eritrea,3,Both,22,All ages,294,All causes,1,Number,2021,2950274.189999873,3561118.4247792857,2460712.832529165
+2,DALYs (Disability-Adjusted Life Years),178,Eritrea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),178,Eritrea,3,Both,22,All ages,294,All causes,3,Rate,2021,44715.296455736854,53973.4464741391,37295.348402509735
+2,DALYs (Disability-Adjusted Life Years),52,Romania,3,Both,22,All ages,294,All causes,1,Number,2021,9231106.87880151,9989623.460462485,8599386.44328224
+2,DALYs (Disability-Adjusted Life Years),52,Romania,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),52,Romania,3,Both,22,All ages,294,All causes,3,Rate,2021,48742.40302986975,52747.5479614121,45406.77140144651
+2,DALYs (Disability-Adjusted Life Years),206,Gambia,3,Both,22,All ages,294,All causes,1,Number,2021,1006757.8320181308,1154439.921202378,876141.31564269
+2,DALYs (Disability-Adjusted Life Years),206,Gambia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),206,Gambia,3,Both,22,All ages,294,All causes,3,Rate,2021,42050.661955342075,48219.10625410333,36595.019296096165
+2,DALYs (Disability-Adjusted Life Years),98,Chile,3,Both,22,All ages,294,All causes,1,Number,2021,5364908.906149311,6083744.312495057,4751103.747590827
+2,DALYs (Disability-Adjusted Life Years),98,Chile,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),98,Chile,3,Both,22,All ages,294,All causes,3,Rate,2021,28540.01757272722,32364.048043308212,25274.722612842575
+2,DALYs (Disability-Adjusted Life Years),62,Russian Federation,3,Both,22,All ages,294,All causes,1,Number,2021,75418632.64633814,81239656.19265193,70383303.80661798
+2,DALYs (Disability-Adjusted Life Years),62,Russian Federation,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),62,Russian Federation,3,Both,22,All ages,294,All causes,3,Rate,2021,52065.33240476335,56083.88213498711,48589.187841964165
+2,DALYs (Disability-Adjusted Life Years),142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,1,Number,2021,24966243.201204088,27972039.93824091,22352833.01918074
+2,DALYs (Disability-Adjusted Life Years),142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),142,Iran (Islamic Republic of),3,Both,22,All ages,294,All causes,3,Rate,2021,29249.588327977566,32771.075980219364,26187.807212561664
+2,DALYs (Disability-Adjusted Life Years),215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,1,Number,2021,57478.79489578945,67781.52357876566,49468.124950513
+2,DALYs (Disability-Adjusted Life Years),215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),215,Sao Tome and Principe,3,Both,22,All ages,294,All causes,3,Rate,2021,26534.631821138377,31290.80516909216,22836.569291749125
+2,DALYs (Disability-Adjusted Life Years),194,Lesotho,3,Both,22,All ages,294,All causes,1,Number,2021,1747386.3453898246,1948763.1977555263,1560997.3715374176
+2,DALYs (Disability-Adjusted Life Years),194,Lesotho,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),194,Lesotho,3,Both,22,All ages,294,All causes,3,Rate,2021,93224.52310927828,103968.14662251562,83280.51545117675
+2,DALYs (Disability-Adjusted Life Years),170,Congo,3,Both,22,All ages,294,All causes,1,Number,2021,2460887.3302555475,2798325.8815750014,2149973.8974447353
+2,DALYs (Disability-Adjusted Life Years),170,Congo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),170,Congo,3,Both,22,All ages,294,All causes,3,Rate,2021,45642.965032806955,51901.55956870367,39876.34143832477
+2,DALYs (Disability-Adjusted Life Years),320,Cook Islands,3,Both,22,All ages,294,All causes,1,Number,2021,5897.099771158811,6852.338052528612,5143.709440571141
+2,DALYs (Disability-Adjusted Life Years),320,Cook Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),320,Cook Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,33227.749045044395,38610.12667528387,28982.70218995096
+2,DALYs (Disability-Adjusted Life Years),112,Grenada,3,Both,22,All ages,294,All causes,1,Number,2021,41095.90785968498,48420.3499080942,35038.144845805335
+2,DALYs (Disability-Adjusted Life Years),112,Grenada,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),112,Grenada,3,Both,22,All ages,294,All causes,3,Rate,2021,40044.14712702982,47181.1359486742,34141.41943412375
+2,DALYs (Disability-Adjusted Life Years),41,Uzbekistan,3,Both,22,All ages,294,All causes,1,Number,2021,10007808.27197948,11394674.399584724,8848970.811487325
+2,DALYs (Disability-Adjusted Life Years),41,Uzbekistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),41,Uzbekistan,3,Both,22,All ages,294,All causes,3,Rate,2021,29234.500572224053,33285.77109012483,25849.340357202116
+2,DALYs (Disability-Adjusted Life Years),118,Suriname,3,Both,22,All ages,294,All causes,1,Number,2021,228682.88522853944,285395.86381532147,193719.94603449455
+2,DALYs (Disability-Adjusted Life Years),118,Suriname,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),118,Suriname,3,Both,22,All ages,294,All causes,3,Rate,2021,39479.330697515965,49270.1396346654,33443.40266022801
+2,DALYs (Disability-Adjusted Life Years),207,Ghana,3,Both,22,All ages,294,All causes,1,Number,2021,13860393.329627655,15705728.53786434,12118670.706038808
+2,DALYs (Disability-Adjusted Life Years),207,Ghana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),207,Ghana,3,Both,22,All ages,294,All causes,3,Rate,2021,40473.10000187865,45861.57885985616,35387.17550871425
+2,DALYs (Disability-Adjusted Life Years),133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,1,Number,2021,10857022.39421477,12669066.024570284,9308797.024654357
+2,DALYs (Disability-Adjusted Life Years),133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),133,Venezuela (Bolivarian Republic of),3,Both,22,All ages,294,All causes,3,Rate,2021,40771.66845103561,47576.48467348648,34957.57604492287
+2,DALYs (Disability-Adjusted Life Years),182,Malawi,3,Both,22,All ages,294,All causes,1,Number,2021,9571622.164716914,10925131.74783172,8481162.95629124
+2,DALYs (Disability-Adjusted Life Years),182,Malawi,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),182,Malawi,3,Both,22,All ages,294,All causes,3,Rate,2021,49216.88940199375,56176.580278871224,43609.79278504736
+2,DALYs (Disability-Adjusted Life Years),28,Solomon Islands,3,Both,22,All ages,294,All causes,1,Number,2021,237241.08578035055,278527.9468197569,201059.90149179997
+2,DALYs (Disability-Adjusted Life Years),28,Solomon Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),28,Solomon Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,34706.476401192514,40746.41448202782,29413.458058491127
+2,DALYs (Disability-Adjusted Life Years),396,San Marino,3,Both,22,All ages,294,All causes,1,Number,2021,8844.922577271593,10717.47298196188,7188.844732670448
+2,DALYs (Disability-Adjusted Life Years),396,San Marino,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),396,San Marino,3,Both,22,All ages,294,All causes,3,Rate,2021,27015.585120309137,32735.02974043205,21957.32580986062
+2,DALYs (Disability-Adjusted Life Years),376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,1,Number,2021,16492.53939590798,18474.49607393595,14140.536151701945
+2,DALYs (Disability-Adjusted Life Years),376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),376,Northern Mariana Islands,3,Both,22,All ages,294,All causes,3,Rate,2021,34010.73254018311,38097.90170585837,29160.457433841304
+2,DALYs (Disability-Adjusted Life Years),195,Namibia,3,Both,22,All ages,294,All causes,1,Number,2021,1232852.766439654,1436033.7667518842,1061130.588098518
+2,DALYs (Disability-Adjusted Life Years),195,Namibia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),195,Namibia,3,Both,22,All ages,294,All causes,3,Rate,2021,50710.2556695919,59067.58815365776,43646.901630190834
+2,DALYs (Disability-Adjusted Life Years),6,China,3,Both,22,All ages,294,All causes,1,Number,2021,402629429.66444415,461086597.4971945,348086367.5574542
+2,DALYs (Disability-Adjusted Life Years),6,China,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),6,China,3,Both,22,All ages,294,All causes,3,Rate,2021,28299.46055071689,32408.21712215847,24465.813229659252
+2,DALYs (Disability-Adjusted Life Years),77,Cyprus,3,Both,22,All ages,294,All causes,1,Number,2021,339104.6412091699,393945.083887368,293567.09700394806
+2,DALYs (Disability-Adjusted Life Years),77,Cyprus,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),77,Cyprus,3,Both,22,All ages,294,All causes,3,Rate,2021,24975.007269097317,29013.997858092756,21621.173793132788
+2,DALYs (Disability-Adjusted Life Years),349,Greenland,3,Both,22,All ages,294,All causes,1,Number,2021,19999.92270991321,22523.935524658933,17813.665466346538
+2,DALYs (Disability-Adjusted Life Years),349,Greenland,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),349,Greenland,3,Both,22,All ages,294,All causes,3,Rate,2021,35648.889079549284,40147.81910909543,31751.991921209803
+2,DALYs (Disability-Adjusted Life Years),53,Serbia,3,Both,22,All ages,294,All causes,1,Number,2021,3984962.516860542,4327211.867084326,3682761.3539800616
+2,DALYs (Disability-Adjusted Life Years),53,Serbia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),53,Serbia,3,Both,22,All ages,294,All causes,3,Rate,2021,44676.9270881949,48514.014438762126,41288.83516440545
+2,DALYs (Disability-Adjusted Life Years),522,Sudan,3,Both,22,All ages,294,All causes,1,Number,2021,14374704.556676503,16888953.6856491,12298168.737751424
+2,DALYs (Disability-Adjusted Life Years),522,Sudan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),522,Sudan,3,Both,22,All ages,294,All causes,3,Rate,2021,33106.91031956342,38897.5698844777,28324.364364517452
+2,DALYs (Disability-Adjusted Life Years),218,Togo,3,Both,22,All ages,294,All causes,1,Number,2021,3766352.538317613,4479373.596936314,3183270.654098676
+2,DALYs (Disability-Adjusted Life Years),218,Togo,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),218,Togo,3,Both,22,All ages,294,All causes,3,Rate,2021,44993.23992730655,53511.06379994479,38027.68297345663
+2,DALYs (Disability-Adjusted Life Years),393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,1,Number,2021,21766.82024586171,25016.70000009262,19169.944761003047
+2,DALYs (Disability-Adjusted Life Years),393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),393,Saint Kitts and Nevis,3,Both,22,All ages,294,All causes,3,Rate,2021,37116.0583308409,42657.645258274024,32687.95257698054
+2,DALYs (Disability-Adjusted Life Years),76,Belgium,3,Both,22,All ages,294,All causes,1,Number,2021,3521586.9872938665,4023440.1752026854,3108550.766495981
+2,DALYs (Disability-Adjusted Life Years),76,Belgium,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),76,Belgium,3,Both,22,All ages,294,All causes,3,Rate,2021,30704.53906437292,35080.171660791435,27103.297117986946
+2,DALYs (Disability-Adjusted Life Years),191,Zambia,3,Both,22,All ages,294,All causes,1,Number,2021,9775808.445969231,11345472.503582386,8357246.837664547
+2,DALYs (Disability-Adjusted Life Years),191,Zambia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),191,Zambia,3,Both,22,All ages,294,All causes,3,Rate,2021,50093.122131560405,58136.38257166823,42824.139695100224
+2,DALYs (Disability-Adjusted Life Years),113,Guyana,3,Both,22,All ages,294,All causes,1,Number,2021,368202.8114442408,452367.3275227978,300382.885414376
+2,DALYs (Disability-Adjusted Life Years),113,Guyana,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),113,Guyana,3,Both,22,All ages,294,All causes,3,Rate,2021,48147.45433340182,59153.09325965113,39279.08969867902
+2,DALYs (Disability-Adjusted Life Years),88,Malta,3,Both,22,All ages,294,All causes,1,Number,2021,131099.92298219196,149828.8191077598,116482.01572176492
+2,DALYs (Disability-Adjusted Life Years),88,Malta,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),88,Malta,3,Both,22,All ages,294,All causes,3,Rate,2021,29645.919900575485,33881.127227434125,26340.339714876005
+2,DALYs (Disability-Adjusted Life Years),54,Slovakia,3,Both,22,All ages,294,All causes,1,Number,2021,2219536.181707058,2438126.2246648856,2038223.8307407317
+2,DALYs (Disability-Adjusted Life Years),54,Slovakia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),54,Slovakia,3,Both,22,All ages,294,All causes,3,Rate,2021,40879.538536858854,44905.541878690216,37540.11776074168
+2,DALYs (Disability-Adjusted Life Years),136,Paraguay,3,Both,22,All ages,294,All causes,1,Number,2021,2223904.7253238596,2597336.7235557046,1922264.8126780568
+2,DALYs (Disability-Adjusted Life Years),136,Paraguay,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),136,Paraguay,3,Both,22,All ages,294,All causes,3,Rate,2021,31021.817646834104,36230.916409351514,26814.16510733855
+2,DALYs (Disability-Adjusted Life Years),16,Philippines,3,Both,22,All ages,294,All causes,1,Number,2021,39280093.7079423,43637389.18651272,35446425.12326604
+2,DALYs (Disability-Adjusted Life Years),16,Philippines,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),16,Philippines,3,Both,22,All ages,294,All causes,3,Rate,2021,34684.55163602465,38532.068934318,31299.39993630445
+2,DALYs (Disability-Adjusted Life Years),157,Yemen,3,Both,22,All ages,294,All causes,1,Number,2021,13414462.683829265,15439779.70820335,11797287.966627762
+2,DALYs (Disability-Adjusted Life Years),157,Yemen,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),157,Yemen,3,Both,22,All ages,294,All causes,3,Rate,2021,39872.40817830038,45892.34867011386,35065.607344032534
+2,DALYs (Disability-Adjusted Life Years),203,Cabo Verde,3,Both,22,All ages,294,All causes,1,Number,2021,157327.56767788864,184767.8672170957,134426.96180012732
+2,DALYs (Disability-Adjusted Life Years),203,Cabo Verde,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),203,Cabo Verde,3,Both,22,All ages,294,All causes,3,Rate,2021,28131.28044936776,33037.79984292081,24036.490350491244
+2,DALYs (Disability-Adjusted Life Years),208,Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,7853090.060063151,9159384.404437313,6811189.866835078
+2,DALYs (Disability-Adjusted Life Years),208,Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),208,Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,58475.322121355566,68202.19167058493,50717.17227825746
+2,DALYs (Disability-Adjusted Life Years),351,Guam,3,Both,22,All ages,294,All causes,1,Number,2021,49829.9557070913,56010.23042980583,44300.00466495535
+2,DALYs (Disability-Adjusted Life Years),351,Guam,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),351,Guam,3,Both,22,All ages,294,All causes,3,Rate,2021,31300.93204335403,35183.102042502054,27827.266066397515
+2,DALYs (Disability-Adjusted Life Years),40,Turkmenistan,3,Both,22,All ages,294,All causes,1,Number,2021,1934201.5426000415,2224856.7440829007,1707092.6781129793
+2,DALYs (Disability-Adjusted Life Years),40,Turkmenistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),40,Turkmenistan,3,Both,22,All ages,294,All causes,3,Rate,2021,37496.349871689235,43130.97940061477,33093.626962926704
+2,DALYs (Disability-Adjusted Life Years),197,Eswatini,3,Both,22,All ages,294,All causes,1,Number,2021,844944.4465208384,976083.076890096,721073.3559670552
+2,DALYs (Disability-Adjusted Life Years),197,Eswatini,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),197,Eswatini,3,Both,22,All ages,294,All causes,3,Rate,2021,73140.39747124448,84492.0686829277,62417.821761556435
+2,DALYs (Disability-Adjusted Life Years),413,Tokelau,3,Both,22,All ages,294,All causes,1,Number,2021,585.9922927522157,664.1677557878786,526.3287293519683
+2,DALYs (Disability-Adjusted Life Years),413,Tokelau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),413,Tokelau,3,Both,22,All ages,294,All causes,3,Rate,2021,42743.02268851019,48445.240331210574,38391.08653570403
+2,DALYs (Disability-Adjusted Life Years),30,Vanuatu,3,Both,22,All ages,294,All causes,1,Number,2021,111764.24891841956,127571.64225567222,97983.91295169844
+2,DALYs (Disability-Adjusted Life Years),30,Vanuatu,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),30,Vanuatu,3,Both,22,All ages,294,All causes,3,Rate,2021,35709.49431256503,40760.072005661896,31306.576263269497
+2,DALYs (Disability-Adjusted Life Years),416,Tuvalu,3,Both,22,All ages,294,All causes,1,Number,2021,4595.396569035751,5341.005467305593,3975.101013494488
+2,DALYs (Disability-Adjusted Life Years),416,Tuvalu,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),416,Tuvalu,3,Both,22,All ages,294,All causes,3,Rate,2021,37158.274290923575,43187.25123327203,32142.57824641882
+2,DALYs (Disability-Adjusted Life Years),125,Colombia,3,Both,22,All ages,294,All causes,1,Number,2021,14502917.995340612,16623134.466769824,12728316.762331612
+2,DALYs (Disability-Adjusted Life Years),125,Colombia,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),125,Colombia,3,Both,22,All ages,294,All causes,3,Rate,2021,29561.337457745372,33882.980496444536,25944.162905785255
+2,DALYs (Disability-Adjusted Life Years),89,Netherlands,3,Both,22,All ages,294,All causes,1,Number,2021,5190421.787567062,5877871.939360281,4596874.89077466
+2,DALYs (Disability-Adjusted Life Years),89,Netherlands,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),89,Netherlands,3,Both,22,All ages,294,All causes,3,Rate,2021,30158.176649331857,34152.50388590656,26709.460360800986
+2,DALYs (Disability-Adjusted Life Years),17,Sri Lanka,3,Both,22,All ages,294,All causes,1,Number,2021,6405989.75686434,7869661.949896455,5056067.444333013
+2,DALYs (Disability-Adjusted Life Years),17,Sri Lanka,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),17,Sri Lanka,3,Both,22,All ages,294,All causes,3,Rate,2021,28765.038396739827,35337.41650391587,22703.43533048913
+2,DALYs (Disability-Adjusted Life Years),122,Ecuador,3,Both,22,All ages,294,All causes,1,Number,2021,5271307.371240607,5975716.686853873,4629123.925156053
+2,DALYs (Disability-Adjusted Life Years),122,Ecuador,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),122,Ecuador,3,Both,22,All ages,294,All causes,3,Rate,2021,29179.04140757852,33078.26168456381,25624.26911962661
+2,DALYs (Disability-Adjusted Life Years),160,Afghanistan,3,Both,22,All ages,294,All causes,1,Number,2021,17162966.057120383,19048580.000754684,15604746.6302859
+2,DALYs (Disability-Adjusted Life Years),160,Afghanistan,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),160,Afghanistan,3,Both,22,All ages,294,All causes,3,Rate,2021,54970.40050520939,61009.73853890451,49979.65789795749
+2,DALYs (Disability-Adjusted Life Years),101,Canada,3,Both,22,All ages,294,All causes,1,Number,2021,11013735.1106393,12533207.454711497,9685737.092430692
+2,DALYs (Disability-Adjusted Life Years),101,Canada,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),101,Canada,3,Both,22,All ages,294,All causes,3,Rate,2021,29394.09717891291,33449.3533925097,25849.85878853079
+2,DALYs (Disability-Adjusted Life Years),184,Mozambique,3,Both,22,All ages,294,All causes,1,Number,2021,18544031.700719357,21079379.9514795,16245882.689171309
+2,DALYs (Disability-Adjusted Life Years),184,Mozambique,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),184,Mozambique,3,Both,22,All ages,294,All causes,3,Rate,2021,59679.587119214,67839.00677782671,52283.537200776
+2,DALYs (Disability-Adjusted Life Years),172,Equatorial Guinea,3,Both,22,All ages,294,All causes,1,Number,2021,644942.891996721,798094.1577604798,525254.5401809232
+2,DALYs (Disability-Adjusted Life Years),172,Equatorial Guinea,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),172,Equatorial Guinea,3,Both,22,All ages,294,All causes,3,Rate,2021,42646.15547988084,52773.11830519562,34731.89186986628
+2,DALYs (Disability-Adjusted Life Years),209,Guinea-Bissau,3,Both,22,All ages,294,All causes,1,Number,2021,1112223.5766224551,1261489.6943688644,980436.0236573756
+2,DALYs (Disability-Adjusted Life Years),209,Guinea-Bissau,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),209,Guinea-Bissau,3,Both,22,All ages,294,All causes,3,Rate,2021,53889.11913283527,61121.31576200503,47503.788619048864
+2,DALYs (Disability-Adjusted Life Years),148,Morocco,3,Both,22,All ages,294,All causes,1,Number,2021,11983946.754905725,13742062.864092864,10317565.512716
+2,DALYs (Disability-Adjusted Life Years),148,Morocco,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),148,Morocco,3,Both,22,All ages,294,All causes,3,Rate,2021,32235.177059938986,36964.26883835323,27752.8395220692
+2,DALYs (Disability-Adjusted Life Years),18,Thailand,3,Both,22,All ages,294,All causes,1,Number,2021,23633460.468450807,27684347.604419053,20022682.867246516
+2,DALYs (Disability-Adjusted Life Years),18,Thailand,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),18,Thailand,3,Both,22,All ages,294,All causes,3,Rate,2021,35441.37666464314,41516.19660070219,30026.55689301592
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,1,Number,2021,51028.11559624297,62015.657301806146,40846.07435900516
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,3,Rate,2021,691.6673120220987,840.599392864549,553.6534933425593
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,1,Number,2021,2608763.3883554814,3108949.134437449,2157560.189134156
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,3,Rate,2021,35360.826858719964,42140.660416394116,29244.933682289175
