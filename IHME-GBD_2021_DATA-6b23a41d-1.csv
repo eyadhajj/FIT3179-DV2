@@ -1325,3 +1325,21 @@ measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_nam
 2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,1,Number,2021,2608763.3883554814,3108949.134437449,2157560.189134156
 2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
 2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,3,Rate,2021,35360.826858719964,42140.660416394116,29244.933682289175
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Côte d’Ivoire,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,208510.1160813885,239620.73158374676,181178.5547836279
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,748.3707111214951,860.0308736329349,650.2740798938664
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,1,Number,2021,13537707.204533368,15329887.38311503,11981878.75210597
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),205,Ivory Coast,3,Both,22,All ages,294,All causes,3,Rate,2021,48588.64288223155,55021.01738716667,43004.56635295809
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,1,Number,2021,51028.11559624297,62015.657301806146,40846.07435900516
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+1,Deaths,12,Laos,3,Both,22,All ages,294,All causes,3,Rate,2021,691.6673120220987,840.599392864549,553.6534933425593
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,1,Number,2021,2608763.3883554814,3108949.134437449,2157560.189134156
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,2,Percent,2021,1.0,1.0,1.0
+2,DALYs (Disability-Adjusted Life Years),12,Laos,3,Both,22,All ages,294,All causes,3,Rate,2021,35360.826858719964,42140.660416394116,29244.933682289175

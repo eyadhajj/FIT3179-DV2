@@ -49,6 +49,7 @@ df["Country/Territory"] = df["Country/Territory"].replace({
     "Côte d'Ivoire": "Ivory Coast",
     "Lao People's Democratic Republic": "Laos",
     "United States": "United States of America",
+    "Central African Republic": "Central African Rep.",
     "Syrian Arab Republic": "Syria",
     "South Sudan": "S. Sudan"
 })
@@ -61,4 +62,4 @@ df["TotalDeaths"] = df[cause_cols].sum(axis=1)
 
 # Save new CSV
 df.to_csv("cause_of_deaths_total.csv", index=False)
-print("✅ cause_of_deaths_total.csv generated successfully.")
+print("ause_of_deaths_total.csv generated successfully.")
