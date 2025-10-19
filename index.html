@@ -1,283 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FIT3179 - Eyad El Hajj - DV2</title>
 
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
-  <style>
-    body { background:#fafafa; }
-    nav {
-      background:#333; color:white; padding:15px 0; margin-bottom:20px;
-    }
-    nav h1, nav h2 { margin:0; }
-    main { max-width:1700px; }
-    .vis-wrap input[type=range]::-webkit-slider-thumb {
-      background-color:#007bff;
-    }
-    .vega-embed { background:white; border-radius:8px; padding:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-    p.center { text-align: justify; padding: 0 15px; }
-  </style>
 </head>
 
 <body>
-  <nav class="text-center">
+
+  <nav class="text-center banner-style p-3 mb-4">
     <h1>Heart Disease Data Visualisation</h1>
-    <h2>Eyad El Hajj - 33180830 - Lab03 - Karan R.</h2>
+    <h2>Eyad El Hajj</h2>
   </nav>
+  <br><br><br>
 
-  <br class="container mb-5">
-    <div class="vis-wrap mb-4 text-center">
-      <label for="yearSlider" class="form-label fw-bold">
-        Year: <span id="yearVal">2019</span>
-      </label>
-      <input id="yearSlider" type="range" min="1990" max="2019" step="1" value="2019"
-             class="form-range w-50 mx-auto" />
+  <div class="container-fluid px-3 px-md-3">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div class="card shadow-lg p-4 mb-5 main-content-card">
+        <div class="card text-center mt-4 p-3 shadow-sm">
+          Global death tolls from all causes in the dataset.
+          <p class="card text-center mt-4 p-3 shadow-sm mx-auto">
+            The dataset contains multiple causes of deaths including Meningitis, Alzheimer's Disease and Other Dementias,
+            Parkinson's Disease, Nutritional Deficiencies, Malaria, Drowning, Interpersonal Violence, Maternal Disorders,
+            HIV/AIDS, Drug Use Disorders, Tuberculosis, Cardiovascular Diseases, Lower Respiratory Infections, Neonatal
+            Disorders, Alcohol Use Disorders, Self-harm, Exposure to Forces of Nature, Diarrheal Diseases, Environmental
+            Heat and Cold Exposure, Neoplasms, Conflict and Terrorism, Diabetes Mellitus, Chronic Kidney Disease,
+            Poisonings,
+            Protein-Energy Malnutrition, Road Injuries, Chronic Respiratory Diseases, Cirrhosis and Other Chronic Liver
+            Diseases, Digestive Diseases, Fire, Heat, and Hot Substances, and Acute Hepatitis.
+          </p>
+        </div>
+
+        <div class="vis-wrap mb-4 text-center mt-4">
+          <div>
+            <h2>Global Death Tolls</h2>
+          </div>
+          <label for="yearSlider" class="form-label fw-bold">
+            Year: <span id="yearVal">2019</span>
+          </label>
+          <input id="yearSlider" type="range" min="1990" max="2019" step="1" value="2019" class="form-range w-75 w-md-50 mx-auto" />
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-12 text-center">
+            <div class="vis-container">
+              <div id="vis-map" style="display:inline-block;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-12 text-center">
+            <h2>Top 10 Causes of Death</h2>
+            <div class="vis-container">
+              <div id="vis-causes" style="display:inline-block;"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="card text-center mt-4 p-3 shadow-sm mx-auto">
+          Clearly, it is shown that in this dataset, the leading causes of death around the world (according to this dataset)
+          is due to Cardiovascular diseases.
+          As shown in the bar chart, deaths due to Cardiovascular diseases is just ahead, but it is significantly higher
+          than all causes, beating the second highest cause of deaths by roughly double.
+        </p>
+
+        <div class="card center text-center mt-4 p-3 shadow-sm">
+          <div class="row g-4 mt-2">
+            <div class="col-12 col-md-6">
+              <div class="vis-container">
+                <div id="vis-top10"></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+              <div class="card p-3 shadow-sm">
+                <p>Test</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card center text-center mt-4 p-3 shadow-sm">
+          <div class="row g-4 mt-2">
+            <div class="col-12 col-md-6">
+              <div class="vis-container">
+                <div id="vis-trend"></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+              <div class="card p-3 shadow-sm">
+                <p>Bilal doesnt like it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+          <h2 class="center">Rate of heart disease amongst the population.</h2>
+          <p>According to the dataset, it is apparent that 20% of recorded entries have heart disease.</p>
+          <div class="row g-4 mt-2">
+            <div class="col-12 text-center">
+              <div class="vis-container">
+                <div id="vis-grid" style="display:inline-block;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
-<div class="row g-4 mt-4">
-  <div class="col-12 text-center">
-    <div id="vis-map" style="display:inline-block;"></div>
   </div>
-</div>
-
-    <p class="card mx-auto text-center mt-4 p-3 shadow-sm" style="width: 60rem;">
-      The dataset contains multiple causes of deaths including Meningitis, Alzheimer’s Disease and Other Dementias,
-      Parkinson’s Disease, Nutritional Deficiencies, Malaria, Drowning, Interpersonal Violence, Maternal Disorders,
-      HIV/AIDS, Drug Use Disorders, Tuberculosis, Cardiovascular Diseases, Lower Respiratory Infections, Neonatal
-      Disorders, Alcohol Use Disorders, Self-harm, Exposure to Forces of Nature, Diarrheal Diseases, Environmental
-      Heat and Cold Exposure, Neoplasms, Conflict and Terrorism, Diabetes Mellitus, Chronic Kidney Disease, Poisonings,
-      Protein-Energy Malnutrition, Road Injuries, Chronic Respiratory Diseases, Cirrhosis and Other Chronic Liver
-      Diseases, Digestive Diseases, Fire, Heat, and Hot Substances, and Acute Hepatitis.
-    </p>
-
-    <div class="row g-4 mt-4">
-      <div class="col-12 text-center">
-        <div id="vis-causes" style="display:inline-block;"></div>
-      </div>
-    </div>
-  </br>
-    <p class="card mx-auto text-center mt-4 p-3 shadow-sm" style="width: 60rem;"> Clearly, it is show that in this dataset, the leading causes of death around the world (according to this dataset) is due to Cardiovascular diseases.</p>
-
-  </main>
-
-
-    <!-- Grid 2: Trend + Scatter -->
-    <div class="row g-4 mt-4" style="margin-left: 40px; ">
-            <div class="col-md-6">
-        <div id="vis-top10"></div>
-      </div>
-      <div class="col-md-6"><div id="vis-trend"></div></div>
-      <div class="col-md-6" style="margin-right: 60px;"><div id="vis-scatter"></div></div>
-    </div>
-
-
 
   <script>
-  /* ---------------- MAP ---------------- */
-  const specMap = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 999, "height": 400,
-    "projection": {"type": "equirectangular"},
-    "params": [{"name": "YearParam", "value": 2019}],
-    "layer": [
-      {
-        "data": {"url": "https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json",
-                 "format": {"type": "topojson","feature": "land"}},
-        "mark": {"type":"geoshape","fill":"#eeeeee"}
-      },
-      {
-        "data": {"url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/cause_of_deaths_total.csv",
-                 "format": {"type": "csv"}},
-        "transform": [
-          {"filter": "datum.Year == YearParam && isValid(datum.TotalDeaths)"},
-          {"calculate": "datum['Country/Territory']", "as": "country_mapped"},
-          {"lookup": "country_mapped",
-           "from": {"data": {"url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-                             "format": {"type": "topojson","feature":"countries"}},
-                    "key": "properties.name"},
-           "as": "geo"}
-        ],
-        "mark": {"type": "geoshape","stroke":"black"},
-        "encoding": {
-          "shape": {"field":"geo","type":"geojson"},
-          "color": {"field":"TotalDeaths","type":"quantitative","scale":{"scheme":"reds"},
-                    "legend":{"title":"Total deaths (count)"}},
-          "tooltip":[
-            {"field":"Country/Territory","title":"Country"},
-            {"field":"Year","title":"Year"},
-            {"field":"TotalDeaths","type":"quantitative","format":",.0f"}
-          ]
+    // Responsive width calculation
+    function getResponsiveWidth(maxWidth) {
+      const screenWidth = window.innerWidth;
+      if (screenWidth < 768) return Math.min(screenWidth - 60, maxWidth);
+      if (screenWidth < 1200) return Math.min(screenWidth * 0.85, maxWidth);
+      return maxWidth;
+    }
+
+    /* ---------------- MAP ---------------- */
+    const specMap = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": getResponsiveWidth(900),
+      "height": 400,
+      "projection": { "type": "equirectangular" },
+      "params": [{ "name": "YearParam", "value": 2019 }],
+      "layer": [
+        {
+          "data": {
+            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json",
+            "format": { "type": "topojson", "feature": "land" }
+          },
+          "mark": { "type": "geoshape", "fill": "#eeeeee" }
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/cause_of_deaths_total.csv",
+            "format": { "type": "csv" }
+          },
+          "transform": [
+            { "filter": "datum.Year == YearParam && isValid(datum.TotalDeaths)" },
+            { "calculate": "datum['Country/Territory']", "as": "country_mapped" },
+            {
+              "lookup": "country_mapped",
+              "from": {
+                "data": {
+                  "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+                  "format": { "type": "topojson", "feature": "countries" }
+                },
+                "key": "properties.name"
+              },
+              "as": "geo"
+            }
+          ],
+          "mark": { "type": "geoshape", "stroke": "black" },
+          "encoding": {
+            "shape": { "field": "geo", "type": "geojson" },
+            "color": {
+              "field": "TotalDeaths", "type": "quantitative", "scale": { "scheme": "reds" },
+              "legend": { "title": "Total deaths (count)" }
+            },
+            "tooltip": [
+              { "field": "Country/Territory", "title": "Country" },
+              { "field": "Year", "title": "Year" },
+              { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" }
+            ]
+          }
         }
-      }
-    ]
-  };
-
-  /* ---------------- TOP10 ---------------- */
-  const specTop10 = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,"height":400,
-    "params":[{"name":"YearParam","value":2019}],
-    "data":{
-      "url":"https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-      "format":{"type":"csv"}
-    },
-    "transform":[
-      {"filter":"toNumber(datum.Year)==YearParam && isValid(datum.TotalDeaths)"},
-      {"aggregate":[{"op":"sum","field":"TotalDeaths","as":"TotalDeaths"}],
-       "groupby":["Country/Territory"]},
-      {"window":[{"op":"rank","as":"rk"}],
-       "sort":[{"field":"TotalDeaths","order":"descending"}]},
-      {"filter":"datum.rk<=10"}
-    ],
-    "mark":"bar",
-    "encoding":{
-      "y":{"field":"Country/Territory","type":"nominal","sort":"-x","title":"Country"},
-      "x":{"field":"TotalDeaths","type":"quantitative","title":"Total deaths (count)"},
-      "color":{"field":"TotalDeaths","type":"quantitative","scale":{"scheme":"reds"}},
-      "tooltip":[
-        {"field":"Country/Territory","title":"Country"},
-        {"field":"TotalDeaths","type":"quantitative","format":",.0f"},
-        {"field":"Year","title":"Year"}
       ]
-    },
-    "title":{"text":"Top 10 Countries by Total Deaths","anchor":"start","fontSize":16}
-  };
+    };
 
-  /* ---------------- TREND ---------------- */
-  const specTrend = {
-    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-    "width":430,"height":350,
-    "data":{
-      "url":"https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-      "format":{"type":"csv"}
-    },
-    "transform":[{"aggregate":[{"op":"sum","field":"TotalDeaths","as":"GlobalTotalDeaths"}],"groupby":["Year"]}],
-    "mark":{"type":"line","color":"#d73027","point":{"filled":true,"color":"#d73027"}},
-    "encoding":{
-      "x":{"field":"Year","type":"ordinal","title":"Year"},
-      "y":{"field":"GlobalTotalDeaths","type":"quantitative","title":"Total Global Deaths"},
-      "tooltip":[{"field":"Year","title":"Year"},{"field":"GlobalTotalDeaths","type":"quantitative","format":",.0f"}]
-    },
-    "title":{"text":"Global Total Deaths Due to Heart Disease","anchor":"start","fontSize":16}
-  };
-
-  /* ---------------- SCATTER ---------------- */
-  const specScatter = {
-    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-    "width":800,"height":350,
-    "params":[{"name":"YearParam","value":2019}],
-    "data":{
-      "url":"https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-      "format":{"type":"csv"}
-    },
-    "transform":[
-      {"filter":"toNumber(datum.Year)==YearParam && isValid(datum.TotalDeaths)"},
-      {"aggregate":[{"op":"sum","field":"TotalDeaths","as":"TotalDeaths"}],"groupby":["Country/Territory","Year"]},
-      {"window":[{"op":"rank","as":"rk"}],"sort":[{"field":"TotalDeaths","order":"descending"}]},
-      {"filter":"datum.rk<=15"}
-    ],
-    "mark":{"type":"circle","opacity":0.8,"stroke":"black","strokeWidth":0.4},
-    "encoding":{
-      "x":{"field":"TotalDeaths","type":"quantitative","title":"Total Deaths"},
-      "y":{"field":"Country/Territory","type":"nominal","sort":"-x","title":"Country"},
-      "color":{"field":"TotalDeaths","type":"quantitative","scale":{"scheme":"reds"},"legend":null},
-      "size":{"field":"TotalDeaths","type":"quantitative","scale":{"range":[50,1200]},"legend":null},
-      "tooltip":[
-        {"field":"Country/Territory","title":"Country"},
-        {"field":"TotalDeaths","type":"quantitative","format":",.0f","title":"Total Deaths"},
-        {"field":"Year","title":"Year"}
-      ]
-    },
-    "title":{"text":"Top 15 Countries – Deaths","anchor":"start","fontSize":16}
-  };
-
-  /* ---------------- Top 10 Causes ---------------- */
-  const specCauses = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 700,
-    "height": 300,
-    "data": {
-      "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-      "format": {"type": "csv"}
-    },
-    "transform": [
-      {
-        "fold": [
-          "Meningitis",
-          "Alzheimers Disease and Other Dementias",
-          "Parkinsons Disease",
-          "Nutritional Deficiencies",
-          "Malaria",
-          "Drowning",
-          "Interpersonal Violence",
-          "Maternal Disorders",
-          "HIV/AIDS",
-          "Drug Use Disorders",
-          "Tuberculosis",
-          "Cardiovascular Diseases",
-          "Lower Respiratory Infections",
-          "Neonatal Disorders",
-          "Alcohol Use Disorders",
-          "Self-harm",
-          "Exposure to Forces of Nature",
-          "Diarrheal Diseases",
-          "Environmental Heat and Cold Exposure",
-          "Neoplasms",
-          "Conflict and Terrorism",
-          "Diabetes Mellitus",
-          "Chronic Kidney Disease",
-          "Poisonings",
-          "Protein-Energy Malnutrition",
-          "Road Injuries",
-          "Chronic Respiratory Diseases",
-          "Cirrhosis",
-          "Digestive Diseases",
-          "Fire, Heat, and Hot Substances",
-          "Acute Hepatitis"
-        ],
-        "as": ["Cause", "Deaths"]
+    /* ---------------- TOP10 ---------------- */
+    const specTop10 = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": getResponsiveWidth(400),
+      "height": 400,
+      "params": [{ "name": "YearParam", "value": 2019 }],
+      "data": {
+        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
+        "format": { "type": "csv" }
       },
-      {"aggregate": [{"op": "sum", "field": "Deaths", "as": "TotalDeaths"}], "groupby": ["Cause"]},
-      {"window": [{"op": "rank", "as": "Rank"}], "sort": [{"field": "TotalDeaths", "order": "descending"}]},
-      {"filter": "datum.Rank <= 10"}
-    ],
-    "mark": "bar",
-    "encoding": {
-      "x": {"field": "TotalDeaths", "type": "quantitative", "title": "Total Deaths"},
-      "y": {"field": "Cause", "type": "nominal", "sort": "-x", "title": "Cause of Death"},
-      "color": {"field": "Cause", "type": "nominal", "legend": null},
-      "tooltip": [
-        {"field": "Cause", "title": "Cause"},
-        {"field": "TotalDeaths", "type": "quantitative", "format": ",.0f"},
-        {"field": "Rank", "type": "quantitative"}
-      ]
-    },
-    "title": {"text": "Top 10 Causes of Death (All Years, Global Total)", "anchor": "start", "fontSize": 16}
-  };
+      "transform": [
+        { "filter": "toNumber(datum.Year)==YearParam && isValid(datum.TotalDeaths)" },
+        {
+          "aggregate": [{ "op": "sum", "field": "TotalDeaths", "as": "TotalDeaths" }],
+          "groupby": ["Country/Territory"]
+        },
+        {
+          "window": [{ "op": "rank", "as": "rk" }],
+          "sort": [{ "field": "TotalDeaths", "order": "descending" }]
+        },
+        { "filter": "datum.rk<=10" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": { "field": "Country/Territory", "type": "nominal", "sort": "-x", "title": "Country" },
+        "x": { "field": "TotalDeaths", "type": "quantitative", "title": "Total deaths (count)" },
+        "color": { "field": "TotalDeaths", "type": "quantitative", "scale": { "scheme": "reds" } },
+        "tooltip": [
+          { "field": "Country/Territory", "title": "Country" },
+          { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" },
+          { "field": "Year", "title": "Year" }
+        ]
+      },
+      "title": { "text": "Top 10 Countries by Total Deaths", "anchor": "start", "fontSize": 16 }
+    };
 
-  /* ---------------- EMBED ---------------- */
-  let viewMap, viewTop10, viewScatter;
-  vegaEmbed('#vis-map', specMap, {actions:false}).then(r => viewMap = r.view);
-  vegaEmbed('#vis-top10', specTop10, {actions:false}).then(r => viewTop10 = r.view);
-  vegaEmbed('#vis-trend', specTrend, {actions:false});
-  vegaEmbed('#vis-scatter', specScatter, {actions:false}).then(r => viewScatter = r.view);
-  vegaEmbed('#vis-causes', specCauses, {actions:false});
+    /* ---------------- TREND ---------------- */
+    const specTrend = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": getResponsiveWidth(410),
+      "height": 350,
+      "data": {
+        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
+        "format": { "type": "csv" }
+      },
+      "transform": [{ "aggregate": [{ "op": "sum", "field": "TotalDeaths", "as": "GlobalTotalDeaths" }], "groupby": ["Year"] }],
+      "mark": { "type": "line", "color": "#d73027", "point": { "filled": true, "color": "#d73027" } },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal", "title": "Year" },
+        "y": { "field": "GlobalTotalDeaths", "type": "quantitative", "title": "Total Global Deaths" },
+        "tooltip": [{ "field": "Year", "title": "Year" }, { "field": "GlobalTotalDeaths", "type": "quantitative", "format": ",.0f" }]
+      },
+      "title": { "text": "Global Total Deaths Due to Heart Disease", "anchor": "start", "fontSize": 16 }
+    };
 
-  /* ---------------- SLIDER ---------------- */
-  const slider = document.getElementById('yearSlider');
-  const yearVal = document.getElementById('yearVal');
-  slider.addEventListener('input', () => {
-    yearVal.textContent = slider.value;
-    if(viewMap) viewMap.signal('YearParam', +slider.value).run();
-    if(viewTop10) viewTop10.signal('YearParam', +slider.value).run();
-    if(viewScatter) viewScatter.signal('YearParam', +slider.value).run();
-  });
+    /* ---------------- Top 10 Causes ---------------- */
+    const specCauses = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": getResponsiveWidth(700),
+      "height": 300,
+      "data": {
+        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
+        "format": { "type": "csv" }
+      },
+      "transform": [
+        {
+          "fold": [
+            "Meningitis",
+            "Alzheimers Disease and Other Dementias",
+            "Parkinsons Disease",
+            "Nutritional Deficiencies",
+            "Malaria",
+            "Drowning",
+            "Interpersonal Violence",
+            "Maternal Disorders",
+            "HIV/AIDS",
+            "Drug Use Disorders",
+            "Tuberculosis",
+            "Cardiovascular Diseases",
+            "Lower Respiratory Infections",
+            "Neonatal Disorders",
+            "Alcohol Use Disorders",
+            "Self-harm",
+            "Exposure to Forces of Nature",
+            "Diarrheal Diseases",
+            "Environmental Heat and Cold Exposure",
+            "Neoplasms",
+            "Conflict and Terrorism",
+            "Diabetes Mellitus",
+            "Chronic Kidney Disease",
+            "Poisonings",
+            "Protein-Energy Malnutrition",
+            "Road Injuries",
+            "Chronic Respiratory Diseases",
+            "Cirrhosis",
+            "Digestive Diseases",
+            "Fire, Heat, and Hot Substances",
+            "Acute Hepatitis"
+          ],
+          "as": ["Cause", "Deaths"]
+        },
+        { "aggregate": [{ "op": "sum", "field": "Deaths", "as": "TotalDeaths" }], "groupby": ["Cause"] },
+        { "window": [{ "op": "rank", "as": "Rank" }], "sort": [{ "field": "TotalDeaths", "order": "descending" }] },
+        { "filter": "datum.Rank <= 10" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": { "field": "TotalDeaths", "type": "quantitative", "title": "Total Deaths" },
+        "y": { "field": "Cause", "type": "nominal", "sort": "-x", "title": "Cause of Death" },
+        "color": { "field": "Cause", "type": "nominal", "legend": null },
+        "tooltip": [
+          { "field": "Cause", "title": "Cause" },
+          { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" },
+          { "field": "Rank", "type": "quantitative" }
+        ]
+      }
+    };
+
+    /* ---------------- GRID ICON VIS ---------------- */
+    const specGrid = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+      "config": { "view": { "stroke": "" } },
+      "width": getResponsiveWidth(400),
+      "height": 400,
+      "data": {
+        "values": Array.from({ length: 100 }, (_, i) => ({ id: i + 1 }))
+      },
+      "transform": [
+        { "calculate": "ceil(datum.id/10)", "as": "col" },
+        { "calculate": "datum.id - datum.col*10", "as": "row" }
+      ],
+      "mark": { "type": "point", "filled": true },
+      "encoding": {
+        "x": { "field": "col", "type": "ordinal", "axis": null },
+        "y": { "field": "row", "type": "ordinal", "axis": null },
+        "shape": {
+          "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"
+        },
+        "color": {
+          "condition": [
+            { "test": "datum.id <= 20", "value": "rgb(194,81,64)" }
+          ],
+          "value": "rgb(167,165,156)"
+        },
+        "size": { "value": 90 }
+      }
+    };
+
+    /* ---------------- EMBED ---------------- */
+    let viewMap, viewTop10, viewScatter;
+    vegaEmbed('#vis-map', specMap, { actions: false }).then(r => viewMap = r.view);
+    vegaEmbed('#vis-top10', specTop10, { actions: false }).then(r => viewTop10 = r.view);
+    vegaEmbed('#vis-trend', specTrend, { actions: false });
+    vegaEmbed('#vis-causes', specCauses, { actions: false });
+    vegaEmbed('#vis-grid', specGrid, { actions: false });
+
+    /* ---------------- SLIDER ---------------- */
+    const slider = document.getElementById('yearSlider');
+    const yearVal = document.getElementById('yearVal');
+    slider.addEventListener('input', () => {
+      yearVal.textContent = slider.value;
+      if (viewMap) viewMap.signal('YearParam', +slider.value).run();
+      if (viewTop10) viewTop10.signal('YearParam', +slider.value).run();
+      if (viewScatter) viewScatter.signal('YearParam', +slider.value).run();
+    });
+
+    /* ---------------- RESPONSIVE RESIZE ---------------- */
+    window.addEventListener('resize', () => {
+      location.reload();
+    });
   </script>
+
 </body>
+
 </html>
