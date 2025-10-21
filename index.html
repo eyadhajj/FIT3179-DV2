@@ -20,7 +20,7 @@
 <body>
 
   <nav class="text-center banner-style p-3 mb-4">
-    <h1>Heart Disease Data Visualisation</h1>
+    <h1 class="fw-bold bold ">Heart Disease Data Visualisation</h1>
     <h2>Eyad El Hajj</h2>
   </nav>
   <br><br><br>
@@ -29,332 +29,1628 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10">
         <div class="card shadow-lg p-4 mb-5 main-content-card">
-        <div class="card text-center mt-4 p-3 shadow-sm">
-          Global death tolls from all causes in the dataset.
-          <p class="card text-center mt-4 p-3 shadow-sm mx-auto">
-            The dataset contains multiple causes of deaths including Meningitis, Alzheimer's Disease and Other Dementias,
-            Parkinson's Disease, Nutritional Deficiencies, Malaria, Drowning, Interpersonal Violence, Maternal Disorders,
-            HIV/AIDS, Drug Use Disorders, Tuberculosis, Cardiovascular Diseases, Lower Respiratory Infections, Neonatal
-            Disorders, Alcohol Use Disorders, Self-harm, Exposure to Forces of Nature, Diarrheal Diseases, Environmental
-            Heat and Cold Exposure, Neoplasms, Conflict and Terrorism, Diabetes Mellitus, Chronic Kidney Disease,
-            Poisonings,
-            Protein-Energy Malnutrition, Road Injuries, Chronic Respiratory Diseases, Cirrhosis and Other Chronic Liver
-            Diseases, Digestive Diseases, Fire, Heat, and Hot Substances, and Acute Hepatitis.
-          </p>
-        </div>
-
-        <div class="vis-wrap mb-4 text-center mt-4">
-          <div>
-            <h2>Global Death Tolls</h2>
+          <div class="card text-center mt-4 p-3 shadow-sm">
+            <h1 class="fw-bold display-3">Heart Disease, How Bad is It?</h1>
           </div>
-          <label for="yearSlider" class="form-label fw-bold">
-            Year: <span id="yearVal">2019</span>
-          </label>
-          <input id="yearSlider" type="range" min="1990" max="2019" step="1" value="2019" class="form-range w-75 w-md-50 mx-auto" />
-        </div>
 
-        <div class="row g-4 mt-4">
-          <div class="col-12 text-center">
-            <div class="vis-container">
-              <div id="vis-map" style="display:inline-block;"></div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row g-4 mt-4">
-          <div class="col-12 text-center">
-            <h2>Top 10 Causes of Death</h2>
-            <div class="vis-container">
-              <div id="vis-causes" style="display:inline-block;"></div>
-            </div>
-          </div>
-        </div>
 
-        <p class="card text-center mt-4 p-3 shadow-sm mx-auto">
-          Clearly, it is shown that in this dataset, the leading causes of death around the world (according to this dataset)
-          is due to Cardiovascular diseases.
-          As shown in the bar chart, deaths due to Cardiovascular diseases is just ahead, but it is significantly higher
-          than all causes, beating the second highest cause of deaths by roughly double.
-        </p>
-
-        <div class="card center text-center mt-4 p-3 shadow-sm">
-          <div class="row g-4 mt-2">
-            <div class="col-12 col-md-6">
-              <div class="vis-container">
-                <div id="vis-top10"></div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-              <div class="card p-3 shadow-sm">
-                <p>Test</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card center text-center mt-4 p-3 shadow-sm">
-          <div class="row g-4 mt-2">
-            <div class="col-12 col-md-6">
-              <div class="vis-container">
-                <div id="vis-trend"></div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-              <div class="card p-3 shadow-sm">
-                <p>Bilal doesnt like it.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
-          <h2 class="center">Rate of heart disease amongst the population.</h2>
-          <p>According to the dataset, it is apparent that 20% of recorded entries have heart disease.</p>
-          <div class="row g-4 mt-2">
+          <div class="row g-4 mt-4">
             <div class="col-12 text-center">
+              <h2 class="display-6 fw-bold">World Mortality Rates: All Causes</h2>
               <div class="vis-container">
-                <div id="vis-grid" style="display:inline-block;"></div>
+                <div id="vis-map" style="display:inline-block;"></div>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="vis-wrap mb-4 text-center mt-4">
+            <div>
+              <h2 class="">Global death tolls from all causes in the dataset.</h2>
+            </div>
+            <label for="yearSlider" class="form-label fw-bold">
+              Year: <span id="yearVal">2019</span>
+            </label>
+            <input id="yearSlider" type="range" min="1990" max="2019" step="1" value="2019"
+              class="form-range w-75 w-md-50 mx-auto" />
+
+          </div>
+
+          <div class="card text-center mt-2 p-3 shadow-sm mx-auto" style="max-width: 1200px;">
+            <p>
+              This is the total death toll over the years. This visualisation shows the impact and concentration of
+              deaths around the world. These include:
+            </p>
+            <hr>
+
+            <button class="btn btn-dark mb-3 shadow-lg" type="button" data-bs-toggle="collapse"
+              data-bs-target="#causesList" aria-expanded="false" aria-controls="causesList">
+              Click here to Show/Hide Causes
+            </button>
+
+            <!-- AI Generated drop down and styles. -->
+
+            <div class="collapse" id="causesList">
+              <div class="matrix mx-auto" style="
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+         gap: 10px;
+         text-align: left;">
+                <div>• Meningitis</div>
+                <div>• Alzheimer's Disease and Other Dementias</div>
+                <div>• Parkinson's Disease</div>
+                <div>• Nutritional Deficiencies</div>
+                <div>• Malaria</div>
+                <div>• Drowning</div>
+                <div>• Interpersonal Violence</div>
+                <div>• Maternal Disorders</div>
+                <div>• HIV/AIDS</div>
+                <div>• Drug Use Disorders</div>
+                <div>• Tuberculosis</div>
+                <div>• Cardiovascular Diseases</div>
+                <div>• Lower Respiratory Infections</div>
+                <div>• Neonatal Disorders</div>
+                <div>• Alcohol Use Disorders</div>
+                <div>• Self-harm</div>
+                <div>• Exposure to Forces of Nature</div>
+                <div>• Diarrheal Diseases</div>
+                <div>• Environmental Heat and Cold Exposure</div>
+                <div>• Neoplasms</div>
+                <div>• Conflict and Terrorism</div>
+                <div>• Diabetes Mellitus</div>
+                <div>• Chronic Kidney Disease</div>
+                <div>• Poisonings</div>
+                <div>• Protein-Energy Malnutrition</div>
+                <div>• Road Injuries</div>
+                <div>• Chronic Respiratory Diseases</div>
+                <div>• Cirrhosis and Other Chronic Liver Diseases</div>
+                <div>• Digestive Diseases</div>
+                <div>• Fire, Heat, and Hot Substances</div>
+                <div>• Acute Hepatitis</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card center text-center mt-4 p-3 shadow-sm">
+            <div class="row g-4 mt-2">
+              <h2 class="display-6 fw-bold">Top 5 Countries with the Highest Death Rates.</h2>
+              <p class="fw-bold">Is there any specific reason why some countries have high death rates?</p>
+              <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+
+                <div class="">
+                  <h2> Which countries show the most deaths?</h2>
+                  <p>It is apparent that the countries with the highest death tolls are India, USA, and China,.</p>
+                  <h2>Why?</h2>
+                  <p>Firstly, a higher population be consistant with the data, as the higher the population, the more
+                    deaths that are likely.
+                    Secondly, lifestyle habits and disease prevelance may also be an occuring issue in these countries.
+                    Even access to basic healthcare may be difficult in certain regions.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-1 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="vertical-divider"></div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="vis-container">
+                  <div id="vis-top5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row g-4 mt-4">
+            <div class="col-12 text-center">
+              <h2 class="display-6 fw-bold">Top 10 Causes of Death</h2>
+              <div class="vis-container">
+                <div id="vis-causes" style="display:inline-block;"></div>
+              </div>
+            </div>
+          </div>
+
+          <p class="card text-center mt-4 p-3 shadow-sm mx-auto">
+            Clearly, it is shown that in this dataset, the leading causes of death around the world (according to this
+            dataset) is due to cardiovascular diseases. As shown in the bar chart, deaths due to cardiovascular diseases
+            is just ahead, but it is significantly
+            higher than all causes, beating the second highest cause of deaths by roughly double.
+          </p>
+          
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <h2 class="center display-6 fw-bold">Rate of heart disease amongst the population.</h2>
+            <p>According to the dataset, it is apparent that 20% of recorded entries have heart disease.</p>
+            <div class="row g-4 mt-2">
+              <div class="col-12 text-center">
+                <div class="vis-container">
+                  <div id="vis-grid" style="display:inline-block;"></div>
+                </div>
+              </div>
+
+              <!-- AI generated text for metadata. All ideas are min -->
+              <p class="text-start" style="font-size: 0.9rem; color: #6c757d;">
+                This is according to the dataset given
+                <a href="https://www.kaggle.com/datasets/oktayrdeki/heart-disease"
+                  style="color: #6c757d; text-decoration: underline;"> (Heart Disease Dataset) </a>.
+                Different datasets may show different results.
+              </p>
+
+              <div class="col-12 d-flex flex-column align-items-center justify-content-center mt-3">
+                <div class="text-center" style="max-width: 800px;">
+                  <h2 class="fw-bold">20%? Shouldn't that be a Concern?</h2>
+                  <p class="mb-3">
+                    Firstly, it needs to be said that this dataset is limited and does not represent the accurate
+                    percentage.
+                    However, assuming this from the dataset and with the IHME data, we can see that heart disease is
+                    heavily increasing and on the rise.
+                    Let's see below what factors may be contributing to this.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card center text-center mt-4 p-3 shadow-sm">
+            <div class="row g-4 mt-2">
+              <h2 class="display-6 fw-bold">Heart or Lungs? Which Disease is Killing More People?</h2>
+
+              <div class="col-12 col-md-6">
+                <div class="vis-container">
+                  <div id="vis-trend"></div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 d-flex flex-column align-items-start justify-content-center text-start">
+                <h2> What is the Difference?</h2>
+                <p>
+                  It's clear that both cardiovascular and respiratory diseases pose significant threats to global
+                  health. These are both relatively interesting to inspect, as both lung and heart diseases reside in
+                  the same proximity as humans,
+                  in the chest
+                </p>
+                <p>
+                  In particularly, cardiovascular disease is constantly on the rise and is one of the main
+                  contributors to the global burden of disease. Respiratory diseases are also a very serious concern
+                  and is responsible for a large number of deaths around the world. However, the major difference is
+                  that
+                  respiratory related fatalities have seem to stagnate, with some fluctuations (very minor), wheras
+                  cardiovascular
+                  related mortalities have been steadily increasing over the years.
+                </p>
+
+                <h2>Possible Explanations?</h2>
+                <p>
+                  Something that may be related is that these disease are heavily amplified or hindered by similar
+                  factors.
+                  Smoking, poor health choices and stress can be heavy contributors. BMI is also a major factor in both
+                  diseases, which could also be a heavy
+                  contributor to the rise of both respiratory and/or cardiovascular diseases. This however, needs more
+                  research and evidence and but is something that can be considred.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <div class="row g-4 mt-2">
+              <h2 class="display-6 fw-bold">As Time Moves Forward, Heart Disease are on the Rise?</h2>
+
+              <div class="col-12 text-center">
+                <div class="vis-container">
+                  <div id="vis-causes-trail" style="display:inline-block;"></div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <p class="text-end" style="font-size: 0.9rem; color: #6c757d;">
+                  This is according to the dataset given
+                  <a href="https://vizhub.healthdata.org/gbd-results/"
+                    style="color: #6c757d; text-decoration: underline;">(IHME - GHB)</a>.
+                  This data has been sourced from an organisation that collect this data.
+                </p>
+              </div>
+
+              <div class="col-12 d-flex flex-column align-items-center justify-content-center mt-3">
+                <div class="text-center" style="max-width: 800px;">
+                  <h2 class="fw-bold">Isn't the Modern Age Meant to be Healthier and Better at Preventing Disease?</h2>
+                  <p class="mb-3">
+                    Interestingly, a lot of causes of dealths related to diseases seem to be very stable, some showing
+                    some signs
+                    of decline or minor growth. However, cardiovascular related deats are heavily increasing. Perhaps
+                    this can be attributed
+                    to the modern age of stresses. Arguably, as mentioned, factors such as stress, smoking, exercise
+                    habits and BMI are all
+                    tied together. People who have heart diseases seem to inhibit these factors. Other diseases are may
+                    have similar explanations.
+                    However, to remain within the scope of this project, heart disease is the main focus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h1 class="display-4 center fw-bold">Heart Disease Factors</h1>
+          </div>
+
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <h2 class="center display-6 fw-bold">Age vs BMI Density Heatmap</h2>
+            <p>This heatmap shows where people with heart disease cluster by age and BMI, revealing patterns in the
+              affected population.</p>
+            <div class="row g-4 mt-2">
+              <div class="col-12 col-md-6">
+                <div class="vis-container">
+                  <div id="vis-heatmap" style="display:inline-block;"></div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-1 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+                <div>
+                  <h2 class="fw-bold">Is Weight a Factor?</h2>
+                  <p class="mb-3">As shown, the heatmap initially reveals that people with much higher BMI in their
+                    twenties to mid-thirties are more likely to obtain heart disease.
+                    Exercise levels may potentially mitigate this risk, which ultimately does reduce BMI. Regardless of
+                    excercise levels, it is evident that BMI needs to be reduced to lower the risk of heart disease.
+                    However, it is shown in the data that people near their thirties with low excercise levels typically
+                    have heart diseases. This same trend can be seen with people in their seventies, with BMI's in the
+                    high 20's, but it should be considered that at a older age, heart disease is naturally more
+                    prevalent.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <h2 class="display-6 fw-bold">Heart Disease Radar Chart: Health Factors</h2>
+
+            <div class="row g-4 mt-2 justify-content-center">
+              <div class="col-12">
+                <div class="vis-container">
+                  <div id="vis-radar" style="display:inline-block;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+              <div class="col-12 col-lg-8">
+                <h5 class="mb-3 fw-bold">Health Metrics Comparison</h5>
+                <p>The radart chart above digs into the following factors of heart disease. This looks into the
+                  different factors of people diagnosed with heart disease,
+                  providing some interesting insights into which demographics are more likely to obtain heart disease.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <div class="row g-4 mt-2">
+              <h2 class="display-6 fw-bold">Smoking - A Heart Disease Catalyst?</h2>
+              <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+                <div>
+                  <h5 class="mb-3 fw-bold">What does the data suggest?</h5>
+                  <p>According to this pie chart, 51.6% of people with heart disease attain smoking habits. This highly
+                    indicates that smoking may be a major factor to heart disease,
+                    perhaps even suggesting that if these habits are prevelant in people's lives, it may increase the
+                    risk of heart disease. This paired with
+                    other negative factors, such as high BMI and little to no exercise, may further increase the risk of
+                    heart disease.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-1 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="vis-container">
+                  <div id="vis-SmokingPie" style="display:inline-block;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div>
+            <br>
+            <br>
+          </div>
+          <div>
+            <h1 class="display-4 center fw-bold">Australia and Malaysia. Insights and Comparisons.</h1>
+          </div>
+
+          <div class="card center text-center mt-4 mb-4 p-3 shadow-sm">
+            <div class="row g-4 mt-2">
+              <h2 class="display-6 fw-bold">Is it Improving? Heart Disease in Australia and Malaysia</h2>
+              <div class="col-12 col-md-7">
+                <div class="vis-container">
+                  <div id="vis-AusHDD" style="display:inline-block;"></div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-1 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                <div>
+                  <h3 class="fw-bold">Cardiovascular Disease Insights in Australia</h3>
+                  <p>
+                    As shown, the data informs us that heart disease mortalities in Australia have been declining,
+                    reaching its lowest in 2015.
+                    This may indicate that in Australia, improvements in people's lifestyle, health and medical
+                    treatment has been improving.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-4 mt-2">
+              <div class="col-12 col-md-7">
+                <div class="vis-container">
+                  <div id="vis-MalHDD" style="display:inline-block;"></div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-1 d-none d-md-flex align-items-center justify-content-center p-0">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                <div>
+                  <h3 class="fw-bold">Cardiovascular Disease Insights in Malaysia</h3>
+                  <p>
+                    Malaysia shows a more steady and consistant rate of mortaility because of heart disease. Whilst each
+                    value is lower than Australia's pecentage in fatalities, it is still concerning that there is no
+                    improvement. Perhaps more is needed to be done in Malaysia to reduce and mitigate fatalities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card text-center mt-4 p-3 shadow-sm mx-auto">
+            <p>
+              A decleration that the use of Artificial Intelligence (AI) has been used to assist in the creation of
+              certain parts of this assessment.
+              Aspects such as normalising data, the crafting of visualisations and formatting code was assisted with AI.
+              The assistance of AI
+              was simply a tool that helped me learn Vega-lite.
+              However, I must stress that all ideas, insights, and code development were all my own. Documentation and
+              templates from the Vega-lite website were used
+              as reference.
+
+            </p>
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <script>
 
-  <script>
-    // Responsive width calculation
-    function getResponsiveWidth(maxWidth) {
-      const screenWidth = window.innerWidth;
-      if (screenWidth < 768) return Math.min(screenWidth - 60, maxWidth);
-      if (screenWidth < 1200) return Math.min(screenWidth * 0.85, maxWidth);
-      return maxWidth;
-    }
+      // Fucntion to get responsive width based on screen size
+      // AI Generated
+      function getResponsiveWidth(maxWidth) {
+        const screenWidth = window.innerWidth;
+        if (screenWidth < 768) return Math.min(screenWidth - 60, maxWidth);
+        if (screenWidth < 1200) return Math.min(screenWidth * 0.85, maxWidth);
+        return maxWidth;
+      }
 
-    /* ---------------- MAP ---------------- */
-    const specMap = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": getResponsiveWidth(900),
-      "height": 400,
-      "projection": { "type": "equirectangular" },
-      "params": [{ "name": "YearParam", "value": 2019 }],
-      "layer": [
-        {
-          "data": {
-            "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json",
-            "format": { "type": "topojson", "feature": "land" }
-          },
-          "mark": { "type": "geoshape", "fill": "#eeeeee" }
+      /* ---------------- Map visualisation ---------------- */
+      const specMap = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(900),
+        "height": 500,
+        "projection": {
+          "type": "equalEarth", // changed from initiall presentation
+          "scale": 150
         },
-        {
-          "data": {
-            "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/cause_of_deaths_total.csv",
-            "format": { "type": "csv" }
-          },
-          "transform": [
-            { "filter": "datum.Year == YearParam && isValid(datum.TotalDeaths)" },
-            { "calculate": "datum['Country/Territory']", "as": "country_mapped" },
-            {
-              "lookup": "country_mapped",
-              "from": {
-                "data": {
-                  "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-                  "format": { "type": "topojson", "feature": "countries" }
-                },
-                "key": "properties.name"
-              },
-              "as": "geo"
-            }
-          ],
-          "mark": { "type": "geoshape", "stroke": "black" },
-          "encoding": {
-            "shape": { "field": "geo", "type": "geojson" },
-            "color": {
-              "field": "TotalDeaths", "type": "quantitative", "scale": { "scheme": "reds" },
-              "legend": { "title": "Total deaths (count)" }
+        "params": [{ "name": "YearParam", "value": 2019 }],
+        "layer": [
+          {
+            "data": {
+              "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+              "format": {
+                "type": "topojson",
+                "feature": "countries"
+              }
             },
-            "tooltip": [
-              { "field": "Country/Territory", "title": "Country" },
-              { "field": "Year", "title": "Year" },
-              { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" }
+            "mark": {
+              "type": "geoshape",
+              "fill": "#e8e8e8",
+              "stroke": "white",
+              "strokeWidth": 0.5
+            }
+          },
+          {
+            "data": {
+              "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/cause_of_deaths_total.csv",
+              "format": { "type": "csv" }
+            },
+            "transform": [
+              {
+                "filter": "datum.Year == YearParam && isValid(datum.TotalDeaths)"
+              },
+              {
+                "calculate": "datum['Country/Territory']",
+                "as": "country_mapped"
+              },
+              {
+                "calculate": "toNumber(datum.TotalDeaths)",
+                "as": "Deaths"
+              },
+              {
+                "lookup": "country_mapped",
+                "from": {
+                  "data": {
+                    "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+                    "format": {
+                      "type": "topojson",
+                      "feature": "countries"
+                    }
+                  },
+                  "key": "properties.name"
+                },
+                "as": "geo"
+              }
+            ],
+            "mark": {
+              "type": "geoshape",
+              "stroke": "#333",
+              "strokeWidth": 0.5,
+              "cursor": "pointer"
+            },
+            "encoding": {
+              "shape": {
+                "field": "geo",
+                "type": "geojson"
+              },
+              "color": {
+                "field": "Deaths",
+                "type": "quantitative",
+                "scale": {
+                  "type": "log",
+                  "scheme": "orangered",
+                  "domain": [1000, 10000000]
+                },
+                "legend": {
+                  "title": "Total Deaths ",
+                  "orient": "bottom-right",
+                  "gradientLength": 300,
+                  "titleFontSize": 12,
+                  "labelFontSize": 11,
+                  "format": "~s"
+                }
+              },
+              "opacity": {
+                "condition": {
+                  "test": "isValid(datum.Deaths)",
+                  "value": 0.8
+                },
+                "value": 0.2
+              },
+              "tooltip": [
+                {
+                  "field": "Country/Territory",
+                  "title": "Country",
+                  "type": "nominal"
+                },
+                {
+                  "field": "Year",
+                  "title": "Year",
+                  "type": "ordinal"
+                },
+                {
+                  "field": "Deaths",
+                  "title": "Total Deaths",
+                  "type": "quantitative",
+                  "format": ",.0f"
+                }
+              ]
+            }
+          },
+          {
+            "data": {
+              "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+              "format": {
+                "type": "topojson",
+                "feature": "countries"
+              }
+            },
+            "mark": {
+              "type": "geoshape",
+              "fill": null,
+              "stroke": "white",
+              "strokeWidth": 1
+            }
+          }
+        ]
+      };
+
+      /* ---------------- top 5 countries ---------------- */
+      const specTop5 = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(400),
+        "height": 400,
+        "params": [{ "name": "YearParam", "value": 2019 }],
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
+          "format": { "type": "csv" }
+        },
+        "transform": [
+          { "filter": "toNumber(datum.Year)==YearParam && isValid(datum.TotalDeaths)" },
+          {
+            "aggregate": [{ "op": "sum", "field": "TotalDeaths", "as": "TotalDeaths" }],
+            "groupby": ["Country/Territory"]
+          },
+          {
+            "window": [{ "op": "rank", "as": "rk" }],
+            "sort": [{ "field": "TotalDeaths", "order": "descending" }]
+          },
+          { "filter": "datum.rk<=5" }
+        ],
+        "layer": [
+          {
+            "mark": "bar",
+            "encoding": { 
+              "x": { "field": "Country/Territory", "type": "nominal", "sort": "-x", "title": "Country" },
+              "y": { "field": "TotalDeaths", "type": "quantitative", "title": "Total deaths (count)" }, 
+              "color": { "field": "TotalDeaths", "type": "quantitative", "scale": { "scheme": "reds" } }, 
+              "tooltip": [
+                { "field": "Country/Territory", "title": "Country" },
+                { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" }
+              ]
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "center",
+              "baseline": "middle",
+              "fontSize": 11,
+              "fontStyle": "italic",
+              "lineBreak": "\n"
+            },
+            "encoding": {
+              "x": { "value": 120 },
+              "y": { "value": 200 },
+              "text": {
+                // I used AI to add annotation to the bar chart. 
+                "value": [
+                  "China and India have the highest mortality",
+                  "rates in the world. This can be explained due",
+                  "to higher populations. Interestingly, USA is",
+                  "3rd, but does not have a higher population",
+                  "like India and China. Perhaps this may",
+                  "reflect lifestyle habits?"
+                ]
+              },
+              "color": { "value": "#666" }
+            }
+          }
+        ],
+      };
+
+      /* ---------------- Trends in cardiovasuclar and respitory diseases ---------------- */
+      const specTrend = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(410),
+        "height": 350,
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths.csv",
+          "format": { "type": "csv" }
+        },
+        "transform": [
+          // used ai to sum globally for each year 
+          {
+            "aggregate": [
+              { "op": "sum", "field": "Cardiovascular Diseases", "as": "HeartDisease" }, // I don't like the naming conventions, but it is what AI suggested. If it aint broke, dont fix it.
+              { "op": "sum", "field": "Chronic Respiratory Diseases", "as": "ChronicResp" },
+              { "op": "sum", "field": "Lower Respiratory Infections", "as": "LowerResp" }
+            ],
+            "groupby": ["Year"]
+          },
+          // Reshape to long format for easier multi-series plotting -> AI assisted 
+          {
+            "fold": ["HeartDisease", "ChronicResp", "LowerResp"],
+            "as": ["Cause", "Deaths"]
+          },
+          {
+            "calculate": "datum.Cause === 'HeartDisease' ? 'Cardiovascular Diseases' : datum.Cause === 'ChronicResp' ? 'Chronic Respiratory Diseases' : 'Lower Respiratory Infections'",
+            "as": "CauseLabel"
+          }
+        ],
+        "mark": { "type": "area", "opacity": 0.7 }, // AI suggested opacity for better visual during its generation, I quite like it.
+        "encoding": {
+          "x": { "field": "Year", "type": "ordinal", "title": "Year" },
+          "y": { "field": "Deaths", "type": "quantitative", "title": "Global Deaths" },
+          "color": {
+            "field": "CauseLabel",
+            "type": "nominal",
+            "title": "Cause",
+            "scale": {
+              "domain": [
+                "Cardiovascular Diseases",
+                "Chronic Respiratory Diseases",
+                "Lower Respiratory Infections"
+              ],
+              "range": ["#FF0000", "#800080", "#0000FF"] // red, purple, blue
+            }
+          },
+          "tooltip": [
+            { "field": "Year", "title": "Year" },
+            { "field": "CauseLabel", "title": "Cause" },
+            { "field": "Deaths", "title": "Deaths", "format": ",.0f" }
+          ]
+        }
+      };
+
+      /* ---------------- Top 10 Causes ---------------- */
+      const specCauses = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(700),
+        "height": 300,
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
+          "format": { "type": "csv" }
+        },
+        "transform": [
+
+          // hardcoded values becuase it was easier. i used AI to grab the list in the name and format it in vega-lite.
+
+          {
+            "fold": [
+              "Meningitis",
+              "Alzheimers Disease and Other Dementias",
+              "Parkinsons Disease",
+              "Nutritional Deficiencies",
+              "Malaria",
+              "Drowning",
+              "Interpersonal Violence",
+              "Maternal Disorders",
+              "HIV/AIDS",
+              "Drug Use Disorders",
+              "Tuberculosis",
+              "Cardiovascular Diseases",
+              "Lower Respiratory Infections",
+              "Neonatal Disorders",
+              "Alcohol Use Disorders",
+              "Self-harm",
+              "Exposure to Forces of Nature",
+              "Diarrheal Diseases",
+              "Environmental Heat and Cold Exposure",
+              "Neoplasms",
+              "Conflict and Terrorism",
+              "Diabetes Mellitus",
+              "Chronic Kidney Disease",
+              "Poisonings",
+              "Protein-Energy Malnutrition",
+              "Road Injuries",
+              "Chronic Respiratory Diseases",
+              "Cirrhosis",
+              "Digestive Diseases",
+              "Fire, Heat, and Hot Substances",
+              "Acute Hepatitis"
+            ],
+            "as": ["Cause", "Deaths"] // sets them into two values, Cause being the name, Deaths being the value.
+          },
+          { "aggregate": [{ "op": "sum", "field": "Deaths", "as": "TotalDeaths" }], "groupby": ["Cause"] }, // sums it up
+          { "window": [{ "op": "rank", "as": "Rank" }], "sort": [{ "field": "TotalDeaths", "order": "descending" }] },
+          { "filter": "datum.Rank <= 10" } // takes the top 10 only
+        ],
+        "mark": "bar",
+        "encoding": {
+          "x": { "field": "TotalDeaths", "type": "quantitative", "title": "Total Deaths" },
+          "y": { "field": "Cause", "type": "nominal", "sort": "-x", "title": "Cause of Death" },
+          "color": { "field": "Cause", "type": "nominal", "legend": null },
+          "tooltip": [
+            { "field": "Cause", "title": "Cause" },
+            { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" },
+            { "field": "Rank", "type": "quantitative" }
+          ]
+        }
+      };
+
+      /* ---------------- Grid icon ---------------- */
+      const specGrid = {
+        // Inspired from: https://vega.github.io/vega-lite/examples/isotype_grid.html and the example shown on Moodle.
+        // Values were hardcoded    
+        "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+        "config": { "view": { "stroke": "" } },
+        "width": getResponsiveWidth(400),
+        "height": 400,
+        "data": {
+          "values": Array.from({ length: 100 }, (_, i) => ({ id: i + 1 }))
+        },
+        "transform": [
+          { "calculate": "ceil(datum.id/10)", "as": "col" },
+          { "calculate": "datum.id - datum.col*10", "as": "row" }
+        ],
+        "mark": { "type": "point", "filled": true },
+        "encoding": {
+          "x": { "field": "col", "type": "ordinal", "axis": null },
+          "y": { "field": "row", "type": "ordinal", "axis": null },
+          "shape": { 
+            "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"
+          },
+          "color": {
+            "condition": [
+              { "test": "datum.id <= 20", "value": "rgb(194,81,64)" } // makesn 20 of them red
+            ],
+            "value": "rgb(167,165,156)"
+          },
+          "size": { "value": 90 }
+        }
+      };
+
+      /* ---------------- Heatmap of Excercise and BMI ---------------- */
+      // https://vega.github.io/vega/examples/density-heatmaps/
+      const specHeatmap = {
+        "$schema": "https://vega.github.io/schema/vega/v5.json",
+        "width": 300,
+        "height": 300,
+        "padding": 5,
+        "autosize": "pad",
+
+        "signals": [
+          {
+            "name": "exerciseFilter",
+            "value": "All",
+            "bind": {
+              "input": "select",
+              "options": ["All", "High", "Medium", "Low"], // filter to show exercise levels
+              "name": "Filter by Exercise Level: "
+            }
+          },
+          {
+            "name": "cellSize", //each cell size
+            "value": 15,
+          }
+        ],
+
+        "data": [
+          {
+            "name": "source",
+            "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/heart_disease.csv",
+            "format": { "type": "csv", "parse": "auto" },
+            "transform": [
+              {
+                "type": "filter",
+                "expr": "datum.Age != null && datum.BMI != null && datum['Heart Disease Status'] == 'Yes' && datum['Exercise Habits'] != null && (exerciseFilter == 'All' || datum['Exercise Habits'] == exerciseFilter)"
+              }
+            ]
+          },
+          {
+            "name": "density",
+            "source": "source",
+            "transform": [
+              {
+                "type": "kde2d",
+                "size": [{ "signal": "width" }, { "signal": "height" }],
+                "x": { "expr": "scale('x', datum.Age)" }, // x for age
+                "y": { "expr": "scale('y', datum.BMI)" }, // y for BMI
+                "bandwidth": [-1, -1],
+                "cellSize": { "signal": "cellSize" }
+              },
+              {
+                "type": "heatmap",
+                "field": "grid",
+                "color": { "expr": "scale('density', datum.$value / datum.$max)" }
+              }
             ]
           }
+        ],
+
+        "scales": [
+          {
+            "name": "x",
+            "type": "linear",
+            "round": true,
+            "nice": true,
+            "zero": false,
+            "domain": { "data": "source", "field": "Age" },
+            "range": "width"
+          },
+          {
+            "name": "y",
+            "type": "linear",
+            "round": true,
+            "nice": true,
+            "zero": false,
+            "domain": { "data": "source", "field": "BMI" },
+            "range": "height"
+          },
+          {
+            "name": "density",
+            "type": "linear",
+            "zero": true,
+            "domain": [0, 1],
+            "range": { "scheme": "yelloworangered" } // colour seemed appropriate for the domain
+          }
+        ],
+
+        "axes": [
+          {
+            "scale": "x",
+            "domain": false,
+            "orient": "bottom",
+            "tickCount": 5,
+            "title": "Age (years)",
+            "titleFontSize": 13,
+            "labelFontSize": 11
+          },
+          {
+            "scale": "y",
+            "domain": false,
+            "orient": "left",
+            "tickCount": 5,
+            "title": "BMI (Body Mass Index)",
+            "titleFontSize": 13,
+            "labelFontSize": 11
+          }
+        ],
+
+        "legends": [
+          {
+            "fill": "density",
+            "title": "How Common?",
+            "titleFontSize": 13,
+            "labelFontSize": 11,
+            "gradientLength": 200, // length
+            "encode": {
+              "labels": {
+                "update": {
+                  "text": { "signal": "datum.value == 0 ? 'Less Common' : datum.value == 1 ? 'Very Common' : ''" } // normalisefd so 0 is less common, 1 is very common
+                }
+              }
+            }
+          }
+        ],
+
+        "marks": [
+          {
+            "type": "image",
+            "from": { "data": "density" },
+            "encode": {
+              "update": {
+                "x": { "value": 0 },
+                "y": { "value": 0 },
+                "image": { "field": "image" },
+                "width": { "signal": "width" },
+                "height": { "signal": "height" },
+                "aspect": { "value": false },
+                "smooth": { "value": true }
+              }
+            }
+          }
+        ]
+      };
+
+      /* ---------------- Line chart of causes ---------------- */
+      const specCausesTrail = {
+        // Annotation wouldn't stick, so I used layers to add the annotation. I explained this during my interview, the idea was from AI.
+        "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+        "width": getResponsiveWidth(800),
+        "height": 500,
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv"
+        },
+        "transform": [
+          {
+            // manually added top 10 causes
+            "fold": [
+              "Cardiovascular Diseases",
+              "Neoplasms",
+              "Chronic Respiratory Diseases",
+              "Lower Respiratory Infections",
+              "Neonatal Disorders",
+              "Alzheimers Disease and Other Dementias",
+              "Diabetes Mellitus",
+              "Diarrheal Diseases",
+              "Tuberculosis",
+              "Road Injuries"
+            ],
+            "as": ["Cause", "Deaths"]
+          },
+          {
+            "aggregate": [{ "op": "sum", "field": "Deaths", "as": "TotalDeaths" }],
+            "groupby": ["Year", "Cause"]
+          }
+        ],
+        "layer": [
+          {
+            "mark": "trail",
+            "encoding": {
+              "x": {
+                "field": "Year",
+                "type": "temporal",
+                "title": "Year"
+              },
+              "y": {
+                "field": "TotalDeaths",
+                "type": "quantitative",
+                "title": "Total Deaths"
+              },
+              "color": {
+                "field": "Cause",
+                "type": "nominal",
+                "title": "Cause of Death",
+                "scale": {
+                  "scheme": "tableau20"
+                }
+              },
+              "tooltip": [
+                { "field": "Year", "type": "temporal" },
+                { "field": "Cause", "type": "nominal" },
+                { "field": "TotalDeaths", "type": "quantitative", "format": "," }
+              ]
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 5,
+              "dy": -10,
+              "fontSize": 12,
+              "fontStyle": "italic"
+            },
+
+            // this encoding annotation was done with AI, as I struggled to get it to fit within the empty space inside of the visualisation.
+            "encoding": {
+              "x": { "datum": { "year": 2005 } },
+              "y": { "datum": 14000000 },
+              "text": {
+                "value": "The trend of the line chart highlights that cardiovascular diseases"
+              }
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 5,
+              "dy": 5,
+              "fontSize": 12,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "x": { "datum": { "year": 2005 } },
+              "y": { "datum": 14000000 },
+              "text": {
+                "value": "show the rapid and constant rise of mortalities over the years,"
+              }
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "dx": 5,
+              "dy": 20,
+              "fontSize": 12,
+              "fontStyle": "italic"
+            },
+            "encoding": {
+              "x": { "datum": { "year": 2005 } },
+              "y": { "datum": 14000000 },
+              "text": {
+                "value": "showing no signs of improvement."
+              }
+            }
+          }
+        ]
+      };
+
+      /* ---------------- Radar Chart ---------------- */
+      const specRadar = {
+        // inspired from https://vega.github.io/vega/examples/radar-chart/
+
+        "$schema": "https://vega.github.io/schema/vega/v6.json",
+        "width": 800,
+        "height": 800,
+        "padding": 120,
+        "autosize": { "type": "none", "contains": "padding" },
+        "signals": [
+          { "name": "radius", "update": "width / 2" }
+        ],
+
+        "data": [
+          {
+            "name": "source",
+            "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/heart_disease.csv",
+            "format": { "type": "csv", "parse": "auto" },
+            "transform": [
+              {
+                "type": "filter",
+                "expr": "datum['Heart Disease Status'] === 'Yes'"
+              }
+            ]
+          },
+          {
+            "name": "aggregated",
+            "source": "source",
+            "transform": [
+              {
+                "type": "aggregate",
+                "fields": ["Blood Pressure", "Cholesterol Level", "Triglyceride Level", "Fasting Blood Sugar", "Sleep Hours"],
+                "ops": ["mean", "mean", "mean", "mean", "mean"],
+                "as": ["Blood Pressure", "Cholesterol Level", "Triglyceride Level", "Fasting Blood Sugar", "Sleep Hours Avg"]
+              }
+            ]
+          },
+          {
+            "name": "sleep_percentage",
+            "source": "source",
+            "transform": [
+              {
+                "type": "formula",
+                "as": "under_6_5",
+                "expr": "datum['Sleep Hours'] < 6.5 ? 1 : 0"
+              },
+              {
+                "type": "aggregate",
+                "fields": ["under_6_5", "under_6_5"],
+                "ops": ["sum", "count"],
+                "as": ["over_count", "total_count"]
+              },
+              {
+                "type": "formula",
+                "as": "Sleep < 6.5 hrs (%)",
+                "expr": "(datum.over_count / datum.total_count) * 100"
+              }
+            ]
+          },
+          {
+            "name": "table",
+            "source": "aggregated",
+            "transform": [
+              {
+                "type": "fold",
+                "fields": ["Blood Pressure", "Cholesterol Level", "Triglyceride Level", "Fasting Blood Sugar"],
+                "as": ["key", "value"]
+              },
+              {
+                "type": "formula",
+                "as": "key",
+                // changed the name so it fits
+                "expr": "datum.key === 'Triglyceride Level' ? 'TG Level' : datum.key"
+              },
+              {
+                "type": "formula",
+                "as": "percentage",
+                "expr": "(datum.value / 300) * 100"
+              }
+            ]
+          },
+          // Decided to change sleep data into a percentage of those who get less than 6.5 hours of sleep. I used AI for the code below to change it
+          {
+            "name": "sleep_data",
+            "source": "sleep_percentage",
+            "transform": [
+              {
+                "type": "formula",
+                "as": "key",
+                "expr": "'Sleep < 6.5 hrs (%)'"
+              },
+              {
+                "type": "formula",
+                "as": "value",
+                "expr": "datum['Sleep < 6.5 hrs (%)']"
+              },
+              {
+                "type": "formula",
+                "as": "percentage",
+                "expr": "(datum.value / 300) * 100"
+              }
+            ]
+          },
+          {
+            "name": "combined",
+            "source": ["table", "sleep_data"],
+            "transform": [
+              {
+                "type": "project",
+                "fields": ["key", "value", "percentage"]
+              }
+            ]
+          },
+          {
+            "name": "keys",
+            "source": "combined",
+            "transform": [
+              {
+                "type": "aggregate",
+                "groupby": ["key"]
+              }
+            ]
+          },
+          {
+            // for readability
+            "name": "reference_circles",
+            "values": [
+              { "percent": 25 },
+              { "percent": 50 },
+              { "percent": 75 },
+              { "percent": 100 }
+            ]
+          }
+        ],
+
+        "scales": [
+          {
+            "name": "angular",
+            "type": "point",
+            "range": { "signal": "[-PI, PI]" },
+            "padding": 0.5,
+            "domain": { "data": "combined", "field": "key" }
+          },
+          {
+            "name": "radial",
+            "type": "linear",
+            "range": { "signal": "[0, radius]" },
+            "zero": true,
+            "nice": false,
+            "domain": [0, 100],
+            "domainMin": 0
+          }
+        ],
+
+        "encode": {
+          "enter": {
+            "x": { "signal": "radius" },
+            "y": { "signal": "radius" }
+          }
+        },
+
+        "marks": [
+          {
+            "type": "arc",
+            "name": "reference-circles",
+            "from": { "data": "reference_circles" },
+            "encode": {
+              "enter": {
+                "x": { "value": 0 },
+                "y": { "value": 0 },
+                "startAngle": { "value": 0 },
+                "endAngle": { "signal": "2 * PI" },
+                "innerRadius": { "signal": "scale('radial', datum.percent)" },
+                "outerRadius": { "signal": "scale('radial', datum.percent)" },
+                "stroke": { "value": "#000000" },
+                "strokeWidth": { "value": 1 },
+                "strokeDash": { "value": [3, 3] }
+              }
+            }
+          },
+          {
+            // I couldnt get them to align properly so I used AI. dy was used to nudge them into place
+            "type": "text",
+            "name": "percentage-labels",
+            "from": { "data": "reference_circles" },
+            "encode": {
+              "enter": {
+                "x": { "value": 0 },
+                "y": { "signal": "-scale('radial', datum.percent)" },
+                "text": { "signal": "datum.percent + '%'" },
+                "align": { "value": "center" },
+                "baseline": { "value": "bottom" },
+                "fill": { "value": "#999" },
+                "fontSize": { "value": 11 },
+                "dy": { "value": -3 }
+              }
+            }
+          },
+          {
+            "type": "line",
+            "name": "data-line",
+            "from": { "data": "combined" },
+            "encode": {
+              "enter": {
+                "interpolate": { "value": "linear-closed" },
+                "x": { "signal": "scale('radial', datum.percentage) * cos(scale('angular', datum.key))" },
+                "y": { "signal": "scale('radial', datum.percentage) * sin(scale('angular', datum.key))" },
+                "stroke": { "value": "#e74c3c" },
+                "strokeWidth": { "value": 3 },
+                "fill": { "value": "#FF0000" },
+                "fillOpacity": { "value": 0.2 }
+              }
+            }
+          },
+          {
+            "type": "symbol",
+            "name": "data-points",
+            "from": { "data": "data-line" },
+            "encode": {
+              "enter": {
+                "x": { "signal": "datum.x" },
+                "y": { "signal": "datum.y" },
+                "size": { "value": 100 },
+                "fill": { "value": "#e74c3c" },
+                "stroke": { "value": "white" },
+                "strokeWidth": { "value": 2 }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "name": "value-text",
+            "from": { "data": "data-line" },
+            "encode": {
+              "enter": {
+                "x": { "signal": "datum.x + (datum.x / sqrt(datum.x * datum.x + datum.y * datum.y)) * 30" },
+                "y": { "signal": "datum.y + (datum.y / sqrt(datum.x * datum.x + datum.y * datum.y)) * 30" },
+                "text": { "signal": "format(datum.datum.percentage, '.1f') + '%'" },
+                "align": { "value": "center" },
+                "baseline": { "value": "middle" },
+                "fill": { "value": "black" },
+                "fontSize": { "value": 13 },
+                "fontWeight": { "value": "bold" }
+              }
+            }
+          },
+          {
+            "type": "rule",
+            "name": "radial-grid",
+            "from": { "data": "keys" },
+            "zindex": 0,
+            "encode": {
+              "enter": {
+                "x": { "value": 0 },
+                "y": { "value": 0 },
+                "x2": { "signal": "radius * cos(scale('angular', datum.key))" },
+                "y2": { "signal": "radius * sin(scale('angular', datum.key))" },
+                "stroke": { "value": "#d0d0d0" },
+                "strokeWidth": { "value": 1.5 }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "name": "key-label",
+            "from": { "data": "keys" },
+            "zindex": 1,
+            "encode": {
+              "enter": {
+                "x": { "signal": "(radius + 25) * cos(scale('angular', datum.key))" },
+                "y": { "signal": "(radius + 25) * sin(scale('angular', datum.key))" },
+                "text": { "field": "key" },
+                "align": [
+                  {
+                    "test": "abs(scale('angular', datum.key)) > PI / 2",
+                    "value": "right"
+                  },
+                  {
+                    "value": "left"
+                  }
+                ],
+                "baseline": [
+                  {
+                    "test": "scale('angular', datum.key) > 0", "value": "top"
+                  },
+                  {
+                    "test": "scale('angular', datum.key) == 0", "value": "middle"
+                  },
+                  {
+                    "value": "bottom"
+                  }
+                ],
+                "fill": { "value": "#333" },
+                "fontWeight": { "value": "bold" },
+                "fontSize": { "value": 14 }
+              }
+            }
+          },
+          {
+            "type": "line",
+            "name": "outer-line",
+            "from": { "data": "radial-grid" },
+            "encode": {
+              "enter": {
+                "interpolate": { "value": "linear-closed" },
+                "x": { "field": "x2" },
+                "y": { "field": "y2" },
+                "stroke": { "value": "#999" },
+                "strokeWidth": { "value": 2.5 }
+              }
+            }
+          }
+        ]
+      };
+
+      /* ---------------- Heart Disease Death Rate in Australia ---------------- */
+      const specAusHDD = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(600),
+        "height": 400,
+        "title": {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "anchor": "start",
+          "color": "#1e293b"
+        },
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv"
+        },
+        "transform": [
+          { "filter": "datum['Country/Territory'] == 'Australia'" },
+          {
+            "calculate": "toNumber(datum['Cardiovascular Diseases'])",
+            "as": "cvdDeaths" 
+          },
+          {
+            "calculate": "toNumber(datum['Cardiovascular Diseases']) + toNumber(datum['Neoplasms']) + toNumber(datum['Chronic Respiratory Diseases']) + toNumber(datum['Diabetes Mellitus']) + toNumber(datum['Chronic Kidney Disease']) + toNumber(datum['Lower Respiratory Infections']) + toNumber(datum['Cirrhosis and Other Chronic Liver Diseases']) + toNumber(datum['Digestive Diseases']) + toNumber(datum['Road Injuries']) + toNumber(datum['Neonatal Disorders']) + toNumber(datum['Alzheimer’s Disease and Other Dementias'])",
+            "as": "totalDeaths" // deaths in that year of that country, this was automated with AI
+          },
+          {
+            "calculate": "(datum.cvdDeaths / datum.totalDeaths) * 100", //percentage of deaths calculation
+            "as": "fatalityRate" 
+          },
+          // I just wanted every five years, as the whole chart wouldn't show. I used AI to help.
+          {
+            "filter": "datum.Year == 1990 || datum.Year == 1995 || datum.Year == 2000 || datum.Year == 2005 || datum.Year == 2010 || datum.Year == 2015 || datum.Year == 2019"
+          }
+        ],
+        "layer": [
+          {
+            "mark": {
+              "type": "bar",
+              "cornerRadiusTopLeft": 8,
+              "cornerRadiusTopRight": 8,
+              "width": 50
+            },
+            "encoding": {
+              "x": {
+                "field": "Year",
+                "type": "ordinal",
+                "axis": {
+                  "title": "Year",
+                  "labelFontSize": 13,
+                  "titleFontSize": 14,
+                  "titleFontWeight": "bold",
+                  "labelAngle": 0
+                }
+              },
+              "y": {
+                "field": "fatalityRate",
+                "type": "quantitative",
+                "scale": { "domain": [0, 50] },
+                "axis": {
+                  "title": "Fatality Rate (%)",
+                  "labelFontSize": 13,
+                  "titleFontSize": 14,
+                  "titleFontWeight": "bold",
+                  "grid": true,
+                  "gridOpacity": 0.3
+                }
+              },
+              // I needed to add a colour scale so that I have more channels
+              "color": {
+                "field": "fatalityRate",
+                "type": "quantitative",
+                "scale": {
+                  "range": ["#fca5a5", "#f87171", "#ef4444", "#dc2626", "#991b1b"] // decided AI to pick a red scheme to be used -> appropriate for the topic
+                },
+                "legend": null
+              },
+              "tooltip": [
+                // used tooltip to provide more information
+                { "field": "Year", "type": "ordinal", "title": "Year" },
+                { "field": "fatalityRate", "type": "quantitative", "title": "Fatality Rate (%)", "format": ".1f" },
+                { "field": "cvdDeaths", "type": "quantitative", "title": "Deaths", "format": "," },
+                { "field": "totalDeaths", "type": "quantitative", "title": "Total Deaths", "format": "," }
+              ]
+            }
+          },
+          {
+            // added actual value ontop of each bar. Thanks to AI.
+            "mark": {
+              "type": "text",
+              "dy": -10,
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "color": "#FF0000"
+            },
+            "encoding": {
+              "x": { "field": "Year", "type": "ordinal" },
+              "y": { "field": "fatalityRate", "type": "quantitative" },
+              "text": { "field": "fatalityRate", "type": "quantitative", "format": ".1f" }
+            }
+          }
+        ],
+        "config": {
+          "view": { "stroke": null },
+          "axis": { "domainColor": "#94a3b8" }
         }
-      ]
-    };
+      };
 
-    /* ---------------- TOP10 ---------------- */
-    const specTop10 = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": getResponsiveWidth(400),
-      "height": 400,
-      "params": [{ "name": "YearParam", "value": 2019 }],
-      "data": {
-        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-        "format": { "type": "csv" }
-      },
-      "transform": [
-        { "filter": "toNumber(datum.Year)==YearParam && isValid(datum.TotalDeaths)" },
-        {
-          "aggregate": [{ "op": "sum", "field": "TotalDeaths", "as": "TotalDeaths" }],
-          "groupby": ["Country/Territory"]
+      /* ---------------- Heart Disease Death Rate in Malaysia ---------------- */
+      // a copy of the Australia chart but for Malaysia 
+      const specMalHDD = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": getResponsiveWidth(600),
+        "height": 400,
+        "title": {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "anchor": "start",
+          "color": "#1e293b"
         },
-        {
-          "window": [{ "op": "rank", "as": "rk" }],
-          "sort": [{ "field": "TotalDeaths", "order": "descending" }]
+        "data": {
+          "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv"
         },
-        { "filter": "datum.rk<=10" }
-      ],
-      "mark": "bar",
-      "encoding": {
-        "y": { "field": "Country/Territory", "type": "nominal", "sort": "-x", "title": "Country" },
-        "x": { "field": "TotalDeaths", "type": "quantitative", "title": "Total deaths (count)" },
-        "color": { "field": "TotalDeaths", "type": "quantitative", "scale": { "scheme": "reds" } },
-        "tooltip": [
-          { "field": "Country/Territory", "title": "Country" },
-          { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" },
-          { "field": "Year", "title": "Year" }
-        ]
-      },
-      "title": { "text": "Top 10 Countries by Total Deaths", "anchor": "start", "fontSize": 16 }
-    };
+        "transform": [
+          { "filter": "datum['Country/Territory'] == 'Malaysia'" },
+          {
+            "calculate": "toNumber(datum['Cardiovascular Diseases'])",
+            "as": "cvdDeaths" 
+          },
+          {
+            "calculate": "toNumber(datum['Cardiovascular Diseases']) + toNumber(datum['Neoplasms']) + toNumber(datum['Chronic Respiratory Diseases']) + toNumber(datum['Diabetes Mellitus']) + toNumber(datum['Chronic Kidney Disease']) + toNumber(datum['Lower Respiratory Infections']) + toNumber(datum['Cirrhosis and Other Chronic Liver Diseases']) + toNumber(datum['Digestive Diseases']) + toNumber(datum['Road Injuries']) + toNumber(datum['Neonatal Disorders']) + toNumber(datum['Alzheimer’s Disease and Other Dementias'])",
+            "as": "totalDeaths" // deaths in that year of that country, this was automated with AI
+          },
+          {
+            "calculate": "(datum.cvdDeaths / datum.totalDeaths) * 100", //percentage of deaths calculation
+            "as": "fatalityRate" 
+          },
+          // I just wanted every five years, as the whole chart wouldn't show. I used AI to help.
+          {
+            "filter": "datum.Year == 1990 || datum.Year == 1995 || datum.Year == 2000 || datum.Year == 2005 || datum.Year == 2010 || datum.Year == 2015 || datum.Year == 2019"
+          }
+        ],
+        "layer": [
+          {
+            "mark": {
+              "type": "bar",
+              "cornerRadiusTopLeft": 8,
+              "cornerRadiusTopRight": 8,
+              "width": 50
+            },
+            "encoding": {
+              "x": {
+                "field": "Year",
+                "type": "ordinal",
+                "axis": {
+                  "title": "Year",
+                  "labelFontSize": 13,
+                  "titleFontSize": 14,
+                  "titleFontWeight": "bold",
+                  "labelAngle": 0
+                }
+              },
+              "y": {
+                "field": "fatalityRate",
+                "type": "quantitative",
+                "scale": { "domain": [0, 50] },
+                "axis": {
+                  "title": "Fatality Rate (%)",
+                  "labelFontSize": 13,
+                  "titleFontSize": 14,
+                  "titleFontWeight": "bold",
+                  "grid": true,
+                  "gridOpacity": 0.3
+                }
+              },
+              // I needed to add a colour scale so that I have more channels
+              "color": {
+                "field": "fatalityRate",
+                "type": "quantitative",
+                "scale": {
+                  "range": ["#fca5a5", "#f87171", "#ef4444", "#dc2626", "#991b1b"] // decided AI to pick a red scheme to be used -> appropriate for the topic
+                },
+                "legend": null
+              },
+              "tooltip": [
+                // used tooltip to provide more information
+                { "field": "Year", "type": "ordinal", "title": "Year" },
+                { "field": "fatalityRate", "type": "quantitative", "title": "Fatality Rate (%)", "format": ".1f" },
+                { "field": "cvdDeaths", "type": "quantitative", "title": "Deaths", "format": "," },
+                { "field": "totalDeaths", "type": "quantitative", "title": "Total Deaths", "format": "," }
+              ]
+            }
+          },
+          {
+            // added actual value ontop of each bar. Thanks to AI.
+            "mark": {
+              "type": "text",
+              "dy": -10,
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "color": "#FF0000"
+            },
+            "encoding": {
+              "x": { "field": "Year", "type": "ordinal" },
+              "y": { "field": "fatalityRate", "type": "quantitative" },
+              "text": { "field": "fatalityRate", "type": "quantitative", "format": ".1f" }
+            }
+          }
+        ],
+        "config": {
+          "view": { "stroke": null },
+          "axis": { "domainColor": "#94a3b8" }
+        }
+      };
 
-    /* ---------------- TREND ---------------- */
-    const specTrend = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": getResponsiveWidth(410),
-      "height": 350,
-      "data": {
-        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-        "format": { "type": "csv" }
-      },
-      "transform": [{ "aggregate": [{ "op": "sum", "field": "TotalDeaths", "as": "GlobalTotalDeaths" }], "groupby": ["Year"] }],
-      "mark": { "type": "line", "color": "#d73027", "point": { "filled": true, "color": "#d73027" } },
-      "encoding": {
-        "x": { "field": "Year", "type": "ordinal", "title": "Year" },
-        "y": { "field": "GlobalTotalDeaths", "type": "quantitative", "title": "Total Global Deaths" },
-        "tooltip": [{ "field": "Year", "title": "Year" }, { "field": "GlobalTotalDeaths", "type": "quantitative", "format": ",.0f" }]
-      },
-      "title": { "text": "Global Total Deaths Due to Heart Disease", "anchor": "start", "fontSize": 16 }
-    };
+      /* ---------------- Smoking Pie Chart ---------------- */
+      const specSmokingPie = {
+        // the example on the vega-lite site was hard coded. 
 
-    /* ---------------- Top 10 Causes ---------------- */
-    const specCauses = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": getResponsiveWidth(700),
-      "height": 300,
-      "data": {
-        "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-Week-10-Homework-Task/main/cause_of_deaths_total.csv",
-        "format": { "type": "csv" }
-      },
-      "transform": [
-        {
-          "fold": [
-            "Meningitis",
-            "Alzheimers Disease and Other Dementias",
-            "Parkinsons Disease",
-            "Nutritional Deficiencies",
-            "Malaria",
-            "Drowning",
-            "Interpersonal Violence",
-            "Maternal Disorders",
-            "HIV/AIDS",
-            "Drug Use Disorders",
-            "Tuberculosis",
-            "Cardiovascular Diseases",
-            "Lower Respiratory Infections",
-            "Neonatal Disorders",
-            "Alcohol Use Disorders",
-            "Self-harm",
-            "Exposure to Forces of Nature",
-            "Diarrheal Diseases",
-            "Environmental Heat and Cold Exposure",
-            "Neoplasms",
-            "Conflict and Terrorism",
-            "Diabetes Mellitus",
-            "Chronic Kidney Disease",
-            "Poisonings",
-            "Protein-Energy Malnutrition",
-            "Road Injuries",
-            "Chronic Respiratory Diseases",
-            "Cirrhosis",
-            "Digestive Diseases",
-            "Fire, Heat, and Hot Substances",
-            "Acute Hepatitis"
-          ],
-          "as": ["Cause", "Deaths"]
+        // this is much more dynamic and gets data directly from the heart disease dataset
+        "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+        "description": "Pie of smokers vs non-smokers among people with heart disease (nulls removed).",
+        "data": { "url": "https://raw.githubusercontent.com/eyadhajj/FIT3179-DV2/refs/heads/main/heart_disease.csv" },
+        "transform": [
+
+          // AI was just used to grab the data, I did extract the data using a ipynb file but I didn't want to rely on hardcoded values.
+          { "filter": "datum['Heart Disease Status'] === 'Yes'" },
+          { "filter": "isValid(datum['Smoking']) && datum['Smoking'] !== ''" },
+          // AI was used for removing null values as it heavily distorted the data.
+          { "aggregate": [{ "op": "count", "as": "count" }], "groupby": ["Smoking"] },
+          { "window": [{ "op": "sum", "field": "count", "as": "total" }], "frame": [null, null] }, //
+          { "calculate": "datum.count / datum.total", "as": "percent" }
+        ],
+        "mark": { "type": "arc", "tooltip": true },
+        "encoding": {
+          "theta": { "field": "count", "type": "quantitative" },
+          "color": { "field": "Smoking", "type": "nominal", "title": "Smoking Status" },
+          "tooltip": [
+            { "field": "Smoking", "type": "nominal", "title": "Smoking Status" },
+            { "field": "count", "type": "quantitative", "title": "Number of People" },
+            { "field": "percent", "type": "quantitative", "title": "Percentage", "format": ".1%" }
+          ]
         },
-        { "aggregate": [{ "op": "sum", "field": "Deaths", "as": "TotalDeaths" }], "groupby": ["Cause"] },
-        { "window": [{ "op": "rank", "as": "Rank" }], "sort": [{ "field": "TotalDeaths", "order": "descending" }] },
-        { "filter": "datum.Rank <= 10" }
-      ],
-      "mark": "bar",
-      "encoding": {
-        "x": { "field": "TotalDeaths", "type": "quantitative", "title": "Total Deaths" },
-        "y": { "field": "Cause", "type": "nominal", "sort": "-x", "title": "Cause of Death" },
-        "color": { "field": "Cause", "type": "nominal", "legend": null },
-        "tooltip": [
-          { "field": "Cause", "title": "Cause" },
-          { "field": "TotalDeaths", "type": "quantitative", "format": ",.0f" },
-          { "field": "Rank", "type": "quantitative" }
-        ]
+        "view": { "stroke": null },
+        "title": {
+          "text": "People with Heart Disease",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "anchor": "start",
+          "color": "#000000"
+        }
       }
-    };
 
-    /* ---------------- GRID ICON VIS ---------------- */
-    const specGrid = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-      "config": { "view": { "stroke": "" } },
-      "width": getResponsiveWidth(400),
-      "height": 400,
-      "data": {
-        "values": Array.from({ length: 100 }, (_, i) => ({ id: i + 1 }))
-      },
-      "transform": [
-        { "calculate": "ceil(datum.id/10)", "as": "col" },
-        { "calculate": "datum.id - datum.col*10", "as": "row" }
-      ],
-      "mark": { "type": "point", "filled": true },
-      "encoding": {
-        "x": { "field": "col", "type": "ordinal", "axis": null },
-        "y": { "field": "row", "type": "ordinal", "axis": null },
-        "shape": {
-          "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"
-        },
-        "color": {
-          "condition": [
-            { "test": "datum.id <= 20", "value": "rgb(194,81,64)" }
-          ],
-          "value": "rgb(167,165,156)"
-        },
-        "size": { "value": 90 }
-      }
-    };
 
-    /* ---------------- EMBED ---------------- */
-    let viewMap, viewTop10, viewScatter;
-    vegaEmbed('#vis-map', specMap, { actions: false }).then(r => viewMap = r.view);
-    vegaEmbed('#vis-top10', specTop10, { actions: false }).then(r => viewTop10 = r.view);
-    vegaEmbed('#vis-trend', specTrend, { actions: false });
-    vegaEmbed('#vis-causes', specCauses, { actions: false });
-    vegaEmbed('#vis-grid', specGrid, { actions: false });
 
-    /* ---------------- SLIDER ---------------- */
-    const slider = document.getElementById('yearSlider');
-    const yearVal = document.getElementById('yearVal');
-    slider.addEventListener('input', () => {
-      yearVal.textContent = slider.value;
-      if (viewMap) viewMap.signal('YearParam', +slider.value).run();
-      if (viewTop10) viewTop10.signal('YearParam', +slider.value).run();
-      if (viewScatter) viewScatter.signal('YearParam', +slider.value).run();
-    });
+      /* ---------------- EMBED ---------------- */
+      // Ai was used to help generate the following embedding code.
+      let viewMap, viewTop5, viewScatter;
+      vegaEmbed('#vis-map', specMap, { actions: false }).then(r => viewMap = r.view);
+      vegaEmbed('#vis-top5', specTop5, { actions: false }).then(r => viewTop5 = r.view);
+      vegaEmbed('#vis-trend', specTrend, { actions: false });
+      vegaEmbed('#vis-causes', specCauses, { actions: false });
+      vegaEmbed('#vis-grid', specGrid, { actions: false });
+      vegaEmbed('#vis-heatmap', specHeatmap, { actions: false });
+      vegaEmbed('#vis-causes-trail', specCausesTrail, { actions: false });
+      vegaEmbed('#vis-radar', specRadar, { actions: false });
+      vegaEmbed('#vis-AusHDD', specAusHDD, { actions: false });
+      vegaEmbed('#vis-MalHDD', specMalHDD, { actions: false });
+      vegaEmbed('#vis-SmokingPie', specSmokingPie, { actions: false });
 
-    /* ---------------- RESPONSIVE RESIZE ---------------- */
-    window.addEventListener('resize', () => {
-      location.reload();
-    });
-  </script>
+
+      // Was used from week 10 
+      /* ---------------- SLIDER ---------------- */
+      const slider = document.getElementById('yearSlider');
+      const yearVal = document.getElementById('yearVal');
+      slider.addEventListener('input', () => {
+        yearVal.textContent = slider.value;
+        if (viewMap) viewMap.signal('YearParam', +slider.value).run();
+        if (viewTop10) viewTop10.signal('YearParam', +slider.value).run();
+        if (viewScatter) viewScatter.signal('YearParam', +slider.value).run();
+      });
+
+      // AI Generated
+      /* ---------------- RESPONSIVE RESIZE ---------------- */
+      window.addEventListener('resize', () => {
+        location.reload();
+      });
+    </script>
 
 </body>
 
